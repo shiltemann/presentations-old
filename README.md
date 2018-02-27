@@ -6,7 +6,6 @@ Slides available with [GitPitch](https://gitpitch.com/) under url:
 
 `https://gitpitch.com/shiltemann/presentations/slides?p=<subfolder name>`
 
-(in general: `https://gitpitch.com/$user/$repo/$branch?p=$presentation`)
 
 ## Links to Presentations
 
@@ -14,6 +13,9 @@ Slides available with [GitPitch](https://gitpitch.com/) under url:
 
 
 ## Developing slides
+
+Slides must be in a file named `PITCHME.md`
+Link to slides in form: `https://gitpitch.com/$user/$repo/$branch?p=$subdirectory`)
 
 Some useful links:
 
