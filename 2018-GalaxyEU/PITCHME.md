@@ -1,4 +1,4 @@
----?image=../assets/images/octavian-rosca.jpg
+---?image=assets/image/jeremy-bishop.jpg
 
 # My Title
 
