@@ -1,6 +1,6 @@
 #theme : night
-theme-override : ./css/PITCHME.css
-background : ./images/simple-blue.jpg
+theme-override : 2018-GalaxyEU/css/PITCHME.css
+background : 2018-GalaxyEU/images/simple-blue.jpg
 #logo : assets/images/logo.png
 transition : none
 published : true
