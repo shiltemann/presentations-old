@@ -1,4 +1,4 @@
----?image=assets/images/octavian-rosca.jpg
+---?image=../assets/images/octavian-rosca.jpg
 
 # My Title
 
