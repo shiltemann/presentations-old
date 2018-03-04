@@ -1,3 +1,5 @@
+---?image=assets/images/octavian-rosca.jpg
+
 # My Title
 
 Cover slide text
