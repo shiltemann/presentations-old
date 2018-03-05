@@ -36,3 +36,28 @@ $ git remote add gitpitch http://localhost:8081/shiltemann/presentations.git
 $ git commit <your changes>
 $ git push gitpitch
 ```
+
+## Troubleshooting 
+
+If the background images are not showing, you may need to:
+
+add the following to `/etc/nginx/sites-enabled/default`:
+
+```
+server {
+  listen       80;
+  server_name  gitlab;
+  location / {
+    proxy_pass http://127.0.0.1:8081;
+} 
+```
+ 
+add to `/etc/hosts` file:
+
+```
+127.0.0.1   gitlab
+```
+
+```bash
+$ sudo service network-manager restart
+```
