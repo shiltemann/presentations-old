@@ -1,8 +1,8 @@
----?image=assets/image/jeremy-bishop.jpg
+---?image=2018-GalaxyEU/images/background.jpg
 
-# My Title
+# Microbiota Analysis using Galaxy 
 
-Cover slide text
+Saskia Hiltemann <!-- .element: class="whitetext" -->
 
 ---
 
