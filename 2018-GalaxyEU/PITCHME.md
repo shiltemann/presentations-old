@@ -1,24 +1,63 @@
 ---?image=2018-GalaxyEU/images/background.jpg
 
-# Microbiota Analysis using Galaxy 
+## Microbiota Analysis using Galaxy <!-- .element: class="whitetext" -->  
 
 Saskia Hiltemann <!-- .element: class="whitetext" -->
 
 ---
 
-### Topic
+### Overview
 
-- List item 1
-- List item 2
-- List item 3
-
-Note:
-this is how you add speaker notes. Can view these in presentation mode by pressing "S"
+- Background
+- Analysis pipeline
+- Clinical Results
 
 ---
 
-### Another topic
+### Microbiota
 
-with an image
+![Video](https://www.youtube.com/watch?v=htbeJhtFAXw)
 
-![an image](https://imgs.xkcd.com/comics/dna.png)
+---
+
+### A Brief History
+
+Antonie van Leeuwenhoek is commonly known as the *Father of Microbiology*
+
+In 1676, he discovered **animalcules** when he turned his microscope to a drop of rain water 
+
+![](2018-GalaxyEU/images/animalcules.gif)
+
+Note:
+Antonie van Leeuwenhoek was Dutch scientist, best known for his work in microscopy 
+
+in 1676 he looked at a drop of rain water through his micropscope and found what he called **animalcules**
+
+
+---
+
+### Why study the microbiome?
+
+
+---
+
+### Approaches
+
+There are two main approaches for studying the microbiome:
+
+- Amplicon sequencing (targetted, e.g. 16S rRNA gene)
+- Shotgun sequencing (sequence everything) 
+
+
+---
+
+### Amplicon Sequencing
+
+---
+
+### Shotgun Sequencing
+
+
+
+
+ 
