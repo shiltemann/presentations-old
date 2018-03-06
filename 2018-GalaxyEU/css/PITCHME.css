@@ -2,6 +2,12 @@
     color: white;
 }
 
+.reveal p {
+	width: 75%;  
+}
+
 .whitetext{
     color: white;
 }
+
+img[alt=scale-50] { width: 50%; }
