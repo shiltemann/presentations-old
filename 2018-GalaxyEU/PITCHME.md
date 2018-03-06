@@ -19,7 +19,7 @@ Saskia Hiltemann
 
 ### Microbiota
 
-![Video](http://www.youtube.com/embed/htbeJhtFAXw)
+![Video](https://www.youtube.com/embed/htbeJhtFAXw)
 
 ---
 
