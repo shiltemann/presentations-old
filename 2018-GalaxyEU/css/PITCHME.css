@@ -3,11 +3,23 @@
 }
 
 .reveal p {
-	width: 75%;  
+    margin-left: 20%;
+	margin-right: 20%;
+    font-size: 1.3em;  
 }
 
 .whitetext{
     color: white;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+
+.pull-right {
+  float: right;
+  width: 47%;
 }
 
 img[alt=scale-50] { width: 50%; }

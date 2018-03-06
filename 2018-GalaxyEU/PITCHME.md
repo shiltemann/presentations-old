@@ -24,9 +24,10 @@ Saskia Hiltemann <!-- .element: class="whitetext" -->
 
 Antonie van Leeuwenhoek is commonly known as the *Father of Microbiology*
 
-In 1676, he discovered **animalcules** when he turned his microscope to a drop of rain water 
+In 1676, he discovered **animalcules** when he turned his microscope to a drop of rain water <!-- .element: class="pull-left" --> 
 
-![scale-50](2018-GalaxyEU/images/animalcules.gif)
+![scale-50](2018-GalaxyEU/images/animalcules.gif) <!-- .element: class="pull-right" -->
+
 
 Note:
 Antonie van Leeuwenhoek was Dutch scientist, best known for his work in microscopy 
