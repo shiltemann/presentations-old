@@ -1,25 +1,36 @@
-.reveal h1{
+.reveal div.white { 
     color: white;
 }
 
-.reveal p {
-    margin-left: 20%;
-	margin-right: 20%;
-    font-size: 1.3em;  
+.reveal .white {
+	color: white;
 }
 
-.whitetext{
-    color: white;
+.reveal div.small {
+	font-size: 0.7em;
 }
 
-.pull-left {
-  float: left;
-  width: 47%;
+.reveal div.center {
+	text-align: center;
+    vertical-align: middle;
 }
 
-.pull-right {
-  float: right;
-  width: 47%;
+.reveal h2.white {
+	color: white;
+} 
+
+.reveal div.left {
+    float: left; z-index: -10; width: 45%; margin-left: 5%;
 }
 
-img[alt=scale-50] { width: 50%; }
+.reveal div.right {
+    float: right; z-index: -10; width: 45%; margin-right: 5%;
+}
+
+img[alt*=scale-75] { width: 75%; }
+img[alt*=scale-50] { width: 50%; }
+img[alt*=scale-25] { width: 25%; }
+
+.reveal img[alt*=no-border] { 
+    border: 0px; 
+}

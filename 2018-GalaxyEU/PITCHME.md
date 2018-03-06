@@ -1,11 +1,14 @@
 ---?image=2018-GalaxyEU/images/background.jpg
 
-## Microbiota Analysis using Galaxy <!-- .element: class="whitetext" -->  
+<div class="white">
+<h2 class="white"> Microbiota Analysis using Galaxy </h2>
 
-Saskia Hiltemann <!-- .element: class="whitetext" -->
+Saskia Hiltemann 
+
+</div>
 
 ---
-
+ 
 ### Overview
 
 - Background
@@ -16,23 +19,35 @@ Saskia Hiltemann <!-- .element: class="whitetext" -->
 
 ### Microbiota
 
-![Video](https://www.youtube.com/watch?v=htbeJhtFAXw)
+![Video](http://www.youtube.com/embed/htbeJhtFAXw)
 
 ---
 
 ### A Brief History
 
-Antonie van Leeuwenhoek is commonly known as the *Father of Microbiology*
+<div class="left small center">
 
-In 1676, he discovered **animalcules** when he turned his microscope to a drop of rain water <!-- .element: class="pull-left" --> 
+<ul>
+  <li> Antonie van Leeuwenhoek is commonly known as the *Father of Microbiology* </li>
 
-![scale-50](2018-GalaxyEU/images/animalcules.gif) <!-- .element: class="pull-right" -->
+![scale-25 no-border](2018-GalaxyEU/images/leeuwenhoek.jpg)
 
+  <li> In 1676, he discovered **animalcules** when he turned his microscope to a drop of rain water </li>
+</ul>
+
+</div>
+
+<div class="right">
+
+![scale-75](2018-GalaxyEU/images/animalcules.gif) 
+
+</div>
 
 Note:
 Antonie van Leeuwenhoek was Dutch scientist, best known for his work in microscopy 
 
-in 1676 he looked at a drop of rain water through his micropscope and found what he called **animalcules**
+In 1676 he turned his microscope at a drop of rain water and was surprised to find 
+what looked like tiny animals, which he called **animalcules** 
 
 
 ---
@@ -44,10 +59,11 @@ in 1676 he looked at a drop of rain water through his micropscope and found what
 
 ### Approaches
 
-There are two main approaches for studying the microbiome:
-
-- Amplicon sequencing (targetted, e.g. 16S rRNA gene)
-- Shotgun sequencing (sequence everything) 
+- Amplicon sequencing 
+   - targetted
+   - e.g. 16S rRNA gene
+- Shotgun sequencing 
+   - sequence everything
 
 
 ---
