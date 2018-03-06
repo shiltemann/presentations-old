@@ -1,6 +1,7 @@
 # My Title
 
 Cover slide text
+more text with custom stylin <!-- .element: class="whitetext" -->
 
 ---
 
@@ -17,6 +18,6 @@ this is how you add speaker notes. Can view these in presentation mode by pressi
 
 ### Another topic
 
-with an image
+With an image
 
 ![an image](https://imgs.xkcd.com/comics/dna.png)
