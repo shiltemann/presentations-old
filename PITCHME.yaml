@@ -1,15 +1,7 @@
-#
-# GitPitch Slideshow Custom Settings
-#
-# For details, visit Wiki:
-# https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings
-#
+# themes: black, moon, night, beige, sky, and white
 theme : moon
-theme-override : assets/css/PITCHME.css
-# theme-override : assets/css/PITCHME.codemax.css
-highlight : atom-one-light
-logo : assets/image/logo.png
-background : assets/image/octavian-rosca.jpg
-transition : none
-published : true
-footnote : "GitPitch [ Space ] Presentation Template"
+#theme-override : _blank-presentation/css/PITCHME.css
+#background : assets/images/simple-blue.jpg
+#logo : assets/images/logo.png
+#transition : none
+#published : true
