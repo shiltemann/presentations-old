@@ -142,19 +142,18 @@ around 1500 nucleotides long
 
 ### Chimera removal
 
+
+- Greek mythology: hybrid animals
+- Sequencing data: hybrid sequences created during PCR
+
 <div class="left">
-<ul>
-<li>Greek mythology: hybrid animals</li>
-<li>Sequencing data: hybrid sequences created during PCR</li>
-</ul>
-
-</div>
-<div class="right">
-
 ![scale-50](2018-GalaxyEU/images/chimera-animal.jpg)
-![border](2018-GalaxyEU/images/chimeras.png)
-
 </div>
+
+<div class="right">
+![border](2018-GalaxyEU/images/chimeras.png)
+</div>
+
 ---
 
 ### OTUs
