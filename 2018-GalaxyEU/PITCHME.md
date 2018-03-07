@@ -54,6 +54,28 @@ what looked like tiny animals, which he called **animalcules**
 
 ### Why study the microbiome?
 
+Your microbiome has:
+
+- > 10 times more cells than you
+- > 100 times more genes than you
+- > 1000 different species
+
+
+Microbiome is sometimes referred to as your *second genome* 
+
+---
+
+### Why study the microbiome?
+
+**Dysbiosis**: microbial imbalance in the body
+
+- obesity, diabetes
+- asthma, allergies
+- Crohn's disease, Ulcerative colitis
+- Cancer, IBS, Autism
+
+
+
 
 ---
 
@@ -68,13 +90,64 @@ what looked like tiny animals, which he called **animalcules**
 
 ---
 
+### Shotgun Sequencing
+
+- Sequence everything
+- Expensive
+- Higher complexity
+
+![no-border](2018-GalaxyEU/images/shotgun-puzzles.png)
+
+---
+
+### Amplicon Sequencing
+
+- Targetted approach (e.g. 16S/18S rRNA gene)
+- Amplifies bacteria, not host or environmental fungi, plants
+
+![no-border](2018-GalaxyEU/images/16S_gene.png)
+
+
+--- 
+
+### Amplicon Sequencing
+
+- Highly conserved regions: easy to target across all bacteria
+- Variable regions: distinguish between different types of bacteria
+
+![](2018-GalaxyEU/images/16S_variableregions.jpg)
+
+---
+
 ### Amplicon Sequencing
 
 ---
 
-### Shotgun Sequencing
+### Chimera removal
+
+---
+
+### Rarefaction
+
+---
+
+### Alpha Diversity
 
 
+---
 
+### Beta Diversity
+
+
+---
+
+mothur, Qiime, picrust
+
+Phinch, krona, venn, heatmaps
+
+
+---
+
+streeklab haarlem
 
  
