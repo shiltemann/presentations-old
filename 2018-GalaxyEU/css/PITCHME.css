@@ -1,3 +1,7 @@
+.reveal p li a{
+	font-size: 0.8em;
+}
+
 .reveal div.white { 
     color: white;
 }
