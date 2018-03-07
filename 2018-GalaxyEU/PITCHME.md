@@ -30,7 +30,7 @@ Saskia Hiltemann
 <ul>
   <li> Antonie van Leeuwenhoek is commonly known as the *Father of Microbiology* </li>
 
-![scale-25 no-border](2018-GalaxyEU/images/leeuwenhoek.jpg)
+![scale-30](2018-GalaxyEU/images/leeuwenhoek.jpg)
 
   <li> In 1676, he discovered **animalcules** when he turned his microscope to a drop of rain water </li>
 </ul>
@@ -39,7 +39,7 @@ Saskia Hiltemann
 
 <div class="right">
 
-![scale-75](2018-GalaxyEU/images/animalcules.gif) 
+![scale-70](2018-GalaxyEU/images/animalcules.gif) 
 
 </div>
 
@@ -54,49 +54,64 @@ what looked like tiny animals, which he called **animalcules**
 
 ### Why study the microbiome?
 
+---
+
+
+<div class="block">
+<div class="left small middle">
+
 Your microbiome has:
+<ul>
+  <li> > 10 times more cells than you </li>
+  <li> > 100 times more genes than you </li>
+  <li> > 1000 different species </li>
+</ul>
+</div>
+<div class="right">
 
-- > 10 times more cells than you
-- > 100 times more genes than you
-- > 1000 different species
+![](2018-GalaxyEU/images/human_microbiome.png)
 
+</div>
+</div>
 
-Microbiome is sometimes referred to as your *second genome* 
+Sometimes referred to as your *second genome* 
 
 ---
 
-### Why study the microbiome?
 
-**Dysbiosis**: microbial imbalance in the body
+### Dysbiosis
 
-- obesity, diabetes
-- asthma, allergies
-- Crohn's disease, Ulcerative colitis
-- Cancer, IBS, Autism
+- Microbial imbalance in the body
+- Linked to a large number of disease phenotypes
+  - Obesity, Diabetes
+  - Asthma, Allergies
+  - Crohn's disease, Ulcerative colitis
+  - Cancer, IBS, Autism
 
-
-
+![scale-40](2018-GalaxyEU/images/microbiota-disease.jpg)
 
 ---
 
 ### Approaches
 
 - Amplicon sequencing 
-   - targetted
-   - e.g. 16S rRNA gene
 - Shotgun sequencing 
-   - sequence everything
-
 
 ---
 
 ### Shotgun Sequencing
 
-- Sequence everything
-- Expensive
-- Higher complexity
+<div class="left">
+<ul>
+<li> Sequence everything </li>
+<li> Expensive </li>
+<li> Higher complexity </li>
+</ul>
+</div>
 
-![no-border](2018-GalaxyEU/images/shotgun-puzzles.png)
+<div class="right">
+![](2018-GalaxyEU/images/shotgun-puzzles.png)
+</div>
 
 ---
 
@@ -105,25 +120,44 @@ Microbiome is sometimes referred to as your *second genome*
 - Targetted approach (e.g. 16S/18S rRNA gene)
 - Amplifies bacteria, not host or environmental fungi, plants
 
-![no-border](2018-GalaxyEU/images/16S_gene.png)
-
+![scale-50](2018-GalaxyEU/images/16S_gene.png)
 
 --- 
 
-### Amplicon Sequencing
+### 16S rRNA gene
 
-- Highly conserved regions: easy to target across all bacteria
-- Variable regions: distinguish between different types of bacteria
+- Highly conserved regions 
+  - easy to target across all bacteria
+- Variable regions 
+  - distinguish between different types of bacteria
 
-![](2018-GalaxyEU/images/16S_variableregions.jpg)
+![scale-70](2018-GalaxyEU/images/16S_variableregions.jpg)
+
+Note:
+around 1500 nucleotides long
+
 
 ---
 
-### Amplicon Sequencing
-
----
 
 ### Chimera removal
+
+<div class="left">
+<ul>
+<li>Greek mythology: hybrid animals</li>
+<li>Sequencing data: hybrid sequences created during PCR</li>
+</ul>
+
+</div>
+<div class="right">
+
+![](2018-GalaxyEU/images/chimera-animal.jpg)
+![](2018-GalaxyEU/images/chimeras.png)
+
+</div>
+---
+
+### OTUs
 
 ---
 
