@@ -151,8 +151,8 @@ around 1500 nucleotides long
 </div>
 <div class="right">
 
-![](2018-GalaxyEU/images/chimera-animal.jpg)
-![](2018-GalaxyEU/images/chimeras.png)
+![scale-50](2018-GalaxyEU/images/chimera-animal.jpg)
+![border](2018-GalaxyEU/images/chimeras.png)
 
 </div>
 ---
