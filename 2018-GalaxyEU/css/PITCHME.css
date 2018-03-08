@@ -56,6 +56,6 @@ img[alt*=scale-10] { width: 10%; }
     border: 0px; 
 }
 
-.reveal img[alt*=no-shadow] {
+.reveal img:not([alt*=shadow]) {
 	box-shadow: none;
 }

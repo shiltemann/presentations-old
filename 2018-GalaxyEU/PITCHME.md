@@ -40,7 +40,7 @@ Saskia Hiltemann
 <div class="right">
 
 <!-- ![scale-70](2018-GalaxyEU/images/animalcules.gif) -->
-![scale-70](2018-GalaxyEU/images/leeuwenhoek-microscope-animalcules.jpg) 
+![](2018-GalaxyEU/images/leeuwenhoek-microscope-animalcules.jpg) 
 
 </div>
 
@@ -63,7 +63,7 @@ von Koch: Germ theory
 
 <div class="block">
 <div class="left small middle">
-Humans are full 
+<br><br> 
 <ul>
   <li> > 10 times more cells than you </li>
   <li> > 100 times more genes than you </li>
@@ -95,6 +95,10 @@ Sometimes referred to as your *second genome*
 
 ---
 
+monocultures
+
+---
+
 ### Approaches
 
 - Amplicon sequencing 
@@ -108,12 +112,13 @@ Sometimes referred to as your *second genome*
 <ul>
 <li> Sequence everything </li>
 <li> Expensive </li>
+<li> More information </li>
 <li> Higher complexity </li>
 </ul>
 </div>
 
 <div class="right">
-![no-shadow](2018-GalaxyEU/images/shotgun-puzzles.png)
+![](2018-GalaxyEU/images/shotgun-puzzles.png)
 </div>
 
 ---
@@ -139,9 +144,61 @@ Sometimes referred to as your *second genome*
 Note:
 around 1500 nucleotides long
 
+---
+
+
+### Streeklab Haarlem
+
+Hospitals and clinics send their samples (stool/urine/nasal)
+for analysis
+
+- determine microbiota present
+- determine antibiotics to use
 
 ---
 
+### Streeklab Haarlem
+
+current method: cultures
+
+pilot: 16S rRNA sequencing
+
+
+---
+
+### Experiment Design
+
+Micelle
+
+3 replicates
+background control
+
+Illumina MiSeq
+
+---
+
+
+![](2018-GalaxyEU/images/so_much_data.png)
+
+---
+
+### Pipeline
+
+![](2018-GalaxyEU/images/workflow.png)
+
+---
+
+### Pipeline
+
+![](2018-GalaxyEU/analysis_pipeline.png)
+
+---
+
+### Tools
+
+Mothur Qiime
+
+---
 
 ### Chimera removal
 
@@ -159,11 +216,39 @@ around 1500 nucleotides long
 
 ---
 
-### OTUs
+### OTU Clustering
+
+**OTU**: Operational Taxonomic Unit
+
+<div class="left">
+![](2018-GalaxyEU/images/otu.png)
+</div>
+<div class="right">
+![](2018-GalaxyEU/images/otu-clusters.png)
+</div>
+
+---
+
+### OTU Clustering
+
+3 main ways to do OTU picking:
+  - De novo
+  - Closed reference
+  - Open reference
+
+
+Note:
+Also referred to as "OTU picking"
+
 
 ---
 
 ### Rarefaction
+
+QC: Have I captured the full diversity of my sample?
+
+![](2018-GalaxyEU/images/rarefaction.gif)
+
 
 ---
 
@@ -176,6 +261,8 @@ around 1500 nucleotides long
 
 
 ---
+
+### 
 
 mothur, Qiime, picrust
 
