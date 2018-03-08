@@ -85,13 +85,15 @@ Sometimes referred to as your *second genome*
 ### Dysbiosis
 
 - Microbial imbalance in the body
+
+![scale-40](2018-GalaxyEU/images/microbiota-disease.jpg)
+
 - Linked to a large number of disease phenotypes
   - Obesity, Diabetes
   - Asthma, Allergies
   - Crohn's disease, Ulcerative colitis
   - Cancer, IBS, Autism
 
-![scale-40](2018-GalaxyEU/images/microbiota-disease.jpg)
 
 ---
 
@@ -143,6 +145,10 @@ monocultures
 
 Note:
 around 1500 nucleotides long
+
+---
+
+## 
 
 ---
 
@@ -249,28 +255,80 @@ QC: Have I captured the full diversity of my sample?
 
 ![](2018-GalaxyEU/images/rarefaction.gif)
 
+calculate alpha diversity for randomly selected subset of sequences in each sample
 
 ---
 
 ### Alpha Diversity
 
+Diversity *within* a sample
+
+- naive: just number of OTUs
+- doesnt take into account relatedness of OTUs
+- doesnt take into account relative disstribution 
+   - 3 species at 98%,1%,1%
+   - 3 species at 33%,33%,33%
+
+- As many diversity measures as there are ambitious ecologists
+   - shannon, chao, .. .. 
 
 ---
 
 ### Beta Diversity
 
+Diversity *between* samples
+ 
+---
+
+### Visualisations
 
 ---
 
-### 
+### Krona
+
+---
+
+### Phinch
 
 mothur, Qiime, picrust
 
 Phinch, krona, venn, heatmaps
 
+---
+
+### Results
+
+
 
 ---
 
-streeklab haarlem
+### Training Materials
+
+
+---
+
+### Thanks for your attention
+
+
+---
+
+
+---
+
+### Mothur vs Qiime
+
+
+---
+
+### RDP classifier
+
+- training data
+- naive bayes
+- kmer based
+
+- confidence level: bootstrap
+
+
+
 
  
