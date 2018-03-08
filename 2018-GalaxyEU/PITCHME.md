@@ -39,7 +39,8 @@ Saskia Hiltemann
 
 <div class="right">
 
-![scale-70](2018-GalaxyEU/images/animalcules.gif) 
+<!-- ![scale-70](2018-GalaxyEU/images/animalcules.gif) -->
+![scale-70](2018-GalaxyEU/images/leeuwenhoek-microscope-animalcules.jpg) 
 
 </div>
 
@@ -52,15 +53,17 @@ what looked like tiny animals, which he called **animalcules**
 
 ---
 
-### Why study the microbiome?
+Pasteur: Food spoilage
+von Koch: Germ theory
 
 ---
+
+### Why study the microbiome?
 
 
 <div class="block">
 <div class="left small middle">
-
-Your microbiome has:
+Humans are full 
 <ul>
   <li> > 10 times more cells than you </li>
   <li> > 100 times more genes than you </li>
@@ -110,7 +113,7 @@ Sometimes referred to as your *second genome*
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/shotgun-puzzles.png)
+![no-shadow](2018-GalaxyEU/images/shotgun-puzzles.png)
 </div>
 
 ---
