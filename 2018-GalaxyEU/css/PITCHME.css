@@ -14,6 +14,10 @@
 	font-size: 0.7em;
 }
 
+.reveal div.tiny {
+    font-size: 0.5em;
+}
+
 .reveal div.center {
 	text-align: center;
 }

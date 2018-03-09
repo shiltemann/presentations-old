@@ -174,9 +174,11 @@ Antibitics kill gut
 
 ### Streeklab Haarlem
 
-current method: cultures
+Samples are cultured
 
-pilot: 16S rRNA sequencing
+
+
+Pilot study: 16S rRNA sequencing
 
 
 ---
@@ -201,11 +203,16 @@ Illumina MiSeq
 
 ### Shotgun Sequencing
 
-<div class="left">
+<div class="left small">
 <ul>
-<li> Sequence everything </li>
-<li> More Expensive ($1000+/sample) </li>
-<li> More information (e.g. functional prediction, antibiotic resistance) </li>
+<li> Sequence everything </li><br>
+<li> Expensive ($1000+ per sample) </li><br>
+<li> More information
+ <ul>
+  <li> Functional prediction</li>
+  <li> Antibiotic resistance </li>
+  <li> Unknown organisms </li>
+</ul><br>
 <li> Higher complexity </li>
 </ul>
 </div>
@@ -219,12 +226,18 @@ Illumina MiSeq
 ### Amplicon Sequencing
 
 <div class="left small">
+<br>
 <ul>
 <li> Targetted approach </li>
   <ul>
    <li> e.g. 16S/18S rRNA gene </li>
-  </ul>
-<li>Amplifies bacteria, not host or environmental fungi, plants</li>
+   <li> amplifies all bacteria </li>
+  </ul></br>
+<li>No contamination from: </li>
+  <ul>
+   <li>Host</li>
+   <li>Environmental fungi, plants</li>
+ </ul>
 </ul>
 </div>
 
@@ -235,12 +248,27 @@ Illumina MiSeq
 
 ### 16S rRNA gene
 
-- Highly conserved regions
-  - easy to target across all bacteria
-- Variable regions
-  - distinguish between different types of bacteria
+<div class="left small">
+<ul>
+ <li> Ribosomal RNA gene </li>
+ <ul>
+   <li>~1500 bp long</li>
+ </ul>
+ <li> Highly conserved regions</li>
+  <ul>
+   <li>easy to target across all bacteria</li>
+  </ul>
+<li>Variable regions</li>
+ <ul>
+  <li>V1, V2,.., V9 </li>
+  <li>distinguish between different types of bacteria</li>
+ </ul>
+</ul>
+</div>
 
-![scale-70](2018-GalaxyEU/images/16S_variableregions.jpg)
+<div class="right">
+![](2018-GalaxyEU/images/16S_variableregions.jpg)
+</div>
 
 Note:
 - 16S gene is around 1500 nucleotides long
@@ -251,16 +279,34 @@ Note:
 
 ### Amplicon Sequencing
 
-- Pros:
-  - Cheap: ($50-$100 per sample)
-  - Well-established
-  - Lot of reference databases
-- Cons:
-  - Choice of variable region can bias results
-  - Difficult to resolve species and strains
-    due to highly conserved nature of the gene
+<div class="left small">
+<br>
+<ul>
+<li>Pros:</li>
+ <ul>
+  <li>Cheap: ($50-$100 per sample)</li>
+  <li>Well-established</li>
+  <li>Lot of reference databases</li>
+ </ul> <br>
+<li>Cons: </li>
+  <ul>
+  <li>Choice of V-region can bias results</li>
+  <li>Difficult to resolve species/strains</li>
+  </ul>
+</ul>
+</div>
 
+<div class="right tiny">
+![](2018-GalaxyEU/images/bias-vregions.png)
+doi:10.1038/nature11209
+</div>
 
+Note:
+Image: number of OTUs identified by genus for V13 region (y-axis)
+and V35 region (x-axis)
+
+For example for Coprococcus, 65 OTUs identified when using V35 region,
+3 OTUs with V13 region.
 
 ---
 
