@@ -358,15 +358,25 @@ Mothur Qiime
 ### Chimera removal
 
 
-- Greek mythology: hybrid animals
-- Sequencing data: hybrid sequences created during PCR
-
-<div class="left">
-![scale-50](2018-GalaxyEU/images/chimera-animal.jpg)
+<div class="left small">
+<br><br>
+<ul>
+<li>Greek mythology </li>
+ <ul>
+  <li>Hybrid animals</li>
+ </ul><br>
+ <li>Sequencing data </li>
+ <ul>
+  <li> Hybrid sequences </li>
+  <li> Created during PCR</li>
+ </ul>
+</ul>
 </div>
 
 <div class="right">
-![border](2018-GalaxyEU/images/chimeras.png)
+![scale-40](2018-GalaxyEU/images/chimera-animal.jpg)
+<br>
+![scale-80](2018-GalaxyEU/images/chimeras.png)
 </div>
 
 ---
@@ -463,8 +473,9 @@ Phinch, krona, venn, heatmaps
 ### Acknowledgements
 
 <div class="left small">
+<br>
 <ul>
- <li>ErasmusMC Bioinformatics</li>
+ <li>**ErasmusMC Bioinformatics**</li>
  <ul>
   <li>Andrew Stubbs</li>
   <li>Saskia Hiltemann</li>
@@ -473,7 +484,7 @@ Phinch, krona, venn, heatmaps
   <li>Yunlei Li</li>
  </ul>
 <br>
-<li>ErasmusMC Clinical Microbiology</li>
+<li>**ErasmusMC Clinical Microbiology**</li>
  <ul>
   <li>John Hays</li>
   <li>Stefan Boers</li>
@@ -481,13 +492,15 @@ Phinch, krona, venn, heatmaps
  <br>
 <li>**Streeklab Haarlem**</li>
  <ul>
-  <li>John Hays</li>
-  <li>Stefan Boers</li>
+  <li>Ruud Jansen</li>
+  <li>Elana Meijer</li>
  </ul>
 </ul>
 </div>
 <div class="right">
-
+![scale-50](assets/images/logo-emc.png)
+<br>
+![scale-30](2018-GalaxyEU/images/slh-logo.jpg)
 </div>
 
 ---
