@@ -89,39 +89,48 @@ Sometimes referred to as your **second genome**
 <ul>
 <li> Microbial imbalance in the body </li><br>
 
-<li> Linked to a large number of disease phenotypes </li>
+<li> Causes </li>
+ <ul>
+  <li> Infection  </li>
+  <li> Lifestyle (diet, stress) </li>
+  <li> Host genetics </li>
+  <li> Medications </li>
+  <li> Improper use of antibiotics </li>
+ </ul><br>
+
+<li> Linked to a large number of diseases </li>
  <ul>
   <li> Obesity, Diabetes </li>
   <li> Asthma, Allergies </li>
   <li> Crohn's disease, Ulcerative colitis </li>
   <li> Cancer, IBS, Autism </li>
- </ul><br>
-
-<li> Causes </li>
- <ul>
-    - Improper use of antibiotics
-    - Lifestyle (diet, stress)
-    - Infections
-    - Host genetics
  </ul>
+
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/microbiota-disease.jpg)
+![unbalanced scale-50](2018-GalaxyEU/images/dysbiosis-balance.png)
+![diseases](2018-GalaxyEU/images/microbiota-disease.jpg)
+
 </div>
 
 ---
 
-### Dysbiosis
+Improper antibiotics use can lead to dysbiosis
 
-<div class="three-left">
+<div class="block">
+<div class="three-left small">
 ![healthy forest](2018-GalaxyEU/images/forest-healthy.jpg)
+Healthy gut
 </div>
-<div class="three-middle">
+<div class="three-middle small">
 ![after antibiotics](2018-GalaxyEU/images/forest-burnt.jpg)
+Gut after antibiotics
 </div>
-<div class="three-right">
+<div class="three-right small">
 ![monoculture](2018-GalaxyEU/images/forest-monoculture.jpg)
+Monoculture
+</div>
 </div>
 
 Note:
@@ -210,9 +219,13 @@ Illumina MiSeq
 ### Amplicon Sequencing
 
 <div class="left small">
-- Targetted approach
-   - e.g. 16S/18S rRNA gene
-- Amplifies bacteria, not host or environmental fungi, plants
+<ul>
+<li> Targetted approach </li>
+  <ul>
+   <li> e.g. 16S/18S rRNA gene </li>
+  </ul>
+<li>Amplifies bacteria, not host or environmental fungi, plants</li>
+</ul>
 </div>
 
 <div class="right">
@@ -236,7 +249,7 @@ Note:
 
 ---
 
-### 16S rRNA gene
+### Amplicon Sequencing
 
 - Pros:
   - Cheap: ($50-$100 per sample)
@@ -244,7 +257,8 @@ Note:
   - Lot of reference databases
 - Cons:
   - Choice of variable region can bias results
-  - Difficult to resolve species in strains due to highly conserved nature of the gene
+  - Difficult to resolve species and strains
+    due to highly conserved nature of the gene
 
 
 
