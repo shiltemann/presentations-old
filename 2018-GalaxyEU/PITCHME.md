@@ -174,12 +174,29 @@ Antibitics kill gut
 
 ### Streeklab Haarlem
 
-Samples are cultured
+<div class="left small">
+<ul>
+ <li>Samples are cultured</li><br>
+ <li>Species determined by </li>
+  <ul>
+   <li> MALDI-TOF MS</li>
+   <li> Visual inspection</li>
+  </ul><br>
+ <li>Limitations</li>
+  <ul>
+   <li> Medium determines what grows</li>
+   <li> Some species difficult to culture</li>
+  </ul><br>
+ <li>Pilot study: 16S rRNA sequencing</li>
+   <ul>
+   <li> Can this augment current practices?</li>
+  </ul>
+</ul>
 
-
-
-Pilot study: 16S rRNA sequencing
-
+</div>
+<div class="right">
+![](2018-GalaxyEU/images/slh-culture.jpg)
+</div>
 
 ---
 
@@ -230,8 +247,8 @@ Illumina MiSeq
 <ul>
 <li> Targetted approach </li>
   <ul>
-   <li> e.g. 16S/18S rRNA gene </li>
-   <li> amplifies all bacteria </li>
+   <li> 16S/18S rRNA gene </li>
+   <li> Present in all bacteria and archaea </li>
   </ul></br>
 <li>No contamination from: </li>
   <ul>
@@ -242,7 +259,7 @@ Illumina MiSeq
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/16S_gene.png)
+![](2018-GalaxyEU/images/16S-gene-ecoli.png)
 </div>
 ---
 
@@ -250,24 +267,26 @@ Illumina MiSeq
 
 <div class="left small">
 <ul>
- <li> Ribosomal RNA gene </li>
+ <!--<li> Ribosomal RNA gene </li>
  <ul>
    <li>~1500 bp long</li>
- </ul>
+ </ul><br>-->
  <li> Highly conserved regions</li>
   <ul>
    <li>easy to target across all bacteria</li>
-  </ul>
+  </ul><br>
 <li>Variable regions</li>
  <ul>
   <li>V1, V2,.., V9 </li>
-  <li>distinguish between different types of bacteria</li>
+  <li>distinguish between different bacteria</li>
  </ul>
 </ul>
+<br>
+![](2018-GalaxyEU/images/16S_variableregions.jpg)
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/16S_variableregions.jpg)
+![scale-50](2018-GalaxyEU/images/16S-structure.jpg)
 </div>
 
 Note:
@@ -357,10 +376,10 @@ Mothur Qiime
 **OTU**: Operational Taxonomic Unit
 
 <div class="left">
-![](2018-GalaxyEU/images/otu.png)
+![](2018-GalaxyEU/images/otu-clusters.png)
 </div>
 <div class="right">
-![](2018-GalaxyEU/images/otu-clusters.png)
+![](2018-GalaxyEU/images/otu.png)
 </div>
 
 ---
