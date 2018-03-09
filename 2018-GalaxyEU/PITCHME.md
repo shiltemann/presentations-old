@@ -369,6 +369,11 @@ Mothur Qiime
  <ul>
   <li> Hybrid sequences </li>
   <li> Created during PCR</li>
+ </ul><br>
+ <li> Correction Methods </li>
+ <ul>
+  <li>In Silico</li>
+  <li>Micelle PCR</li>
  </ul>
 </ul>
 </div>
@@ -381,8 +386,35 @@ Mothur Qiime
 
 ---
 
+### Traditional PCR
 
+![](2018-GalaxyEU/images/16S_end-to-end_nomicelle.png)
 
+<div class="small">
+<ul>
+<li>PCR performed in single compartment</li>
+<li>bias due to differences in efficiency of 16S gene amplifications</li>
+<li>Susceptible to chimera formation</li>
+</ul>
+</div>
+---
+
+### Micelle PCR
+
+![](2018-GalaxyEU/images/16S_end-to-end_micelle.png)
+
+<div class="left70 small">
+<ul>
+<li>Every DNA molecule amplified individually</li>
+ <ul><li> ~10^10 compartments</li></ul>
+<li>Addition of **internal control** for quantification</li>
+<li>Improves microbiota analyses (doi: 10.1038/srep14181)</li>
+</ul>
+</div>
+
+<div class="right30">
+![scale-70](2018-GalaxyEU/images/micelle.png)
+</div>
 ---
 
 ### OTU Clustering
