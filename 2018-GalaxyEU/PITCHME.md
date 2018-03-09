@@ -3,12 +3,12 @@
 <div class="white">
 <h2 class="white"> Microbiota Analysis using Galaxy </h2>
 
-Saskia Hiltemann 
+Saskia Hiltemann
 
 </div>
 
 ---
- 
+
 ### Overview
 
 - Background
@@ -40,15 +40,15 @@ Saskia Hiltemann
 <div class="right">
 
 <!-- ![scale-70](2018-GalaxyEU/images/animalcules.gif) -->
-![](2018-GalaxyEU/images/leeuwenhoek-microscope-animalcules.jpg) 
+![](2018-GalaxyEU/images/leeuwenhoek-microscope-animalcules.jpg)
 
 </div>
 
 Note:
-Antonie van Leeuwenhoek was Dutch scientist, best known for his work in microscopy 
+Antonie van Leeuwenhoek was Dutch scientist, best known for his work in microscopy
 
-In 1676 he turned his microscope at a drop of rain water and was surprised to find 
-what looked like tiny animals, which he called **animalcules** 
+In 1676 he turned his microscope at a drop of rain water and was surprised to find
+what looked like tiny animals, which he called **animalcules**
 
 
 ---
@@ -63,7 +63,7 @@ von Koch: Germ theory
 
 <div class="block">
 <div class="left small middle">
-<br><br> 
+<br><br>
 <ul>
   <li> > 10 times more cells than you </li>
   <li> > 100 times more genes than you </li>
@@ -77,89 +77,89 @@ von Koch: Germ theory
 </div>
 </div>
 
-Sometimes referred to as your *second genome* 
+Sometimes referred to as your **second genome**
 
 ---
 
 
 ### Dysbiosis
 
-- Microbial imbalance in the body
+<div class="left small leftalign">
 
-![scale-40](2018-GalaxyEU/images/microbiota-disease.jpg)
-
-- Linked to a large number of disease phenotypes
-  - Obesity, Diabetes
-  - Asthma, Allergies
-  - Crohn's disease, Ulcerative colitis
-  - Cancer, IBS, Autism
-
-
----
-
-monocultures
-
----
-
-### Approaches
-
-- Amplicon sequencing 
-- Shotgun sequencing 
-
----
-
-### Shotgun Sequencing
-
-<div class="left">
 <ul>
-<li> Sequence everything </li>
-<li> Expensive </li>
-<li> More information </li>
-<li> Higher complexity </li>
-</ul>
+<li> Microbial imbalance in the body </li><br>
+
+<li> Linked to a large number of disease phenotypes </li>
+ <ul>
+  <li> Obesity, Diabetes </li>
+  <li> Asthma, Allergies </li>
+  <li> Crohn's disease, Ulcerative colitis </li>
+  <li> Cancer, IBS, Autism </li>
+ </ul><br>
+
+<li> Causes </li>
+ <ul>
+    - Improper use of antibiotics
+    - Lifestyle (diet, stress)
+    - Infections
+    - Host genetics
+ </ul>
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/shotgun-puzzles.png)
+![](2018-GalaxyEU/images/microbiota-disease.jpg)
 </div>
 
 ---
 
-### Amplicon Sequencing
+### Dysbiosis
 
-- Targetted approach (e.g. 16S/18S rRNA gene)
-- Amplifies bacteria, not host or environmental fungi, plants
-
-![scale-50](2018-GalaxyEU/images/16S_gene.png)
-
---- 
-
-### 16S rRNA gene
-
-- Highly conserved regions 
-  - easy to target across all bacteria
-- Variable regions 
-  - distinguish between different types of bacteria
-
-![scale-70](2018-GalaxyEU/images/16S_variableregions.jpg)
+<div class="three-left">
+![](2018-GalaxyEU/images/forest-healthy.jpg)
+</div>
+<div class="three-middle">
+![](2018-GalaxyEU/images/forest-burnt.jpg)
+</div>
+<div class="three-right">
+![](2018-GalaxyEU/images/forest-monoculture.jpg)
+</div>
 
 Note:
-around 1500 nucleotides long
+Antibitics kill gut
 
----
-
-## 
 
 ---
 
 
 ### Streeklab Haarlem
 
-Hospitals and clinics send their samples (stool/urine/nasal)
-for analysis
+<div class="left small alignleft">
 
-- determine microbiota present
-- determine antibiotics to use
+<br><br>
+<ul>
+<li> Microbial Diagnostics Laboratory</li><br>
+<li> Services large number of </li>
+ <ul>
+  <li> Hospitals </li>
+  <li> Clinics </li>
+  <li> GPs </li>
+ </ul><br>
+<li>Samples (e.g. blood, stool, urine) are sent to the lab and analysed</li>
+ <ul>
+   <li> Determine microbiota present </li>
+   <li> Determine antibiotic resistance </li>
+   <li> Advise a treatment </li>
+ </ul>
+</ul>
+
+</div>
+
+<div class="right center">
+
+![](2018-GalaxyEU/images/slh-logo2.png)
+![](2018-GalaxyEU/images/slh-envelope.png)
+
+</div>
 
 ---
 
@@ -183,6 +183,76 @@ Illumina MiSeq
 
 ---
 
+### NGS Approaches
+
+- Shotgun sequencing
+- Amplicon sequencing
+
+---
+
+### Shotgun Sequencing
+
+<div class="left">
+<ul>
+<li> Sequence everything </li>
+<li> More Expensive ($1000+/sample) </li>
+<li> More information (e.g. functional prediction, antibiotic resistance) </li>
+<li> Higher complexity </li>
+</ul>
+</div>
+
+<div class="right">
+![](2018-GalaxyEU/images/shotgun-puzzles.png)
+</div>
+
+---
+
+### Amplicon Sequencing
+
+<div class="left small">
+- Targetted approach
+   - e.g. 16S/18S rRNA gene
+- Amplifies bacteria, not host or environmental fungi, plants
+</div>
+
+<div class="right">
+![](2018-GalaxyEU/images/16S_gene.png)
+</div>
+---
+
+### 16S rRNA gene
+
+- Highly conserved regions
+  - easy to target across all bacteria
+- Variable regions
+  - distinguish between different types of bacteria
+
+![scale-70](2018-GalaxyEU/images/16S_variableregions.jpg)
+
+Note:
+- 16S gene is around 1500 nucleotides long
+- Strong secondary structure, folds into 3D structure
+- S stands for Svedberg (unit of time, time it takes to sediment in centrifuge)
+
+---
+
+### 16S rRNA gene
+
+- Pros:
+  - Cheap: ($50-$100 per sample)
+  - Well-established
+  - Lot of reference databases
+- Cons:
+  - Choice of variable region can bias results
+  - Difficult to resolve species in strains due to highly conserved nature of the gene
+
+
+
+---
+
+### Amplicon Sequencing
+
+
 
 ![](2018-GalaxyEU/images/so_much_data.png)
 
@@ -196,7 +266,7 @@ Illumina MiSeq
 
 ### Pipeline
 
-![](2018-GalaxyEU/analysis_pipeline.png)
+![](2018-GalaxyEU/images/analysis_pipeline.png)
 
 ---
 
@@ -265,19 +335,19 @@ Diversity *within* a sample
 
 - naive: just number of OTUs
 - doesnt take into account relatedness of OTUs
-- doesnt take into account relative disstribution 
+- doesnt take into account relative disstribution
    - 3 species at 98%,1%,1%
    - 3 species at 33%,33%,33%
 
 - As many diversity measures as there are ambitious ecologists
-   - shannon, chao, .. .. 
+   - shannon, chao, .. ..
 
 ---
 
 ### Beta Diversity
 
 Diversity *between* samples
- 
+
 ---
 
 ### Visualisations
@@ -328,7 +398,28 @@ Phinch, krona, venn, heatmaps
 
 - confidence level: bootstrap
 
+---
+
+### Culture
+
+- Bacteria grown on selective medium
+- Bacteria determined by MALDI-TOF MS or eyeballed/biochemically
+- MALDI: Matrix Assisted Laser Desorption/Ionization
+- TOF MS: Time of Flight Mass Spectrometry
+- Not all bacteria thrive equally (or at all) on medium
+    - optimized to quickly show known pathogens
+       - but "rest" can also be interesting
+    - anaerobic bacteria are hard to grow in lab
+- 16S cannot show antibiotic resistance, and only reliable down to genus level
+- 16S usually equally quick
+   - 16S 2-3 days
+   - cultures: mostly 24-48 hours, some types difficult to culture and can take 2 weeks
+- Costs: NGS higher, but when culture is negative, cheaper than hospitalization
 
 
 
- 
+
+
+
+
+

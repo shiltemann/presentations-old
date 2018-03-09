@@ -2,7 +2,7 @@
 	font-size: 0.8em !important;
 }
 
-.reveal div.white { 
+.reveal div.white {
     color: white;
 }
 
@@ -24,7 +24,7 @@
 
 .reveal h2.white {
 	color: white;
-} 
+}
 
 .reveal div.left {
     float: left; z-index: -10; width: 45%; margin-left: 5%;
@@ -34,8 +34,24 @@
     float: right; z-index: -10; width: 45%; margin-right: 5%;
 }
 
+.reveal div.three-left {
+   float: left; width: 25%; margin-left: 5%;
+}
+
+.reveal div.three-middle {
+	width: 25%;
+}
+
+.reveal div.three-right{
+   float: right; width: 25%; margin-right: 5%;
+}
+
 .reveal div.bottom {
 	float: bottom;
+}
+
+.reveal div.alignleft{
+	text-align: left;
 }
 
 .reveal div.block {
@@ -52,8 +68,8 @@ img[alt*=scale-30] { width: 30%; }
 img[alt*=scale-20] { width: 20%; }
 img[alt*=scale-10] { width: 10%; }
 
-.reveal img:not([alt*=border]) { 
-    border: 0px; 
+.reveal img:not([alt*=border]) {
+    border: 0px;
 }
 
 .reveal img:not([alt*=shadow]) {
