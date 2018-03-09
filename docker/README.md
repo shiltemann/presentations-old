@@ -28,6 +28,9 @@ Add the the local Gitlab as a remote for the repo:
 
 ```
 $ git remote add gitpitch http://localhost:8081/shiltemann/presentations.git
+
+# or, to enable pushing via SSH:
+$ git remote add gitpitch ssh://git@localhost:8022/shiltemann/presentations.git
 ```
 
 ## Preview changes
