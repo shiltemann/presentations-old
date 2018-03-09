@@ -286,7 +286,7 @@ Illumina MiSeq
 </div>
 
 <div class="right">
-![scale-50](2018-GalaxyEU/images/16S-structure.jpg)
+![scale-70](2018-GalaxyEU/images/16S-structure.jpg)
 </div>
 
 Note:
@@ -329,15 +329,15 @@ For example for Coprococcus, 65 OTUs identified when using V35 region,
 
 ---
 
-### Amplicon Sequencing
+### Streeklab Haarlem
 
 
-
-![](2018-GalaxyEU/images/so_much_data.png)
+![scale-70](2018-GalaxyEU/images/16S_end-to-end.png)
+![scale-50](2018-GalaxyEU/images/so_much_data.png)
 
 ---
 
-### Pipeline
+### Galaxy!
 
 ![](2018-GalaxyEU/images/workflow.png)
 
@@ -368,6 +368,10 @@ Mothur Qiime
 <div class="right">
 ![border](2018-GalaxyEU/images/chimeras.png)
 </div>
+
+---
+
+
 
 ---
 
@@ -456,8 +460,35 @@ Phinch, krona, venn, heatmaps
 
 ---
 
-### Thanks for your attention
+### Acknowledgements
 
+<div class="left small">
+<ul>
+ <li>ErasmusMC Bioinformatics</li>
+ <ul>
+  <li>Andrew Stubbs</li>
+  <li>Saskia Hiltemann</li>
+  <li>Youri Hoogstrate</li>
+  <li>David van Zessen</li>
+  <li>Yunlei Li</li>
+ </ul>
+<br>
+<li>ErasmusMC Clinical Microbiology</li>
+ <ul>
+  <li>John Hays</li>
+  <li>Stefan Boers</li>
+ </ul>
+ <br>
+<li>**Streeklab Haarlem**</li>
+ <ul>
+  <li>John Hays</li>
+  <li>Stefan Boers</li>
+ </ul>
+</ul>
+</div>
+<div class="right">
+
+</div>
 
 ---
 
