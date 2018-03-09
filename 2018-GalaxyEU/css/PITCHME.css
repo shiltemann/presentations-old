@@ -35,15 +35,15 @@
 }
 
 .reveal div.three-left {
-   float: left; width: 25%; margin-left: 5%;
+   float: left; width: 30%; margin-left: 5%;
 }
 
 .reveal div.three-middle {
-	width: 25%;
+	display: inline-block; width: 30%;
 }
 
 .reveal div.three-right{
-   float: right; width: 25%; margin-right: 5%;
+   float: right; width: 30%; margin-right: 5%;
 }
 
 .reveal div.bottom {

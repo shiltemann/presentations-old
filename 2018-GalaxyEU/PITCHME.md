@@ -115,13 +115,13 @@ Sometimes referred to as your **second genome**
 ### Dysbiosis
 
 <div class="three-left">
-![](2018-GalaxyEU/images/forest-healthy.jpg)
+![healthy forest](2018-GalaxyEU/images/forest-healthy.jpg)
 </div>
 <div class="three-middle">
-![](2018-GalaxyEU/images/forest-burnt.jpg)
+![after antibiotics](2018-GalaxyEU/images/forest-burnt.jpg)
 </div>
 <div class="three-right">
-![](2018-GalaxyEU/images/forest-monoculture.jpg)
+![monoculture](2018-GalaxyEU/images/forest-monoculture.jpg)
 </div>
 
 Note:
