@@ -116,16 +116,18 @@ Sometimes referred to as your **second genome**
 
 ---
 
-Improper antibiotics use can lead to dysbiosis
+### Dysbiosis
+
+Can be caused by improper use of antibiotics
 
 <div class="block">
 <div class="three-left small">
 ![healthy forest](2018-GalaxyEU/images/forest-healthy.jpg)
-Healthy gut
+Healthy microbiome
 </div>
 <div class="three-middle small">
 ![after antibiotics](2018-GalaxyEU/images/forest-burnt.jpg)
-Gut after antibiotics
+After antibiotics
 </div>
 <div class="three-right small">
 ![monoculture](2018-GalaxyEU/images/forest-monoculture.jpg)
@@ -198,16 +200,34 @@ Antibitics kill gut
 ![](2018-GalaxyEU/images/slh-culture.jpg)
 </div>
 
+Note:
+- MALDI: Matrix Assisted Laser Desorption/Ionization
+- TOF MS: Time of Flight Mass spectrometry
+
+
 ---
 
-### Experiment Design
+### Experimental Design
 
-Micelle
+<div class="left small">
 
-3 replicates
-background control
+<ul>
+ <li> Illumina MiSeq </li>
+ <li> 16S rRNA Amplicon Sequencing</li>
+ <li> Micelle PCR </li>
+ <br>
+ <li> 3 technical replicates </li>
+ <li> Negative control sample </li>
+   <ul><li>correct background contamination</li></ul>
+ <li> Internal control sample </li>
+  <ul><li>estimate number of copies</li></ul>
+</ul>
+</div>
 
-Illumina MiSeq
+<div class="right">
+![](2018-GalaxyEU/images/miseq.png)
+
+</div>
 
 ---
 
@@ -327,6 +347,10 @@ and V35 region (x-axis)
 For example for Coprococcus, 65 OTUs identified when using V35 region,
 3 OTUs with V13 region.
 
+Note:
+
+TODO: move bias image til after explanation of OTUs?
+
 ---
 
 ### Streeklab Haarlem
@@ -349,9 +373,23 @@ For example for Coprococcus, 65 OTUs identified when using V35 region,
 
 ---
 
-### Tools
+### Tools in Galaxy
 
-Mothur Qiime
+A range of tools for both Amplicon and whole-genome shotgun exist
+
+![scale-20](2018-GalaxyEU/images/mothur-logo.png)
+![scale-20](2018-GalaxyEU/images/qiime-logo.png)
+
+<div class="small">
+<ul>
+<li> \> 200 tools in metagenomics category in Tool Shed </li>
+<li> 2 large tool suites: Mothur Qiime </li>
+<li> Visualisation tools: Krona, Phinch, Qiime </li>
+<li> PICRUSt </li>
+ <ul><li>functional content prediction based on phylogeny</li></ul>
+<li> .. </li>
+</ul>
+</div>
 
 ---
 
@@ -441,6 +479,9 @@ Mothur Qiime
 Note:
 Also referred to as "OTU picking"
 
+---
+
+### Distance Metrics
 
 ---
 
@@ -472,6 +513,22 @@ Diversity *within* a sample
 ### Beta Diversity
 
 Diversity *between* samples
+
+
+---
+
+### Assigning Taxonomy
+
+SILVA, greengenes
+
+---
+
+### Post-processing
+
+3 replicates
+- OTU must be present in all of them
+- subtract background sample ("empty sample")
+- relative abundance -> copies (using internal control)
 
 ---
 
@@ -543,6 +600,40 @@ Phinch, krona, venn, heatmaps
 ### Mothur vs Qiime
 
 
+<div class="block">
+<div class="left small">
+![scale-40](2018-GalaxyEU/images/mothur-logo.png)
+
+<ul>
+<li> C++ </li>
+<li> reimplements methods</li>
+<li> visualisations mostly not included</li>
+<li> Open Source </li>
+</ul>
+
+</div>
+
+<div class="right small">
+![scale-40](2018-GalaxyEU/images/qiime-logo.png)
+
+<ul>
+<li>python</li>
+<li>wraps existing methods </li>
+<li>better visualisations </li>
+<li> Open Source, but wraps some closed-source components </li>
+</ul>
+</div>
+</div>
+
+http://blog.mothur.org/2016/01/12/mothur-and-qiime/
+
+Note:
+
+- both work well and are very similar
+- comes down to personal preference
+- qiime better visualisations, but works with biom so can use it on mothur data as well
+- qiime2 released as VM, packaging more difficult
+
 ---
 
 ### RDP classifier
@@ -557,21 +648,29 @@ Phinch, krona, venn, heatmaps
 
 ### Culture
 
-- Bacteria grown on selective medium
-- Bacteria determined by MALDI-TOF MS or eyeballed/biochemically
-- MALDI: Matrix Assisted Laser Desorption/Ionization
-- TOF MS: Time of Flight Mass Spectrometry
-- Not all bacteria thrive equally (or at all) on medium
-    - optimized to quickly show known pathogens
-       - but "rest" can also be interesting
-    - anaerobic bacteria are hard to grow in lab
-- 16S cannot show antibiotic resistance, and only reliable down to genus level
-- 16S usually equally quick
-   - 16S 2-3 days
-   - cultures: mostly 24-48 hours, some types difficult to culture and can take 2 weeks
-- Costs: NGS higher, but when culture is negative, cheaper than hospitalization
-
-
+<div class="small">
+<ul>
+<li>Bacteria grown on selective medium</li>
+<li> Bacteria determined by MALDI-TOF MS or eyeballed/biochemically</li>
+ <ul>
+  <li> MALDI: Matrix Assisted Laser Desorption/Ionization</li>
+  <li> TOF MS: Time of Flight Mass Spectrometry</li>
+ </ul>
+<li> Not all bacteria thrive equally (or at all) on medium</li>
+ <ul>
+   <li> optimized to quickly show known pathogens</li>
+   <li> but "rest" can also be interesting</li>
+   <li> anaerobic bacteria are hard to grow in lab</li>
+ </ul>
+<li> 16S cannot show antibiotic resistance, and only reliable down to genus level</li>
+<li> 16S usually equally quick</li>
+ <ul>
+  <li> 16S 2-3 days</li>
+  <li> cultures: mostly 24-48 hours, some types difficult to culture and can take 2 weeks</li>
+ </ul>
+<li> Costs: NGS higher, but when culture is negative, cheaper than hospitalization</li>
+</ul?
+</div>
 
 
 
