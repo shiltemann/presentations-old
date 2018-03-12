@@ -587,6 +587,7 @@ doi: 10.1101/009944
 
 
 <div class="left small">
+<ul>
 <li>Arthritis patient</li>
 <li>History of dental extraction</li>
 <li>Culture negative</li>
@@ -596,6 +597,7 @@ doi: 10.1101/009944
   <li>typical inhabitant of the oral flora</li>
   <li>Hard to culture under standard conditions</li>
  </ul>
+</ul>
 </div>
 
 <div class="right">
@@ -605,18 +607,25 @@ doi: 10.1101/009944
 
 ---
 
-### Results
+### Results: Case 2
 
-CASE 2:
+<div class="left small">
+<ul>
+<li>Arthritis patient</li>
+<li>History: operation of the intestine</li>
+<li>Culture negative</li>
 
-- Arthritis patient
-- History: operation of the intestine
-- Culture negative
 
-- Rhuminococcus species - 192.000 copies
-  - Inhabitant of the intestine
-  - Hard to culture under standard conditions
+<li>Rhuminococcus species - 192.000 copies</li>
+  <ul><li>Inhabitant of the intestine</li>
+  <li>Hard to culture under standard conditions</li>
+  </ul>
+</ul>
+</div>
 
+<div class="right">
+![](2018-GalaxyEU/images/arthritis.png)
+</div>
 ---
 
 ### Results
