@@ -86,3 +86,13 @@ img[alt*=scale-10] { width: 10%; }
 .reveal img:not([alt*=shadow]) {
 	box-shadow: none;
 }
+
+.reveal embed {
+    text-align: center;
+    margin: 0 auto;
+	width: 80%;
+	height: 70vh;
+	position: relative;
+	overflow:hidden;
+	display: block
+}

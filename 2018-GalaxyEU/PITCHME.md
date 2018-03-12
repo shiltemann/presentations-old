@@ -538,7 +538,14 @@ SILVA, greengenes
 
 ### Krona
 
----?include=2018-GalaxyEU/rdp.krona.html.md
+![scale-50](2018-GalaxyEU/images/krona.png)
+
+<div class="tiny">
+doi: 10.1186/1471-2105-12-385
+</div>
+---
+
+<embed src="https://marbl.github.io/Krona/examples/rdp.krona.html">
 
 ---
 
