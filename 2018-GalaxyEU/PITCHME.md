@@ -551,7 +551,7 @@ doi: 10.1186/1471-2105-12-385
 
 ### Phinch
 
-![](GalaxyEU/images/phinch_overviewpage.png)
+![](2018-GalaxyEU/images/phinch_overviewpage.png)
 
 <div class="tiny">
 doi: 10.1101/009944
