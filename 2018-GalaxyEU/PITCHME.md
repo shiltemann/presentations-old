@@ -375,13 +375,13 @@ TODO: move bias image til after explanation of OTUs?
 ### Tools in Galaxy
 
 
-<div class="right">
+<div class="right30">
 ![scale-40](2018-GalaxyEU/images/mothur-logo.png)
 
 ![scale-40](2018-GalaxyEU/images/qiime-logo.png)
 </div>
 
-<div class="left small">
+<div class="left70 small">
 <ul>
 <li> \> 250 tools in metagenomics category in Tool Shed </li><br>
 <li> 2 large tool suites</li>
@@ -472,6 +472,13 @@ TODO: move bias image til after explanation of OTUs?
 ![](2018-GalaxyEU/images/otu.png)
 </div>
 
+Note:
+- clusters of closely related sequences
+- proxy for species/genus (97%=species, but perhaps not too reliable)
+- control for sequencing/PCR errors
+- for amplicon data, not done so much in shotgun
+-
+
 ---
 
 ### OTU Clustering
@@ -483,7 +490,11 @@ TODO: move bias image til after explanation of OTUs?
 
 
 Note:
-Also referred to as "OTU picking"
+OTU definition (taxonomy, sequence similarity, phylogeny)
+clustering strategy (de novo, open reference, closed reference)
+distance metrics (pairwise alignment, multiple alignment, alignment-free)
+algorithm (hierarchical clustering, seed-based, model-based)
+
 
 ---
 
@@ -557,21 +568,78 @@ doi: 10.1186/1471-2105-12-385
 
 ### Phinch
 
-![](2018-GalaxyEU/images/phinch_overviewpage.png)
+![scale-70](2018-GalaxyEU/images/phinch_overviewpage.png)
 
 <div class="tiny">
 doi: 10.1101/009944
 </div>
 
+
+---
+
+### iReport
+
+![](2018-GalaxyEU/images/ireport-mycrobiota.png)
+
+---
+
+### Results: Case 1
+
+
+<div class="left small">
+<li>Arthritis patient</li>
+<li>History of dental extraction</li>
+<li>Culture negative</li>
+
+<li>Result: Prevotella denticola - 70.000 copies</li>
+ <ul>
+  <li>typical inhabitant of the oral flora</li>
+  <li>Hard to culture under standard conditions</li>
+ </ul>
+</div>
+
+<div class="right">
+![](2018-GalaxyEU/images/arthritis.png)
+</div>
+
+
 ---
 
 ### Results
 
+CASE 2:
 
+- Arthritis patient
+- History: operation of the intestine
+- Culture negative
+
+- Rhuminococcus species - 192.000 copies
+  - Inhabitant of the intestine
+  - Hard to culture under standard conditions
+
+---
+
+### Results
+
+CASE 3:
+
+- Infected hip implant
+- 5 samples from different locations
+- No culture data available
+
+- Staphylococcus - 3, 53, 10, 742, 1072K gene copies
+  - most likely contaminations during operation
 
 ---
 
 ### Training Materials
+
+
+![](2018-GalaxyEU/images/training-material.png)
+
+<div class="tiny">
+https://training.galaxyproject.org
+</div>
 
 
 ---
