@@ -538,6 +538,8 @@ SILVA, greengenes
 
 ### Krona
 
+---?include=2018-GalaxyEU/rdp.krona.html.md
+
 ---
 
 ### Phinch
