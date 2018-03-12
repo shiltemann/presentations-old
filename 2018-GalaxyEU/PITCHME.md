@@ -591,6 +591,7 @@ doi: 10.1101/009944
 <li>Arthritis patient</li>
 <li>History of dental extraction</li>
 <li>Culture negative</li>
+<br>
 
 <li>Result: Prevotella denticola - 70.000 copies</li>
  <ul>
@@ -614,7 +615,7 @@ doi: 10.1101/009944
 <li>Arthritis patient</li>
 <li>History: operation of the intestine</li>
 <li>Culture negative</li>
-
+<br>
 
 <li>Rhuminococcus species - 192.000 copies</li>
   <ul><li>Inhabitant of the intestine</li>
@@ -628,16 +629,22 @@ doi: 10.1101/009944
 </div>
 ---
 
-### Results
+### Results: Case 3
 
-CASE 3:
+<div class="left small">
+<ul>
+<li>Infected hip implant</li>
+<li> 5 samples from different locations</li>
+<li> No culture data available</li>
+<br>
+<li> Staphylococcus - 3, 53, 10, 742, 1072K gene copies</li>
+  <ul><li> most likely contaminations during operation</li></ul>
 
-- Infected hip implant
-- 5 samples from different locations
-- No culture data available
-
-- Staphylococcus - 3, 53, 10, 742, 1072K gene copies
-  - most likely contaminations during operation
+</ul>
+</div>
+<div class="right">
+![](2018-GalaxyEU/images/hipimplant.jpg)
+</div>
 
 ---
 
