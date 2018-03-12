@@ -551,9 +551,11 @@ doi: 10.1186/1471-2105-12-385
 
 ### Phinch
 
-mothur, Qiime, picrust
+![](GalaxyEU/images/phinch_overviewpage.png)
 
-Phinch, krona, venn, heatmaps
+<div class="tiny">
+doi: 10.1101/009944
+</div>
 
 ---
 
