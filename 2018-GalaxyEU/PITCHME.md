@@ -309,6 +309,7 @@ Note:
 ![scale-70](2018-GalaxyEU/images/16S-structure.jpg)
 </div>
 
+
 Note:
 - 16S gene is around 1500 nucleotides long
 - Strong secondary structure, folds into 3D structure
@@ -347,8 +348,6 @@ and V35 region (x-axis)
 For example for Coprococcus, 65 OTUs identified when using V35 region,
 3 OTUs with V13 region.
 
-Note:
-
 TODO: move bias image til after explanation of OTUs?
 
 ---
@@ -375,18 +374,25 @@ TODO: move bias image til after explanation of OTUs?
 
 ### Tools in Galaxy
 
-A range of tools for both Amplicon and whole-genome shotgun exist
 
-![scale-20](2018-GalaxyEU/images/mothur-logo.png)
-![scale-20](2018-GalaxyEU/images/qiime-logo.png)
+<div class="right">
+![scale-40](2018-GalaxyEU/images/mothur-logo.png)
 
-<div class="small">
+![scale-40](2018-GalaxyEU/images/qiime-logo.png)
+</div>
+
+<div class="left small">
 <ul>
-<li> \> 200 tools in metagenomics category in Tool Shed </li>
-<li> 2 large tool suites: Mothur Qiime </li>
-<li> Visualisation tools: Krona, Phinch, Qiime </li>
+<li> \> 250 tools in metagenomics category in Tool Shed </li><br>
+<li> 2 large tool suites</li>
+ <ul><li>Mothur</li><li>Qiime</li></ul><br>
+<li> Visualisation tools </li>
+ <ul>
+  <li>Krona</li>
+  <li>Phinch</li>
+ </ul><br>
 <li> PICRUSt </li>
- <ul><li>functional content prediction based on phylogeny</li></ul>
+ <ul><li>functional content prediction based on phylogeny</li></ul><br>
 <li> .. </li>
 </ul>
 </div>
