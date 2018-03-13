@@ -281,6 +281,11 @@ Note:
 <div class="right">
 ![](2018-GalaxyEU/images/16S-gene-ecoli.png)
 </div>
+
+Note:
+- where shotgun was looking at whole puzzle, this is more like
+  looking at only topleft corner of each puzzle
+
 ---
 
 ### 16S rRNA gene
@@ -452,6 +457,7 @@ TODO: move bias image til after explanation of OTUs?
 <li>Every DNA molecule amplified individually</li>
  <ul><li> ~10^10 compartments</li></ul>
 <li>Addition of **internal control** for quantification</li>
+  <ul><li>tetramix - mix of 4 known species at known quantities</li></ul>
 <li>Improves microbiota analyses (doi: 10.1038/srep14181)</li>
 </ul>
 </div>
@@ -476,18 +482,26 @@ Note:
 - clusters of closely related sequences
 - proxy for species/genus (97%=species, but perhaps not too reliable)
 - control for sequencing/PCR errors
-- for amplicon data, not done so much in shotgun
+- for amplicon data, this is not done so much in shotgun
 -
 
 ---
 
 ### OTU Clustering
 
+<div class="left small">
 3 main ways to do OTU picking:
-  - De novo
-  - Closed reference
-  - Open reference
+<ul>
+ <li>De novo</li>
+ <li>Closed reference</li>
+ <li>Open reference</li>
+</ul>
+<div>
 
+<div class="right">
+![](2018-GalaxyEU/images/otu-clusters.png)
+![](2018-GalaxyEU/images/otu-clustering-reference-based.png)
+</div>
 
 Note:
 OTU definition (taxonomy, sequence similarity, phylogeny)
@@ -502,28 +516,53 @@ algorithm (hierarchical clustering, seed-based, model-based)
 
 ---
 
-### Rarefaction
+### Alpha Diversity
 
-QC: Have I captured the full diversity of my sample?
+Diversity *within* a sample
 
-![](2018-GalaxyEU/images/rarefaction.gif)
+![scale-50](2018-GalaxyEU/images/alpha-diversity.png)
 
-calculate alpha diversity for randomly selected subset of sequences in each sample
+<div class="small alignleft"
+<ul>
+ <li>Naive: just number of OTUs</li>
+ <ul>
+  <li>Doesnt take into account relatedness of OTUs</li>
+  <li>Doesnt take into account relative distribution</li>
+  <ul>
+   <li>3 species at 98%,1%,1%</li>
+   <li>3 species at 33%,33%,33%</li>
+  </ul>
+ </ul>
+</ul>
+</div>
+
 
 ---
 
 ### Alpha Diversity
 
-Diversity *within* a sample
+<div class="block small">
+*"As many diversity measures as there are ambitious ecologists"*
+<br>
+shannon, chao, pd, ace, simpson, sobs, jack, npshannon, smithwilson
+bergerparker, boney, efron, shen, solow, bootstrap, qstat, coverage, anderberg,
+hamming, jclass, jest, ochiai, canberra, thetayc, ...
+</div>
 
-- naive: just number of OTUs
-- doesnt take into account relatedness of OTUs
-- doesnt take into account relative disstribution
-   - 3 species at 98%,1%,1%
-   - 3 species at 33%,33%,33%
+<div class="small">
+https://www.mothur.org/wiki/Calculators
+</div>
 
-- As many diversity measures as there are ambitious ecologists
-   - shannon, chao, .. ..
+---
+
+### Rarefaction
+
+Have I captured the full diversity of my sample?
+
+![](2018-GalaxyEU/images/rarefaction.gif)
+
+calculate alpha diversity for randomly selected subset of sequences in each sample
+
 
 ---
 
@@ -637,13 +676,57 @@ doi: 10.1101/009944
 <li> 5 samples from different locations</li>
 <li> No culture data available</li>
 <br>
-<li> Staphylococcus - 3, 53, 10, 742, 1072K gene copies</li>
+<li> Staphylococcus - 1.3K, 53K, 10K, 742K, 1072K gene copies</li>
   <ul><li> most likely contaminations during operation</li></ul>
 
 </ul>
 </div>
 <div class="right">
 ![](2018-GalaxyEU/images/hipimplant.jpg)
+</div>
+
+
+---
+
+Results: Case 4
+
+<div class="left small">
+<ul>
+<li>Arthritis patient</li>
+<li>Culture Negative</li>
+<br>
+<li>Neisseria meningitidis - 895K copies</li>
+ <ul>
+  <li>inhabitant of the throat</li>
+  <li>causative agent of bacterial meningitis</li>
+  <li>probably not culturable due to use of antibiotics</li>
+ </ul>
+
+</ul>
+</div>
+
+<div class="right">
+![](2018-GalaxyEU/images/arthritis.png)
+</div>
+
+---
+
+Results: Case 5
+
+<div class="left small">
+<ul>
+<li>Arthritis patient</li>
+<li>Culture Negative</li>
+<br>
+<li>Ureaplasma - 1200 copies</li>
+ <ul>
+  <li>not culturable in routine diagnostics</li>
+ </ul>
+</ul>
+</div>
+
+<div class="right">
+![](2018-GalaxyEU/images/arthritis.png)
 </div>
 
 ---
@@ -672,6 +755,8 @@ https://training.galaxyproject.org
   <li>Youri Hoogstrate</li>
   <li>David van Zessen</li>
   <li>Yunlei Li</li>
+  <li>Bas Horsman</li>
+  <li>Rick Jansen</li>
  </ul>
 <br>
 <li>**ErasmusMC Clinical Microbiology**</li>
@@ -682,7 +767,9 @@ https://training.galaxyproject.org
  <br>
 <li>**Streeklab Haarlem**</li>
  <ul>
-  <li>Ruud Jansen</li>
+  <li>Ruud Jansen</li>i
+  <li>Linda van de Nes-Reijnen</li>
+  <li>Wil van der Reijden</li>
   <li>Elana Meijer</li>
  </ul>
 </ul>
@@ -707,8 +794,8 @@ https://training.galaxyproject.org
 
 <ul>
 <li> C++ </li>
-<li> reimplements methods</li>
-<li> visualisations mostly not included</li>
+<li> Reimplements methods</li>
+<li> Visualisations mostly not included</li>
 <li> Open Source </li>
 </ul>
 
@@ -718,10 +805,10 @@ https://training.galaxyproject.org
 ![scale-40](2018-GalaxyEU/images/qiime-logo.png)
 
 <ul>
-<li>python</li>
-<li>wraps existing methods </li>
-<li>better visualisations </li>
-<li> Open Source, but wraps some closed-source components </li>
+<li>Python</li>
+<li>Wraps existing methods </li>
+<li>Better visualisations </li>
+<li>Open Source, but wraps some closed-source components </li>
 </ul>
 </div>
 </div>
@@ -732,8 +819,10 @@ Note:
 
 - both work well and are very similar
 - comes down to personal preference
+- mothur faster cuz C/C++
 - qiime better visualisations, but works with biom so can use it on mothur data as well
-- qiime2 released as VM, packaging more difficult
+- qiime proprietary components (e.g. USEARCH)
+
 
 ---
 
