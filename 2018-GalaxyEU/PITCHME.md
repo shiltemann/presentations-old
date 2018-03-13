@@ -480,7 +480,7 @@ TODO: move bias image til after explanation of OTUs?
 
 Note:
 - clusters of closely related sequences
-- proxy for species/genus (97%=species, but perhaps not too reliable)
+- proxy for species/genus (97%=species, but perhaps too close to sequencing error territory to be reliable)
 - control for sequencing/PCR errors
 - for amplicon data, this is not done so much in shotgun
 -
@@ -490,13 +490,38 @@ Note:
 ### OTU Clustering
 
 <div class="left small">
-3 main ways to do OTU picking:
 <ul>
- <li>De novo</li>
- <li>Closed reference</li>
- <li>Open reference</li>
+ <li>Clustering Approaches:</li>
+ <ul>
+  <li>De novo</li>
+ </ul>
 </ul>
-<div>
+</div>
+
+<div class="right">
+![](2018-GalaxyEU/images/otu-clusters.png)
+![](2018-GalaxyEU/images/otu-clustering-reference-based-placeholder.png)
+</div>
+
+Note:
+OTU definition (taxonomy, sequence similarity, phylogeny)
+clustering strategy (de novo, open reference, closed reference)
+distance metrics (pairwise alignment, multiple alignment, alignment-free)
+algorithm (hierarchical clustering, seed-based, model-based)
+
+---
+
+### OTU Clustering
+
+<div class="left small">
+<ul>
+ <li>Clustering Approaches:</li>
+ <ul>
+  <li>De novo</li>
+  <li>Closed reference</li>
+ </ul>
+</ul>
+</div>
 
 <div class="right">
 ![](2018-GalaxyEU/images/otu-clusters.png)
@@ -512,6 +537,73 @@ algorithm (hierarchical clustering, seed-based, model-based)
 
 ---
 
+### OTU Clustering
+
+<div class="left small">
+<ul>
+ <li>Clustering Approaches:</li>
+ <ul>
+  <li>De novo</li>
+  <li>Closed reference</li>
+  <li>Open Reference</li>
+ </ul>
+</ul>
+</div>
+
+<div class="right">
+![](2018-GalaxyEU/images/otu-clusters.png)
+![](2018-GalaxyEU/images/otu-clustering-reference-based.png)
+</div>
+
+Note:
+OTU definition (taxonomy, sequence similarity, phylogeny)
+clustering strategy (de novo, open reference, closed reference)
+distance metrics (pairwise alignment, multiple alignment, alignment-free)
+algorithm (hierarchical clustering, seed-based, model-based)
+
+---
+
+
+### OTU Clustering
+
+<div class="left small">
+<ul>
+ <li>Clustering Approaches:</li>
+ <ul>
+  <li>De novo</li>
+  <li>Closed reference</li>
+  <li>Open reference</li>
+ </ul>
+ <br>
+ <li>Distance Metrics</li>
+ <ul>
+  <li>Pairwise sequence alignment</li>
+  <li>Multiple sequence alignment</li>
+  <li>Alignment-free</li>
+ </ul>
+ <br>
+ <li>Algorithms</li>
+ <ul>
+  <li>Hierarchical clustering</li>
+  <li>Seed-based clustering</li>
+  <li>Model-based clustering</li>
+ </ul>
+</ul>
+</div>
+
+<div class="right">
+![](2018-GalaxyEU/images/otu-clusters.png)
+![](2018-GalaxyEU/images/otu-clustering-reference-based.png)
+</div>
+
+Note:
+OTU definition (taxonomy, sequence similarity, phylogeny)
+clustering strategy (de novo, open reference, closed reference)
+distance metrics (pairwise alignment, multiple alignment, alignment-free)
+algorithm (hierarchical clustering, seed-based, model-based)
+
+---
+
 ### Distance Metrics
 
 ---
@@ -520,21 +612,36 @@ algorithm (hierarchical clustering, seed-based, model-based)
 
 Diversity *within* a sample
 
-![scale-50](2018-GalaxyEU/images/alpha-diversity.png)
+![scale-90](2018-GalaxyEU/images/alpha-diversity.png)
 
-<div class="small alignleft"
+
+---
+
+### Alpha Diversity
+
+
+<div class="small left70">
 <ul>
- <li>Naive: just number of OTUs</li>
+ <li>Simple approach: count number of OTUs</li>
+ <br>
+ <li>Doesnt take into account relatedness of OTUs</li>
+  <ul><li>Phylogenetic distance metrics</li></ul>
+ <br>
+ <li>Doesnt take into account relative distribution</li>
  <ul>
-  <li>Doesnt take into account relatedness of OTUs</li>
-  <li>Doesnt take into account relative distribution</li>
-  <ul>
-   <li>3 species at 98%,1%,1%</li>
-   <li>3 species at 33%,33%,33%</li>
-  </ul>
+  <li>Sample A: 3 species at 98%,1%,1%</li>
+  <li>Sample B: 3 species at 33%,33%,33%</li>
  </ul>
 </ul>
 </div>
+
+<div class="right30">
+![](2018-GalaxyEU/images/phylogenetic-distance.png)
+</div>
+
+Note:
+- PD: sum of branch lengths
+- in our pipeline we report several diversity metrics
 
 
 ---
@@ -543,7 +650,7 @@ Diversity *within* a sample
 
 <div class="block small">
 *"As many diversity measures as there are ambitious ecologists"*
-<br>
+<br><br>
 shannon, chao, pd, ace, simpson, sobs, jack, npshannon, smithwilson
 bergerparker, boney, efron, shen, solow, bootstrap, qstat, coverage, anderberg,
 hamming, jclass, jest, ochiai, canberra, thetayc, ...

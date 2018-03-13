@@ -2,5 +2,9 @@
 theme-override : 2018-GalaxyEU/css/PITCHME.css
 background : 2018-GalaxyEU/images/background4.jpg
 #logo : assets/images/logo.png
-#transition : none
+
+# convex, concave, default, fade, none, slide and zoom (default: slide)
+transition : none
+
+# hides things like theme changer from menu
 #published : true
