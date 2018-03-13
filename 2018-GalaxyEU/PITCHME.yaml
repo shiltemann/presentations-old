@@ -4,7 +4,7 @@ background : 2018-GalaxyEU/images/background4.jpg
 #logo : assets/images/logo.png
 
 # convex, concave, default, fade, none, slide and zoom (default: slide)
-transition : none
+transition : fade
 
 # hides things like theme changer from menu
 #published : true

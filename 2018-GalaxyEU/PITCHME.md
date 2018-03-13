@@ -402,6 +402,46 @@ TODO: move bias image til after explanation of OTUs?
 </ul>
 </div>
 
++++
+
+### Mothur vs Qiime
+
+
+<div class="block">
+<div class="left small">
+![scale-40](2018-GalaxyEU/images/mothur-logo.png)
+
+<ul>
+<li> C++ </li>
+<li> Reimplements methods</li>
+<li> Visualisations mostly not included</li>
+<li> Open Source </li>
+</ul>
+
+</div>
+
+<div class="right small">
+![scale-40](2018-GalaxyEU/images/qiime-logo.png)
+
+<ul>
+<li>Python</li>
+<li>Wraps existing methods </li>
+<li>Better visualisations </li>
+<li>Open Source, but wraps some closed-source components </li>
+</ul>
+</div>
+</div>
+
+http://blog.mothur.org/2016/01/12/mothur-and-qiime/
+
+Note:
+
+- both work well and are very similar
+- comes down to personal preference
+- mothur faster cuz C/C++
+- qiime better visualisations, but works with biom so can use it on mothur data as well
+- qiime proprietary components (e.g. USEARCH)
+
 ---
 
 ### Chimera removal
@@ -577,8 +617,8 @@ algorithm (hierarchical clustering, seed-based, model-based)
  <br>
  <li>Distance Metrics</li>
  <ul>
-  <li>Pairwise sequence alignment</li>
-  <li>Multiple sequence alignment</li>
+  <li>Pairwise alignment</li>
+  <li>Multiple alignment</li>
   <li>Alignment-free</li>
  </ul>
  <br>
@@ -604,7 +644,30 @@ algorithm (hierarchical clustering, seed-based, model-based)
 
 ---
 
-### Distance Metrics
+### Assigning Taxonomy
+
+- Rich databases
+ - SILVA
+ - Green Genes
+
+![](2018-GalaxyEU/images/silva-greengenes.png)
+
+Note:
+- often done after OTU clustering, but not necessarily
+
+---
+
+### Diversity metrics
+
+- Alpha Diversity
+- Beta Diversity
+
+Note:
+Alpha diversity: diversity within 1 sample
+Beta diversity: diversity between samples
+
+in our case: every patient considered on its own, so only alpha diversity
+is considered.
 
 ---
 
@@ -670,19 +733,6 @@ Have I captured the full diversity of my sample?
 
 calculate alpha diversity for randomly selected subset of sequences in each sample
 
-
----
-
-### Beta Diversity
-
-Diversity *between* samples
-
-
----
-
-### Assigning Taxonomy
-
-SILVA, greengenes
 
 ---
 
@@ -874,7 +924,7 @@ https://training.galaxyproject.org
  <br>
 <li>**Streeklab Haarlem**</li>
  <ul>
-  <li>Ruud Jansen</li>i
+  <li>Ruud Jansen</li>
   <li>Linda van de Nes-Reijnen</li>
   <li>Wil van der Reijden</li>
   <li>Elana Meijer</li>
@@ -890,45 +940,7 @@ https://training.galaxyproject.org
 ---
 
 
----
 
-### Mothur vs Qiime
-
-
-<div class="block">
-<div class="left small">
-![scale-40](2018-GalaxyEU/images/mothur-logo.png)
-
-<ul>
-<li> C++ </li>
-<li> Reimplements methods</li>
-<li> Visualisations mostly not included</li>
-<li> Open Source </li>
-</ul>
-
-</div>
-
-<div class="right small">
-![scale-40](2018-GalaxyEU/images/qiime-logo.png)
-
-<ul>
-<li>Python</li>
-<li>Wraps existing methods </li>
-<li>Better visualisations </li>
-<li>Open Source, but wraps some closed-source components </li>
-</ul>
-</div>
-</div>
-
-http://blog.mothur.org/2016/01/12/mothur-and-qiime/
-
-Note:
-
-- both work well and are very similar
-- comes down to personal preference
-- mothur faster cuz C/C++
-- qiime better visualisations, but works with biom so can use it on mothur data as well
-- qiime proprietary components (e.g. USEARCH)
 
 
 ---
