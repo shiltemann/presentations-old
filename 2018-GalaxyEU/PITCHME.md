@@ -655,18 +655,18 @@ algorithm (hierarchical clustering, seed-based, model-based)
 ![](2018-GalaxyEU/images/silva-greengenes.png)
 
 <div class="small">
-Comparison: doi: 10.1186/s12864-017-3501-4
+Comparison: 10.1186/s12864-017-3501-4
 </div>
 
 Note:
 - often done after OTU clustering, but not necessarily
 - GreenGenes not updated since 2013
 
-+++
+---
 
 ### Assigning taxonomy
 
-![](2018-GalaxyEU/images/taxonomy-methods.jpeg)
+![scale-70](2018-GalaxyEU/images/taxonomy-methods.jpeg)
 
 <div class="tiny">
 doi: 10.1093/nar/gkn491
