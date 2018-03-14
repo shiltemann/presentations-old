@@ -649,7 +649,7 @@ algorithm (hierarchical clustering, seed-based, model-based)
 - Rich databases
  - SILVA
  - Green Genes
- - RDP
+ - RDP Classifier
  - NCBI
 
 ![](2018-GalaxyEU/images/silva-greengenes.png)
@@ -661,6 +661,22 @@ Comparison: doi: 10.1186/s12864-017-3501-4
 Note:
 - often done after OTU clustering, but not necessarily
 - GreenGenes not updated since 2013
+
++++
+
+### Assigning taxonomy
+
+![](2018-GalaxyEU/images/taxonomy-methods.jpeg)
+
+<div class="tiny">
+doi: 10.1093/nar/gkn491
+</div>
+
+Note:
+
+- each box a different dataset
+- each row a different clasisfication method
+- conclusion: choice of classifier has great impact on species identified
 
 ---
 
