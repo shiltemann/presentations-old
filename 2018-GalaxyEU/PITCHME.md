@@ -15,13 +15,13 @@ Saskia Hiltemann
 - Analysis pipeline
 - Clinical Results
 
----
++++
 
 ### Microbiota
 
 ![Video](https://www.youtube.com/embed/htbeJhtFAXw)
 
----
++++
 
 ### A Brief History
 
@@ -51,7 +51,7 @@ In 1676 he turned his microscope at a drop of rain water and was surprised to fi
 what looked like tiny animals, which he called **animalcules**
 
 
----
++++
 
 Pasteur: Food spoilage
 von Koch: Germ theory
@@ -189,8 +189,9 @@ Antibitics kill gut
    <li> Medium determines what grows</li>
    <li> Some species difficult to culture</li>
   </ul><br>
- <li>Pilot study: 16S rRNA sequencing</li>
+ <li>Pilot study: MYcrobiota</li>
    <ul>
+   <li> 16S rRNA sequencing</li>
    <li> Can this augment current practices?</li>
   </ul>
 </ul>
@@ -207,7 +208,7 @@ Note:
 
 ---
 
-### Experimental Design
+### MYcrobiota: Experimental Design
 
 <div class="left small">
 
@@ -216,11 +217,14 @@ Note:
  <li> 16S rRNA Amplicon Sequencing</li>
  <li> Micelle PCR </li>
  <br>
- <li> 3 technical replicates </li>
- <li> Negative control sample </li>
+ <li> 3 technical replicates per sample </li>
+ <li> 1 Negative control sample </li>
    <ul><li>correct background contamination</li></ul>
- <li> Internal control sample </li>
-  <ul><li>estimate number of copies</li></ul>
+ <li> 1 Internal control sample </li>
+  <ul>
+   <li>known species at a known quantity</li>
+   <li>estimate number of copies</li>
+ </ul>
 </ul>
 </div>
 
@@ -496,8 +500,10 @@ Note:
 <ul>
 <li>Every DNA molecule amplified individually</li>
  <ul><li> ~10^10 compartments</li></ul>
+<li>Addition of **Negative control**</li>
+  <ul><li>remove background contamination</li</ul>
 <li>Addition of **internal control** for quantification</li>
-  <ul><li>tetramix - mix of 4 known species at known quantities</li></ul>
+  <ul><li>known species at known quantities</li></ul>
 <li>Improves microbiota analyses (doi: 10.1038/srep14181)</li>
 </ul>
 </div>
@@ -505,6 +511,8 @@ Note:
 <div class="right30">
 ![scale-70](2018-GalaxyEU/images/micelle.png)
 </div>
+
+
 ---
 
 ### OTU Clustering
@@ -666,7 +674,7 @@ Note:
 
 ### Assigning taxonomy
 
-![scale-70](2018-GalaxyEU/images/taxonomy-methods.jpeg)
+![](2018-GalaxyEU/images/taxonomy-methods.jpeg)
 
 <div class="tiny">
 doi: 10.1093/nar/gkn491
@@ -674,9 +682,15 @@ doi: 10.1093/nar/gkn491
 
 Note:
 
+- composition at phylym level
 - each box a different dataset
-- each row a different clasisfication method
+- each subpanel (row) a different clasisfication method
+- x-axis: region sequenced
+- y-axis: abundance as fraction of total
 - conclusion: choice of classifier has great impact on species identified
+
+figure legend:
+Compositions at the phylum level for each of the three datasets: (a) Guerrero Negro mat, (b) Human gut and (c) Mouse gut, using a range of different methods (separate subpanels within each group). The x-axis of each graph shows region sequenced. The y-axis shows abundance as a fraction of the total number of sequences in the community. The legend shows colors for phyla (consistent across graphs).
 
 ---
 
@@ -732,15 +746,16 @@ Note:
 
 ---
 
-### Alpha Diversity
+### Diversity
 
 <div class="block small">
 *"As many diversity measures as there are ambitious ecologists"*
 <br><br>
-shannon, chao, pd, ace, simpson, sobs, jack, npshannon, smithwilson
+shannon, chao, pd, ace, simpson, sobs, jack, npshannon, smithwilson, heip
 bergerparker, boney, efron, shen, solow, bootstrap, qstat, coverage, anderberg,
-hamming, jclass, jest, ochiai, canberra, thetayc, ...
+hamming, jclass, jest, ochiai, canberra, thetayc, invsimpson, ...
 </div>
+
 
 <div class="small">
 https://www.mothur.org/wiki/Calculators
@@ -765,6 +780,19 @@ calculate alpha diversity for randomly selected subset of sequences in each samp
 - OTU must be present in all of them
 - subtract background sample ("empty sample")
 - relative abundance -> copies (using internal control)
+
+---
+
+### Post-processing
+
+![](2018-GalaxyEU/images/negative-control.jpg)
+
+Note:
+- tetramix: equimolar mix of 4 species
+- 2500 to 2.5 16S rRNA gene copies per bacterial species
+
+Synthetic microbial community (SMC) samples tested comprised equimolar 16S rRNA gene copies derived from C. perfringens, S. aureus, H. influenzae, and M. catarrhalis and ranging from 2,500 to 2.5 16S rRNA gene copies per bacterial species. Averages of triplicate micPCR/NGS and triplicate traditional PCR/NGS results are shown in 100% stacked bars before and after correction for contaminating bacterial DNA. The correction of contaminating bacterial DNA comprises two steps: 1) eliminating OTUs that could not be reproducibly measured in triplicate experiments, and 2) subtracting 16S rRNA gene copies that were also quantified in triplicate measurements of a negative extraction control (NEC) sample. Values within bars represent the calculated number of 16S rRNA gene copies per bacterial OTU.i
+
 
 ---
 
@@ -838,84 +866,100 @@ Note:
 
 CFU: Colony Forming Unit
 
+---
+
+### Results: Septic Arthritis
+
+<div class="left70 small">
+<ul>
+ <li>19 patients</li>
+ <li>Suspected septic arthritis</li>
+ <li>Culture negative</li>
+
+ <br>
+ <li>MYcrobiota:</li>
+ <ul>
+  <li>confirmed 12/19 negative cultures</li>
+  <li>detected bacteria in 7/19 negative cultures</li>
+  <ul>
+   <li>Parvimonasi, Prevotella, Ruminococcus</li>
+   <li>Kingella -> confirmed with Kingella kingae specific PCR</li>
+   <li>Ureaplasma </li>
+   <li>Enterococus, Turicella</li>
+  </ul>
+ </ul>
+
+
+</ul>
+</div>
+
+<div class="right30">
+![](2018-GalaxyEU/images/arthritis.png)
+</div>
+
 
 ---
 
-### Results: Arthritis
+### Results: Septic Arthritis
 
 
-<div class="left small">
+<div class="left70 small">
 <ul>
-<li>Arthritis patient</li>
+<li>Suspected Septic Arthritis patient</li>
 <li>History of dental extraction</li>
 <li>Culture negative</li>
 <br>
 
-<li>Result: Prevotella denticola - 70.000 copies</li>
+<li>MYcrobiota: Prevotella denticola</li>
  <ul>
+  <li>70K copies</li>
   <li>typical inhabitant of the oral flora</li>
   <li>Hard to culture under standard conditions</li>
  </ul>
 </ul>
 </div>
 
-<div class="right">
+<div class="right30">
 ![](2018-GalaxyEU/images/arthritis.png)
 </div>
 
 
 +++
 
-### Results: Arhtritis
+### Results: Septic Arthritis 2
 
-<div class="left small">
+<div class="left70 small">
 <ul>
 <li>Arthritis patient</li>
 <li>History: operation of the intestine</li>
 <li>Culture negative</li>
 <br>
 
-<li>Rhuminococcus species - 192.000 copies</li>
-  <ul><li>Inhabitant of the intestine</li>
+<li>MYcrobiota: Rhuminococcus species</li>
+  <ul>
+  <li>192K copies</li>
+  <li>Inhabitant of the intestine</li>
   <li>Hard to culture under standard conditions</li>
   </ul>
 </ul>
 </div>
 
-<div class="right">
+<div class="right30">
 ![](2018-GalaxyEU/images/arthritis.png)
 </div>
----
 
-### Results: Hip Transplant
++++
 
-<div class="left small">
-<ul>
-<li>Infected hip implant</li>
-<li> 5 samples from different locations</li>
-<li> No culture data available</li>
-<br>
-<li> Staphylococcus - 1.3K, 53K, 10K, 742K, 1072K gene copies</li>
-  <ul><li> most likely contaminations during operation</li></ul>
+### Results: Septic Arthritis 3
 
-</ul>
-</div>
-<div class="right">
-![](2018-GalaxyEU/images/hipimplant.jpg)
-</div>
-
-
----
-
-### Results: Arthritis
-
-<div class="left small">
+<div class="left70 small">
 <ul>
 <li>Arthritis patient</li>
 <li>Culture Negative</li>
 <br>
-<li>Neisseria meningitidis - 895K copies</li>
+<li>MYcrobiota: Neisseria meningitidis</li>
  <ul>
+  <li>895K copies</li>
   <li>inhabitant of the throat</li>
   <li>causative agent of bacterial meningitis</li>
   <li>probably not culturable due to use of antibiotics</li>
@@ -924,28 +968,52 @@ CFU: Colony Forming Unit
 </ul>
 </div>
 
-<div class="right">
+<div class="right30">
 ![](2018-GalaxyEU/images/arthritis.png)
 </div>
 
 +++
 
-### Results: Case 5
+### Results: Septic Arthritis 4
 
-<div class="left small">
+<div class="left70 small">
 <ul>
 <li>Arthritis patient</li>
 <li>Culture Negative</li>
 <br>
-<li>Ureaplasma - 1200 copies</li>
+<li>Ureaplasma</li>
  <ul>
+  <li>1200 copies</li>
   <li>not culturable in routine diagnostics</li>
  </ul>
 </ul>
 </div>
 
-<div class="right">
+<div class="right30">
 ![](2018-GalaxyEU/images/arthritis.png)
+</div>
+
+
+
+---
+
+### Results: Hip Transplant
+
+<div class="left70 small">
+<ul>
+<li>Infected hip implant</li>
+<li> 5 samples from different locations</li>
+<li> No culture data available</li>
+<br>
+<li> Result: Staphylococcus </li>
+  <ul>
+  <li> 1.3K, 53K, 10K, 742K, 1072K gene copies</li>
+  <li> most likely contaminations during operation</li>
+  </ul>
+</ul>
+</div>
+<div class="right30">
+![](2018-GalaxyEU/images/hipimplant.jpg)
 </div>
 
 ---
@@ -964,7 +1032,7 @@ https://training.galaxyproject.org
 
 ### Acknowledgements
 
-<div class="left small">
+<div class="left tiny">
 <br>
 <ul>
  <li>**ErasmusMC Bioinformatics**</li>
