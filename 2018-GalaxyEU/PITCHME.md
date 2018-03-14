@@ -776,16 +776,24 @@ calculate alpha diversity for randomly selected subset of sequences in each samp
 
 ### Post-processing
 
-3 replicates
-- OTU must be present in all of them
-- subtract background sample ("empty sample")
-- relative abundance -> copies (using internal control)
+<div class="left small">
+<ul>
+<li>3 replicates</li>
+ <ul><li>OTU must be present in all of them</li></ul>
+ <br>
+ <li>Negative Extraction Control Sample</li>
+  <ul><li>subtract background sample</li></ul>
+ <br>
+ <li>Internal Control Sample</li>
+  <ul><li>relative abundance -> copies</li></ul>
 
----
+</ul>
+</div>
 
-### Post-processing
+<div class="right">
 
 ![](2018-GalaxyEU/images/negative-control.jpg)
+</div>
 
 Note:
 - tetramix: equimolar mix of 4 species
