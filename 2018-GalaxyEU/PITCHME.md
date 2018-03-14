@@ -11,9 +11,20 @@ Saskia Hiltemann
 
 ### Overview
 
-- Background
+- Background 16S rRNA sequencing
+- Streeklab Haarlem
 - Analysis pipeline
 - Clinical Results
+
+Note:
+
+I will start with a general introduction to 16S rRNA amplicon sequencing
+
+then tell you a bit about a collaboration we have with a diagnostics lab called Streeklab Haarlem
+
+and show you the pipeline we built in Galaxy for their use case
+
+and finally show some of the results from our pilot study with them to bring 16S rRNA sequencing to the clinic
 
 +++
 
@@ -79,11 +90,23 @@ von Koch: Germ theory
 
 Sometimes referred to as your **second genome**
 
+Note:
+
+- many applications in ecology
+  - soil analysis -> agriculture
+
+- as a hospital, we are interested in humans
+- humans are also full of microorganisms
+  - e.g. skin, gut, oral and nasal cavities, lungs, even eyes
+  - impact on health and drug efficacy
+
+
 ---
 
 
 ### Dysbiosis
 
+<div class="block">
 <div class="left small leftalign">
 
 <ul>
@@ -108,13 +131,47 @@ Sometimes referred to as your **second genome**
 
 </div>
 
-<div class="right">
+<div class="right tiny">
 ![unbalanced scale-50](2018-GalaxyEU/images/dysbiosis-balance.png)
 ![diseases](2018-GalaxyEU/images/microbiota-disease.jpg)
 
 </div>
+</div>
 
----
+<div class="tiny">
+doi:10.1038/nri2515
+</div>
+
+Note:
+
+Dysbiosis is a general term for an imbalance in your body's microbiome
+
+A healthy microbiota contains a balanced composition
+of many classes of bacteria.
+
+**Symbionts** are organisms with known health-
+promoting functions.
+
+**Commensals** are permanent residents of this complex ecosystem and provide no benefit
+or detriment to the host (at least to our knowledge).
+
+**Pathobionts** are also permanent residents of the microbiota
+and have the potential to induce pathology.
+
+with **dysbiosis** there is an unnatural shift in the composition of
+the microbiota, which results in either a reduction in the
+numbers of symbionts and/or an increase in the numbers
+of pathobionts.
+
+The causes for this are not entirely clear,
+but are likely to include recent societal advances in
+developed countries. The result is non-specific inflammation,
+which may predispose certain genetically susceptible
+people to inflammatory disease and may be caused by
+pathogens, which are opportunistic organisms that cause
+acute inflammation.
+
++++
 
 ### Dysbiosis
 
@@ -135,8 +192,15 @@ Monoculture
 </div>
 </div>
 
+
 Note:
-Antibitics kill gut
+There are many causes of dysbiosis, but one of thm is improper use of antibiotics
+
+Imaging a healthy microbiome as a lush, green rainforest
+
+When you administer antibiototics it is as if you burn this forest to the ground
+
+But this can lead to a situation where a single species can
 
 
 ---
@@ -1031,10 +1095,9 @@ CFU: Colony Forming Unit
 <div class="small">
 <ul>
  <li>MYcrobiota offers very precise quantitative microbiota analyses</li>
- <li>can provide valuable insight in cases where cultures were negative</li>
+ <li>Can provide valuable insight in cases where cultures were negative</li>
  <li>Well suited for samples with low biomass</li>
  <li>Clinicians can use it without bioinformatics expertise needed</li>
- <li>reports can be downloaded, shared, etc</li>
 </ul>
 </div>
 ---
