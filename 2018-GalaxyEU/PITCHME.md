@@ -649,11 +649,18 @@ algorithm (hierarchical clustering, seed-based, model-based)
 - Rich databases
  - SILVA
  - Green Genes
+ - RDP
+ - NCBI
 
 ![](2018-GalaxyEU/images/silva-greengenes.png)
 
+<div class="small">
+Comparison: doi: 10.1186/s12864-017-3501-4
+</div>
+
 Note:
 - often done after OTU clustering, but not necessarily
+- GreenGenes not updated since 2013
 
 ---
 
@@ -770,6 +777,9 @@ doi: 10.1186/1471-2105-12-385
 doi: 10.1101/009944
 </div>
 
+Note:
+- useful for multi-sample analyses
+
 
 ---
 
@@ -779,7 +789,43 @@ doi: 10.1101/009944
 
 ---
 
-### Results: Case 1
+### Results: Post-operative wounds
+
+<div class="left">
+![](2018-GalaxyEU/images/cultures.png)
+</div>
+
+
+<div class="right">
+![](2018-GalaxyEU/images/miseq2.png)
+</div>
+
+<div class="tiny">
+<table>
+<tr><td>Taxonomy</td><td>CFU</td><td>%</td>   <td>Taxonomy</td><td>Copies</td><td>%</td></tr>
+<tr><td>Skin flora</td><td>+</td><td>33%</td>  <td>Anaerobic bacteria (12)</td><td>251.692</td><td>87%</td> </tr>
+<tr><td>Staphylococcus aureus</td><td>++</td><td>67%</td>   <td>Streptococcus</td><td>30.408</td><td>10%</td></tr>
+<tr><td></td>                     <td></td>   <td></td>     <td>Staphylococcus aureus</td><td>8.960</td><td>3%</td></tr>
+</table>
+
+</div>
+
+<br>
+
+<div class="small">
+<ul>
+ <li>Identify and quantify anaerobic bacteria just as easily as aerobic bacteria</li>
+</ul>
+</div>
+
+Note:
+
+CFU: Colony Forming Unit
+
+
+---
+
+### Results: Arthritis
 
 
 <div class="left small">
@@ -802,9 +848,9 @@ doi: 10.1101/009944
 </div>
 
 
----
++++
 
-### Results: Case 2
+### Results: Arhtritis
 
 <div class="left small">
 <ul>
@@ -825,7 +871,7 @@ doi: 10.1101/009944
 </div>
 ---
 
-### Results: Case 3
+### Results: Hip Transplant
 
 <div class="left small">
 <ul>
@@ -845,7 +891,7 @@ doi: 10.1101/009944
 
 ---
 
-Results: Case 4
+### Results: Arthritis
 
 <div class="left small">
 <ul>
@@ -866,9 +912,9 @@ Results: Case 4
 ![](2018-GalaxyEU/images/arthritis.png)
 </div>
 
----
++++
 
-Results: Case 5
+### Results: Case 5
 
 <div class="left small">
 <ul>
