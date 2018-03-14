@@ -1028,12 +1028,15 @@ CFU: Colony Forming Unit
 
 ### Conclusion
 
-- MYcrobiota offers very precise quantitative microbiota analyses
-- can provide valuable insight in cases where cultures were negative
-- Well suited for samples with low biomass
-- Clinicians can use it without bioinformatics expertise needed
-- reports can be downloaded, shared, etc
-
+<div class="small">
+<ul>
+ <li>MYcrobiota offers very precise quantitative microbiota analyses</li>
+ <li>can provide valuable insight in cases where cultures were negative</li>
+ <li>Well suited for samples with low biomass</li>
+ <li>Clinicians can use it without bioinformatics expertise needed</li>
+ <li>reports can be downloaded, shared, etc</li>
+</ul>
+</div>
 ---
 
 ### Training Materials
