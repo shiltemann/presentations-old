@@ -730,6 +730,7 @@ algorithm (hierarchical clustering, seed-based, model-based)
   <li>Tree based methods</li>
   <li>Machine learning</li>
  </ul>
+ <br>
  <li>Reference Databases</li>
  <ul>
   <li>SILVA</li>
