@@ -738,11 +738,11 @@ algorithm (hierarchical clustering, seed-based, model-based)
   <li>NCBI</li>
  </ul>
 </ul>
-![](2018-GalaxyEU/images/silva-greengenes.png)
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/taxonomic-classification.jpeg)
+![scale-70](2018-GalaxyEU/images/taxonomic-classification.jpeg)
+![](2018-GalaxyEU/images/silva-greengenes.png)
 </div>
 </div>
 
