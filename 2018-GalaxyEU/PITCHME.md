@@ -116,7 +116,9 @@ Note:
 <div class="left small leftalign">
 
 <ul>
-<li> Microbial imbalance in the body </li><br>
+<li> Microbial imbalance in the body </li>
+<ul><li>Symbionts, Commensals, Pathobionts</li></ul>
+<br>
 
 <li> Causes </li>
  <ul>
@@ -124,7 +126,6 @@ Note:
   <li> Lifestyle (diet, stress) </li>
   <li> Host genetics </li>
   <li> Medications </li>
-  <li> Improper use of antibiotics </li>
  </ul><br>
 
 <li> Linked to a large number of diseases </li>
