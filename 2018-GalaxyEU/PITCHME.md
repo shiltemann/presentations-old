@@ -574,7 +574,7 @@ Note:
 <li>Every DNA molecule amplified individually</li>
  <ul><li> ~10^10 compartments</li></ul>
 <li>Addition of **Negative control**</li>
-  <ul><li>remove background contamination</li</ul>
+  <ul><li>remove background contamination</li></ul>
 <li>Addition of **internal control** for quantification</li>
   <ul><li>known species at known quantities</li></ul>
 <li>Improves microbiota analyses (doi: 10.1038/srep14181)</li>
