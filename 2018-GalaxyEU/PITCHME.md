@@ -746,7 +746,7 @@ algorithm (hierarchical clustering, seed-based, model-based)
 </div>
 </div>
 
-<div class="small">
+<div class="tiny">
 Comparison: [10.1186/s12864-017-3501-4]((https://doi.org/10.1186/s12864-017-3501-4), [10.1093/nar/gkn491](https://doi.org/10.1093/nar/gkn491)
 </div>
 
