@@ -521,6 +521,12 @@ Note:
 
 ---
 
+### Pre-processing
+
+![](2018-GalaxyEU/images/preprocessing.png)
+
+---
+
 ### Chimera removal
 
 
