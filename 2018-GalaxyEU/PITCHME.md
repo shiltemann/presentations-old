@@ -76,9 +76,13 @@ von Koch: Germ theory
 <div class="left small middle">
 <br><br>
 <ul>
+  <li>skin, gut, oral cavity, lungs, eyes, ..</li>
+  <br>
   <li> > 10 times more cells than you </li>
   <li> > 100 times more genes than you </li>
   <li> > 1000 different species </li>
+  <br>
+  <li> Impacting health, drug efficacy </li>
 </ul>
 </div>
 <div class="right">
