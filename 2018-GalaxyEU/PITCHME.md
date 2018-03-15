@@ -790,6 +790,9 @@ Compositions at the phylum level for each of the three datasets: (a) Guerrero Ne
 
 ![](2018-GalaxyEU/images/otutable.png)
 
+Note:
+domain, kingdom, phylum, class, order, family, genus, species
+
 ---
 
 ### Diversity metrics
