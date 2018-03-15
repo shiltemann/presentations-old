@@ -786,6 +786,12 @@ Compositions at the phylum level for each of the three datasets: (a) Guerrero Ne
 
 ---
 
+### OTU table
+
+![](2018-GalaxyEU/images/otutable.png)
+
+---
+
 ### Diversity metrics
 
 - Alpha Diversity
