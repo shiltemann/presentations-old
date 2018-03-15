@@ -720,16 +720,33 @@ algorithm (hierarchical clustering, seed-based, model-based)
 
 ### Assigning Taxonomy
 
-- Rich databases
- - SILVA
- - Green Genes
- - RDP Classifier
- - NCBI
-
+<div class="block">
+<div class="left small">
+<ul>
+ <li><Methods</li>
+ <ul>
+  <li>Sequence alignment</li>
+  <li>K-mer based methods</li>
+  <li>Tree based methods</li>
+  <li>Machine learning</li>
+ </ul>
+ <li>Reference Databases</li>
+ <ul>
+  <li>SILVA</li>
+  <li>Green Genes</li>
+  <li>RDP</li>
+  <li>NCBI</li>
+ </ul>
+</ul>
 ![](2018-GalaxyEU/images/silva-greengenes.png)
 
+<div class="right">
+![](2018-GalaxyEU/images/taxonomic-classification.jpeg)
+</div>
+</div>
+
 <div class="small">
-Comparison: 10.1186/s12864-017-3501-4
+Comparison: 10.1186/s12864-017-3501-4, [10.1093/nar/gkn491](https://doi.org/10.1093/nar/gkn491)
 </div>
 
 Note:
