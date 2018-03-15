@@ -78,7 +78,7 @@ von Koch: Germ theory
 <ul>
   <li>Humans are full of micro-organisms</li>
   <ul>
-   <li>skin, gut, oral cavity, lungs, eyes, ..</li>
+   <li> Skin, gut, oral cavity, lungs, eyes, ..</li>
    <li> Impacting health, drug efficacy </li>
   </ul>
   <br>
