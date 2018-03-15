@@ -523,7 +523,7 @@ Note:
 
 ### Pre-processing
 
-![](2018-GalaxyEU/images/preprocessing.png)
+![scale-70](2018-GalaxyEU/images/preprocessing.png)
 
 - many ways to filter and trim your data
 - tradeoff between quality and amount of information retained
