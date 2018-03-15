@@ -525,6 +525,9 @@ Note:
 
 ![](2018-GalaxyEU/images/preprocessing.png)
 
+- many ways to filter and trim your data
+- tradeoff between quality and amount of information retained
+
 ---
 
 ### Chimera removal
