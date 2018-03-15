@@ -723,7 +723,7 @@ algorithm (hierarchical clustering, seed-based, model-based)
 <div class="block">
 <div class="left small">
 <ul>
- <li><Methods</li>
+ <li>Methods</li>
  <ul>
   <li>Sequence alignment</li>
   <li>K-mer based methods</li>
