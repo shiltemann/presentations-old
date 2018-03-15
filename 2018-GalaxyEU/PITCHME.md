@@ -344,16 +344,12 @@ Note:
    <li>Environmental fungi, plants</li>
  </ul>
 </ul>
-
 ![scale-50](2018-GalaxyEU/images/16S-gene-ecoli.png)
 </div>
 
 
 <div class="right">
-
 ![](2018-GalaxyEU/images/amplicon-puzzles.png)
-
-
 </div>
 
 Note:
