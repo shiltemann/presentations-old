@@ -349,7 +349,7 @@ Note:
 
 
 <div class="right">
-![](2018-GalaxyEU/images/amplicon-puzzles.png)
+![](2018-GalaxyEU/images/amplicon-puzzles2.png)
 </div>
 
 Note:
