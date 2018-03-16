@@ -582,8 +582,6 @@ Note:
 <ul>
 <li>Every DNA molecule amplified individually</li>
  <ul><li> ~10^10 compartments</li></ul>
-<li>Addition of **Negative control**</li>
-  <ul><li>remove background contamination</li></ul>
 <li>Addition of **internal control** for quantification</li>
   <ul><li>known species at known quantities</li></ul>
 <li>Improves microbiota analyses (doi: 10.1038/srep14181)</li>
@@ -802,7 +800,7 @@ Compositions at the phylum level for each of the three datasets: (a) Guerrero Ne
 Note:
 domain, kingdom, phylum, class, order, family, genus, species
 
----
++++
 
 ### Diversity metrics
 
@@ -816,7 +814,7 @@ Beta diversity: diversity between samples
 in our case: every patient considered on its own, so only alpha diversity
 is considered.
 
----
++++
 
 ### Alpha Diversity
 
@@ -825,7 +823,7 @@ Diversity *within* a sample
 ![scale-90](2018-GalaxyEU/images/alpha-diversity.png)
 
 
----
++++
 
 ### Alpha Diversity
 
@@ -854,7 +852,7 @@ Note:
 - in our pipeline we report several diversity metrics
 
 
----
++++
 
 ### Diversity
 
@@ -879,7 +877,7 @@ Have I captured the full diversity of my sample?
 
 ![](2018-GalaxyEU/images/rarefaction.gif)
 
-calculate alpha diversity for randomly selected subset of sequences in each sample
+Calculate diversity for randomly selected subset of sequences in each sample
 
 
 ---
