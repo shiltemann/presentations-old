@@ -26,13 +26,13 @@ and show you the pipeline we built in Galaxy for their use case
 
 and finally show some of the results from our pilot study with them to bring 16S rRNA sequencing to the clinic
 
-+++
+---
 
 ### Microbiota
 
 ![Video](https://www.youtube.com/embed/htbeJhtFAXw)
 
-+++
+---
 
 ### A Brief History
 
@@ -800,7 +800,7 @@ Compositions at the phylum level for each of the three datasets: (a) Guerrero Ne
 Note:
 domain, kingdom, phylum, class, order, family, genus, species
 
-+++
+---
 
 ### Diversity metrics
 
@@ -814,7 +814,7 @@ Beta diversity: diversity between samples
 in our case: every patient considered on its own, so only alpha diversity
 is considered.
 
-+++
+---
 
 ### Alpha Diversity
 
@@ -823,7 +823,7 @@ Diversity *within* a sample
 ![scale-90](2018-GalaxyEU/images/alpha-diversity.png)
 
 
-+++
+---
 
 ### Alpha Diversity
 
@@ -852,7 +852,7 @@ Note:
 - in our pipeline we report several diversity metrics
 
 
-+++
+---
 
 ### Diversity
 
