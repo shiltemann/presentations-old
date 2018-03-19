@@ -1,13 +1,5 @@
-.reveal p, .reveal li, .reveal a{
-	font-size: 0.8em !important;
-}
-
 .reveal div.white {
     color: white;
-}
-
-.reveal .white {
-	color: white;
 }
 
 .reveal div.small {
@@ -31,31 +23,45 @@
 }
 
 .reveal div.left {
-    float: left; width: 45%; margin-left: 5%;
+    float: left;
+    width: 45%;
+    margin-left: 5%;
 }
 
 .reveal div.left70{
-    float: left; width: 65%; margin-left:5%;
+    float: left;
+    width: 65%;
+    margin-left:5%;
 }
 .reveal div.right {
-    float: right; width: 45%; margin-right: 5%;
+    float: right;
+    width: 45%;
+    margin-right: 5%;
 }
 
 .reveal div.right30 {
-    float: right; width: 25%; margin-right: 5%;
+    float: right;
+    width: 25%;
+    margin-right: 5%;
 }
 
+
+/* 3-column format */
 .reveal div.three-left {
-   float: left; width: 30%; margin-left: 5%;
+   float: left;
+   width: 30%;
+   margin-left: 5%;
 }
-
 .reveal div.three-middle {
-	display: inline-block; width: 30%;
+	display: inline-block;
+    width: 30%;
+}
+.reveal div.three-right{
+   float: right;
+   width: 30%;
+   margin-right: 5%;
 }
 
-.reveal div.three-right{
-   float: right; width: 30%; margin-right: 5%;
-}
 
 .reveal div.bottom {
 	float: bottom;
