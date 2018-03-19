@@ -2,14 +2,15 @@
 
 Collection of my slides and presentations
 
-Slides available with [GitPitch](https://gitpitch.com/) under url: 
+Slides available with [GitPitch](https://gitpitch.com/) under url:
 
 `https://gitpitch.com/shiltemann/presentations/slides?p=<subfolder name>`
 
+or via the main slide set, which contains links to all other presentations: [https://gitpitch.com/shiltemann/presentations/slides](https://gitpitch.com/shiltemann/presentations/slides)
 
 ## Links to Presentations
 
-[Metagenomics using Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyEU) @ GalaxyEU conference
+[Microbiota Analysis using Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyEU) @ Galaxy User Conference, Freiburg, March 15-16 2018
 
 ## Presenting slides
 
@@ -18,14 +19,14 @@ Slides available with [GitPitch](https://gitpitch.com/) under url:
 
 ## Developing slides
 
-Slides must be in a file named `PITCHME.md`  
-Slides automatically available at url in following form: 
+Slides must be in a file named `PITCHME.md`
+Slides automatically available at url in following form:
 
 `https://gitpitch.com/$user/$repo/$branch?p=$subdirectory`
 
 Some useful links:
 
-[Asset Sharing](https://github.com/gitpitch/gitpitch/wiki/Asset-Sharing)  
+[Asset Sharing](https://github.com/gitpitch/gitpitch/wiki/Asset-Sharing)
 [Modular Markdown](https://github.com/gitpitch/gitpitch/wiki/Modular-Markdown)
 [Offline Slideshow](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline)
 
@@ -52,7 +53,7 @@ $ python3 -m http.server
 
 ### Include markdown file
 
-NOTE: this only works for the top-level `PITCHME.md` file 
+NOTE: this only works for the top-level `PITCHME.md` file
 
 ```markdown
 ---?include=md/intro.md

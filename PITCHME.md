@@ -6,5 +6,5 @@
 
 ### 2018
 
-- [Galaxy User Conference](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyEU) - March 15-16 - Freiburg
+- [Microbiota Analysis using Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyEU) - Galaxy User Conference, Freiburg, March 15-16
 
