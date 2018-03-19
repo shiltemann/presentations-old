@@ -36,6 +36,10 @@ and finally show some of the results from our pilot study with them to bring 16S
 
 ### A Brief History
 
+---
+
+### Microscopy
+
 <div class="left small center">
 
 <ul>
@@ -63,40 +67,43 @@ what looked like tiny animals, which he called **animalcules**
 
 ---
 
-### A Brief History
+### Spontaneous Generation
 
-<div class="left small">
+<div class="small">
 <ul>
-<li> Disproving Spontaneous Generation</li>
-  <ul>
-  <li>Spallanzani, Pasteur</li>
-  <li>Boiling a broth will kill microbes</li>
-  <li>Will not return unless exposed to air</li>
-  </ul>
-<br>
-<li>Introducing Germ Theory</li>
- <ul>
- <li>Robert Koch</li>
- <li>Microbes cause disease</li>
- </ul>
-![scale-30](2018-GalaxyEU/images/spallanzani.jpg)
-![scale-30](2018-GalaxyEU/images/pasteur.jpeg)
-![scale-30](2018-GalaxyEU/images/robert-koch.jpg)
+<li>Spallanzani (1729–1799), Pasteur (1822–1895)</li>
+<li>Boiling a broth kills microbes, and they will not return unless exposed to air</li>
 </ul>
 </div>
 
-<div class="right">
-![scale-80](2018-GalaxyEU/images/pasteur-experiment.jpeg)
-![scale-80](2018-GalaxyEU/images/koch-postulates.jpeg)
+<div>
+![scale-50](2018-GalaxyEU/images/pasteur-experiment.jpeg)
 </div>
 
 Note:
 
+---
+
+### Germ Theory
+
+<div class="small">
+<ul>
+<li>Robert Koch (1843–1910)</li>
+<li>Demonstrated a causal link between microbes and disease</li>
+</ul>
+</div>
+
+<div>
+![scale-60](2018-GalaxyEU/images/koch-postulates.jpeg)
+</div>
 
 ---
 
 ### Why study the microbiome?
 
+---
+
+### The Microbiome
 
 <div class="block">
 <div class="left small middle">
