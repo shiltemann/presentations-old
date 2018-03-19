@@ -1202,4 +1202,9 @@ https://training.galaxyproject.org
 ![scale-30](2018-GalaxyEU/images/slh-logo.jpg)
 </div>
 
+---
+
+### Questions?
+
+![](assets/images/questions.jpg)
 
