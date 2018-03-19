@@ -87,6 +87,7 @@ what looked like tiny animals, which he called **animalcules**
 
 <div class="right">
 ![scale-80](2018-GalaxyEU/images/pasteur-experiment.jpeg)
+![scale-80](2018-GalaxyEU/images/koch-postulates.jpeg)
 </div>
 
 Note:
