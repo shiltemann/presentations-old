@@ -32,12 +32,15 @@ Some useful links:
 
 
 
-### Offline preview
+### Offline development
+
+Using docker (gitpitch + gitlab), full instructions [here](docker/README.md)
 
 ```bash
-$ cd <path to presentation directory>
-$ python3 -m http.server
+$ cd docker
+$ docker-compose up
 ```
+
 
 ### Set background image for a slide
 

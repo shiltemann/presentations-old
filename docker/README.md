@@ -6,8 +6,8 @@ For offline development of GitPitch presentations.
 
 Start docker images:
 
-```
-docker compose up
+```bash
+docker-compose up
 ```
 
 View presentations:
@@ -40,7 +40,7 @@ $ git commit <your changes>
 $ git push gitpitch
 ```
 
-## Troubleshooting 
+## Troubleshooting
 
 If the background images are not showing, you may need to:
 
@@ -52,9 +52,9 @@ server {
   server_name  gitlab;
   location / {
     proxy_pass http://127.0.0.1:8081;
-} 
+}
 ```
- 
+
 add to `/etc/hosts` file:
 
 ```
