@@ -1,6 +1,3 @@
-<!-- in toplevel PITCHME.md file can use modular markdown to combine md files -->
-
-
 ---?image=assets/images/presentation.png
 
 ## Presentations
