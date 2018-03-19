@@ -34,7 +34,7 @@ Some useful links:
 
 ### Offline development
 
-Using docker (gitpitch + gitlab), full instructions [here](docker/README.md)
+Using docker (gitpitch + gitlab), full instructions [here](docker/)
 
 ```bash
 $ cd docker
