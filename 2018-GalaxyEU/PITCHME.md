@@ -62,11 +62,6 @@ In 1676 he turned his microscope at a drop of rain water and was surprised to fi
 what looked like tiny animals, which he called **animalcules**
 
 
-+++
-
-Pasteur: Food spoilage
-von Koch: Germ theory
-
 ---
 
 ### Why study the microbiome?
@@ -276,6 +271,18 @@ Note:
 - MALDI: Matrix Assisted Laser Desorption/Ionization
 - TOF MS: Time of Flight Mass spectrometry
 
+- Bacteria grown on selective medium
+ - Not all bacteria thrive equally (or at all) on medium
+ - optimized to quickly show known pathogens
+ - but "rest" can also be interesting
+ - anaerobic bacteria are hard to grow in lab
+
+- 16S cannot show antibiotic resistance, and only reliable down to genus level
+- Time: 16S usually equally quick
+ - 16S 2-3 days
+ - cultures: mostly 24-48 hours, some types difficult to culture and can take 2 weeks
+
+- Costs: NGS higher, but when culture is negative, cheaper than hospitalization
 
 ---
 
@@ -1194,53 +1201,5 @@ https://training.galaxyproject.org
 <br>
 ![scale-30](2018-GalaxyEU/images/slh-logo.jpg)
 </div>
-
----
-
-
-
-
-
----
-
-### RDP classifier
-
-- training data
-- naive bayes
-- kmer based
-
-- confidence level: bootstrap
-
----
-
-### Culture
-
-<div class="small">
-<ul>
-<li>Bacteria grown on selective medium</li>
-<li> Bacteria determined by MALDI-TOF MS or eyeballed/biochemically</li>
- <ul>
-  <li> MALDI: Matrix Assisted Laser Desorption/Ionization</li>
-  <li> TOF MS: Time of Flight Mass Spectrometry</li>
- </ul>
-<li> Not all bacteria thrive equally (or at all) on medium</li>
- <ul>
-   <li> optimized to quickly show known pathogens</li>
-   <li> but "rest" can also be interesting</li>
-   <li> anaerobic bacteria are hard to grow in lab</li>
- </ul>
-<li> 16S cannot show antibiotic resistance, and only reliable down to genus level</li>
-<li> 16S usually equally quick</li>
- <ul>
-  <li> 16S 2-3 days</li>
-  <li> cultures: mostly 24-48 hours, some types difficult to culture and can take 2 weeks</li>
- </ul>
-<li> Costs: NGS higher, but when culture is negative, cheaper than hospitalization</li>
-</ul?
-</div>
-
-
-
-
 
 
