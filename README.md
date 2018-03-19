@@ -26,9 +26,9 @@ Slides automatically available at url in following form:
 
 Some useful links:
 
-[Asset Sharing](https://github.com/gitpitch/gitpitch/wiki/Asset-Sharing)
-[Modular Markdown](https://github.com/gitpitch/gitpitch/wiki/Modular-Markdown)
-[Offline Slideshow](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline)
+- [Asset Sharing](https://github.com/gitpitch/gitpitch/wiki/Asset-Sharing)
+- [Modular Markdown](https://github.com/gitpitch/gitpitch/wiki/Modular-Markdown)
+- [Offline Slideshow](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline)
 
 
 
