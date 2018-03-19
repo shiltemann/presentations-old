@@ -61,6 +61,36 @@ Antonie van Leeuwenhoek was Dutch scientist, best known for his work in microsco
 In 1676 he turned his microscope at a drop of rain water and was surprised to find
 what looked like tiny animals, which he called **animalcules**
 
+---
+
+### A Brief History
+
+<div class="left small">
+<ul>
+<li> Disproving Spontaneous Generation</li>
+  <ul>
+  <li>Spallanzani, Pasteur</li>
+  <li>Boiling a broth will kill microbes</li>
+  <li>Will not return unless exposed to air</li>
+  </ul>
+<br>
+<li>Introducing Germ Theory</li>
+ <ul>
+ <li>Robert Koch</li>
+ <li>Microbes cause disease</li>
+ </ul>
+![scale-30](2018-GalaxyEU/images/spallanzani.jpg)
+![scale-30](2018-GalaxyEU/images/pasteur.jpeg)
+![scale-30](2018-GalaxyEU/images/robert-koch.jpg)
+</ul>
+</div>
+
+<div class="right">
+![scale-80](2018-GalaxyEU/images/pasteur-experiment.jpeg)
+</div>
+
+Note:
+
 
 ---
 
