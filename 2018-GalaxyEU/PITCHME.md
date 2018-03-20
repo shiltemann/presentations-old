@@ -32,11 +32,11 @@ and finally show some of the results from our pilot study with them to bring 16S
 
 ![Video](https://www.youtube.com/embed/htbeJhtFAXw)
 
----
++++
 
 ### A Brief History
 
----
++++
 
 ### Microscopy
 
@@ -65,7 +65,7 @@ Antonie van Leeuwenhoek was Dutch scientist, best known for his work in microsco
 In 1676 he turned his microscope at a drop of rain water and was surprised to find
 what looked like tiny animals, which he called **animalcules**
 
----
++++
 
 ### Spontaneous Generation
 
@@ -82,7 +82,7 @@ what looked like tiny animals, which he called **animalcules**
 
 Note:
 
----
++++
 
 ### Germ Theory
 
@@ -100,10 +100,6 @@ Note:
 ---
 
 ### Why study the microbiome?
-
----
-
-### The Microbiome
 
 <div class="block">
 <div class="left small middle">
