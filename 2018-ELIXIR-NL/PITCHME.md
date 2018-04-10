@@ -16,7 +16,7 @@ Erasmus Medical Center
 
 ### Galaxy Training Materials
 
-![scale-20](assets/images/training/cover_art.png)
+![scale-40](assets/images/training/cover_art.png)
 
 
 ![scale-50](2018-ELIXIR-NL/images/trainingpaper.png)
