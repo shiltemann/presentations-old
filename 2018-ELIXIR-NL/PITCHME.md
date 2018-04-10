@@ -56,7 +56,7 @@ Erasmus Medical Center
 
 ### myFAIR
 
-![scale-60](2018-ELIXIR-NL/images/myfair.png)
+![scale-50](2018-ELIXIR-NL/images/myfair.png)
 
 ---
 
