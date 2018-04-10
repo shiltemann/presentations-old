@@ -4,7 +4,7 @@ Erasmus Medical Center
 
 ---
 
-### EMC
+### Erasmus Medical Center
 
 - Galaxy
 - Training
@@ -24,9 +24,10 @@ Erasmus Medical Center
 
 ### Training Materials
 
-![](assets/images/training/brazas_graphs_prefernces.png)
+![](assets/images/training/brazas_graphs_preferences.png)
 
 [Brazas et al. 2017](https://www.biorxiv.org/content/early/2017/02/27/098996)
+
 ---
 
 ### Galaxy Training Materials
@@ -45,18 +46,16 @@ Erasmus Medical Center
 
 ### Galaxy Training Materials
 
-- Easy to contribute
-- Fully provisioned docker image per topic
+- Community-driven
+- Docker image per topic
 - Integrates with TeSS
-- Many contributors
 - Wide range of topics
-  - NGS, metabolomics, image processing, NLP
 
 ---
 
 ### myFAIR
 
-![scle-60](2018-ELIXIR-NL/images/myfair.png)
+![scale-60](2018-ELIXIR-NL/images/myfair.png)
 
 ---
 
