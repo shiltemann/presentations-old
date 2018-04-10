@@ -1,23 +1,39 @@
-# My Title
+# ELIXIR-NL
 
-Cover slide text
-more text with custom stylin <!-- .element: class="whitetext" -->
-
----
-
-### Topic
-
-- List item 1
-- List item 2
-- List item 3
-
-Note:
-this is how you add speaker notes. Can view these in presentation mode by pressing "S"
+Erasmus Medical Center
 
 ---
 
-### Another topic
+### Galaxy
 
-With an image
+- Tools and Pipelines
+  - 16S rRNA sequencing for diagnostics
+  - Nanopore Sequencing
+  - Immunology
 
-![an image](https://imgs.xkcd.com/comics/dna.png)
+
+---
+
+### Galaxy Training Materials
+
+![](assets/images/training/cover_art.png)
+![](2018-ELIXIR-NL/images/trainingpaper.png)
+
+---
+
+### Galaxy Training Materials
+
+![](assets/images/training/infra_4.png)
+
+
+---
+
+### Galaxy Training Materials
+
+---
+
+### myFAIR
+
+![an image](2018-ELIXIR-NL/images/myfair.png)
+
+- ELIXIR Implementation Study
