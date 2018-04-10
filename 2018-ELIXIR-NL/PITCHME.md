@@ -14,6 +14,8 @@ Erasmus Medical Center
 
 ### Galaxy
 
+![](https://galaxyproject.org/images/galaxy-logos/galaxy_logo_25percent.png)
+
 - Tools and Pipelines
   - 16S rRNA sequencing for diagnostics
   - Nanopore Sequencing
