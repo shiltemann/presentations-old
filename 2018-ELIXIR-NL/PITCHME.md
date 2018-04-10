@@ -52,6 +52,8 @@ Erasmus Medical Center
 - Integrates with TeSS
 - Wide range of topics
 
+![scale-50](assets/images/training/topics.png)
+
 ---
 
 ### myFAIR
