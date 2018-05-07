@@ -1,7 +1,7 @@
 # themes: black, moon, night, beige, sky, and white
 theme : white
 theme-override : assets/css/PITCHME.css
-background : assets/images/background_dna.jpg
+background : assets/images/background_dna2.jpg
 #logo : assets/images/logo.png
 
 # convex, concave, default, fade, none, slide and zoom (default: slide)

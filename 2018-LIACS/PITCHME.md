@@ -1,8 +1,8 @@
+---?image=2018-GalaxyEU/images/background_dna.jpg
+<div class="right white">
+<strong>My Life as a Bioinformatician</strong><br/><br/>
 
-<div class="right">
-<h4>My life as a Bioinformatician</h4>
-
-Saskia Hiltemann
+Saskia Hiltemann<br/>
 May 2018, LIACS
 </div>
 
