@@ -1,4 +1,4 @@
----?image=2018-GalaxyEU/images/background_dna.jpg
+---?image=assets/images/background_dna.jpg
 <div class="right white">
 <strong>My Life as a Bioinformatician</strong><br/><br/>
 
