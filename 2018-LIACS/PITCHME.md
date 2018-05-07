@@ -1,7 +1,10 @@
-# My life as a Bioinformatician
+
+<div class="right">
+<h4>My life as a Bioinformatician</h4>
 
 Saskia Hiltemann
 May 2018, LIACS
+</div>
 
 ---
 
