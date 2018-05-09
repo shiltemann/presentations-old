@@ -143,7 +143,7 @@ Note:
 
 ### Sequence Data Explosion
 
-![](assets/images/bioinformatics/sequencing_explosion.jpg)
+![scale-70](assets/images/bioinformatics/sequencing_explosion.jpg)
 
 Note:
 data explosion, moores law on steroids
@@ -205,5 +205,5 @@ Web comics
 
 ### Questions?
 
-![](assets/images/questions.jpg)
+![](assets/images/questions.png)
 
