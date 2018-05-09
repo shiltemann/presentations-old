@@ -47,9 +47,9 @@ freedom to do choose your own projects
 ---
 ### What is bioinformatics
 
-- **Data analysis** (going from raw data, to clean data, to statistical and visual interpretations of the results)
-- **Software development** Developing software to do bioinformatics analysis, big enough software products to publish as independent methods papers and to be used by other scientists.
-- **Modeling** simulations, and writing equations to represent biological systems.
+- **Data analysis.** Going from raw data, to clean data, to statistical and visual interpretations of the results
+- **Software development.** Developing software to do bioinformatics analysis, big enough software products to publish as independent methods papers and to be used by other scientists.
+- **Modeling.** simulations, and writing equations to represent biological systems.
 
 ---
 ### What is bioinformatics?
@@ -137,8 +137,15 @@ Note:
 
 ---
 
-### What is Bioinformatics
+### Sequencing
 
+---
+
+### Sequence Data Explosion
+
+![](assets/images/bioinformatics/sequencing_explosion.jpg)
+
+Note:
 data explosion, moores law on steroids
 
 ---
