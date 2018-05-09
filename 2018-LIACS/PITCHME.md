@@ -134,7 +134,7 @@ data analysis
 
 +++
 
-![](assets/images/bioinformatics/dna.png)
+![scale-70](assets/images/bioinformatics/dna.png)
 
 +++
 
@@ -167,6 +167,8 @@ size of genome?
 ### Sequencers
 
 small reads, must be mapped back to reference genome (string matching problem)
+
+![scale-80](assets/images/bioinformatics/shotgun_sequencing.jpg)
 
 +++
 
