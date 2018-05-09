@@ -134,7 +134,7 @@ data analysis
 
 +++
 
-![](assets/images/bioinformatis/dna.png)
+![](assets/images/bioinformatics/dna.png)
 
 +++
 
