@@ -1,3 +1,7 @@
+.reveal .slides section {
+    font-size: 0.8em;
+}
+
 .reveal div.white {
     color: white;
 }

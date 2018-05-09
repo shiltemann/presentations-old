@@ -13,6 +13,7 @@ May 2018, LIACS
 - Physics & Astronomy
 - Computer Science
 - Master Bioinformatics
+- Now: PhD Bioinformatics at Erasmus Medical Center
 
 Note:
 this is how you add speaker notes. Can view these in presentation mode by pressing "S"
@@ -35,6 +36,32 @@ pros/cons
 imposter syndrome?
 ymmv
 freedom to do choose your own projects
+
+---
+### What is bioinformatics?
+
+*The use of computer science, mathematics, and information theory to model and analyze biological systems, especially systems involving genetic material.*
+
+---
+### What is bioinformatics?
+
+Many different areas of research
+- Healthcare
+- Ecology
+- Agriculture
+- Evolutionary Development
+- ..
+
+---
+
+### What is bioinformatics?
+
+Many different areas of research
+- **Healthcare** (Me)
+- Ecology
+- Agriculture
+- Evolutionary Development
+- ..
 
 ---
 
@@ -80,6 +107,27 @@ As I look at my published work I have always tried to balance the publications i
 
 (source: https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/)
 
+
+---
+### Why Bioinformatics
+
+![scale-70 Biology easily has 500 years of exciting problems to work on" - Donald Knuth](assets/images/cartoons/donald-knuth-quote.jpg)
+
+Note:
+Famous computer scientist Donald Knuth has discussed his concerns that computer science in the future will be “pretty much working on refinements of well-explored things”, whereas “Biology easily has 500 years of exciting problems to work on”.
+
+And this seems like an understatement, as we are discovering more and more complexity
+
+---
+
+### Why Bioinformatics
+
+- Data Analysis
+- Software development
+- Modelling
+
+Note:
+
 ---
 
 ### What I do
@@ -90,14 +138,19 @@ As I look at my published work I have always tried to balance the publications i
 - many classes from BSc/MSc useful
   - programming, databases, data mining, natural computing/algorithmics
 
+---
+
+### Biology Refresher
+
++++
+
+### The Central Dogma
+
 
 ---
-### Why Bioinformatics
+### What is Bioinformatics
 
-![Biology easily has 500 years of exciting problems to work on" - Donald Knuth](assets/images/cartoons/donald-knuth-quote.jpg)
-
-Note:
-And this seems like an understatement, as we are discovering more and more complexity
+![](assets/images/bioinformatics/whatisbioinf.png)
 
 ---
 
@@ -107,7 +160,9 @@ data explosion, moores law on steroids
 
 ---
 
-computational biology vs bioinformatics
+fields like astronomy experience same data explosion, key difference being that astronomers are typically trained in mathematics and programming.
+
+biologists are not.
 
 ---
 
@@ -131,3 +186,34 @@ computational biology vs bioinformatics
 With an image
 
 ![an image](https://imgs.xkcd.com/comics/dna.png)
+
+---
+
+### Acknowledgements
+
+ErasmusMC
+- Andrew Stubbs
+- Guido Jenster
+- Peter van der Spek
+- John Hays
+- Youri Hoogstrate
+- David van Zessen
+- Bas Horsman
+- Yunlei Li
+- Rick Jansen
+
+Streeklab Haarlem
+- Ruud Jansen
+- Stefan Boers
+
+Web comics
+- PhD comics
+- XKCD
+- Biocomicals
+
+---
+
+### Questions?
+
+![](assets/images/questions.jpg)
+
