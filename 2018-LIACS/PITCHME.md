@@ -120,6 +120,13 @@ Note:
 - define and adopt best practices, make it durable, maintainable
 - many classes from BSc/MSc useful
   - programming, databases, data mining, natural computing/algorithmics
++++
+
+write papers
+go to conferences
+teach workshops
+develop pipelines
+data analysis
 
 ---
 
@@ -127,19 +134,46 @@ Note:
 
 +++
 
+![](assets/images/bioinformatis/dna.png)
+
++++
+
 ### The Central Dogma
 
 
 ---
-### Genomics
+### A Brief primer on Genomics
 
 ![](assets/images/bioinformatics/whatisbioinf.png)
 
++++
+
+Central Dogma
+
+genome, chromosomes, genes, proteins, 3d structure (optimization problem)
+
+size of genome?
+
 ---
 
-### Sequencing
+### DNA Sequencing
 
----
++++
+
+### Human Genome Project
+
++++
+
+### Sequencers
+
+small reads, must be mapped back to reference genome (string matching problem)
+
++++
+
+![](assets/images/cartoons/genomepuzzle.gif)
+
+
++++
 
 ### Sequence Data Explosion
 
@@ -148,19 +182,33 @@ Note:
 Note:
 data explosion, moores law on steroids
 
+
 ---
+### Pipelines and Automation
 
 fields like astronomy experience same data explosion, key difference being that astronomers are typically trained in mathematics and programming.
 
 biologists are not.
 
 ---
+### Pipelines and Automation
 
-### Brief Primer on genetics
+![](assets/images/cartoons/excel.png)
+
+Note:
+Biologists used to analysing everything in excel
+
+With sequencing this is no longer possible (though it doesn't stop them from trying)
 
 ---
-### DNA Sequencing
 
+### Pipelines and Automation
+
+![](assets/images/cartoons/redbutton.gif)
+
+
+---
+### Galaxy
 
 ---
 ### Cancer
