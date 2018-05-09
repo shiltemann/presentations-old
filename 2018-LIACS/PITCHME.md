@@ -162,6 +162,12 @@ size of genome?
 
 ### Human Genome Project
 
+- Began in 1990
+- Goal: determine sequence of all 3.3 billion nucleotides and map locations of all genes
+- 20 labs in 6 countries
+- Completed in 2003
+- Cost 10 billion
+
 +++
 
 ### Sequencers
