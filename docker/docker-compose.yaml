@@ -22,6 +22,7 @@ services:
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'http://gitlab/'
         # Add any other gitlab.rb configuration here, each on its own line
+        gitlab_rails['lfs_enabled'] = true
     ports:
       - '8081:80'
       - '443:443'

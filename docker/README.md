@@ -64,3 +64,18 @@ add to `/etc/hosts` file:
 ```bash
 $ sudo service network-manager restart
 ```
+
+#### Git LFS
+
+If you encounter errors with git LFS storage such as:
+
+```
+LFS: client error http://gitlab/shiltemann/presentations.git/gitlab-lfs/objects/
+7abe7426e3fbffd588c27d14c202cb19786cbc5ac91d40d982553dd84ada42f5/2496657 from HTTP 413
+```
+
+try increasing maximum request size in your nginx conf:
+
+```
+client_max_body_size 256M;
+```
