@@ -2,7 +2,7 @@
 #theme : white
 theme-override : assets/css/PITCHME.css
 #background : assets/images/background_dna4.jpg
-layout : top-left
+layout : top
 #logo : assets/images/logo.png
 # convex, concave, default, fade, none, slide and zoom (default: slide)
 transition : fade

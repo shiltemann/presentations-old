@@ -37,6 +37,16 @@ imposter syndrome?
 ymmv
 freedom to do choose your own projects
 
++++
+### Imposter Syndrome
+
+![](assets/images/academia/imposter-syndrome.jpg)
+
+Note:
+Impostor syndrome is a psychological pattern in which people doubt their accomplishments and have a persistent, often internalized fear of being exposed as a "fraud". The term was coined in 1978 by clinical psychologists Pauline R. Clance and Suzanne A. Imes. Despite external evidence of their competence, those exhibiting the syndrome remain convinced that they are frauds and do not deserve the success they have achieved.
+
+Proof of success is dismissed as luck, timing, or as a result of deceiving others into thinking they are more intelligent and competent than they believe themselves to be. While early research focused on the prevalence among high-achieving women, impostor syndrome has been found to affect both men and women, in roughly equal numbers.
+
 ---
 ### What is bioinformatics?
 
