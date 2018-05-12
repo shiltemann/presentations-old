@@ -57,12 +57,26 @@ May 2018, LIACS
 ![](assets/images/bioinformatics/venn.png)
 
 +++
+
+### Interdisciplinary
+
+![scale-40](assets/images/bioinformatics/venn2.png)
+
++++
+
 ### What is bioinformatics
 
-- **Data analysis.** Going from raw data, to clean data, to statistical and visual interpretations of the results
-- **Software development.** Developing software to do bioinformatics analysis, big enough software products to publish as independent methods papers and to be used by other scientists.
-- **Modeling.** simulations, and writing equations to represent biological systems.
+<div class="left small">
+<ul>
+<li> **Data analysis.** Going from raw data, to clean data, to statistical and visual interpretations of the results </li><br>
+<li> **Software development.** Developing software to do bioinformatics analysis, big enough software products to publish as independent methods papers and to be used by other scientists.</li><br>
+<li> **Modeling.** simulations, and writing equations to represent biological systems.</li>
+</ul>
+</div>
 
+<div class="right">
+![scale-90](assets/images/bioinformatics/research-trinity.png)
+</div>
 +++
 ### What is bioinformatics?
 
@@ -113,16 +127,6 @@ Note:
 Famous computer scientist Donald Knuth has discussed his concerns that computer science in the future will be “pretty much working on refinements of well-explored things”, whereas “Biology easily has 500 years of exciting problems to work on”.
 
 And this seems like an understatement, as we are discovering more and more complexity
-
-+++
-
-### Why Bioinformatics
-
-- Data Analysis
-- Software development
-- Modelling
-
-Note:
 
 ---
 ### ErasmusMC
@@ -179,7 +183,7 @@ Note:
 <li> Research, software development, pipeline building, system administration, IT infrastructure, training </li>
 <li> Define and adopt best practices, make it durable, maintainable</li>
 <li> Use many concepts from BSc/MSc </li>
-  <ul><li> Algorithms, databases, image analysis, pattern recognition, ..</li></ul>
+  <ul><li> Algorithms, databases, image analysis, pattern recognition, machine learning, ..</li></ul>
 </ul>
 </div>
 
@@ -439,16 +443,49 @@ data explosion, moores law on steroids
 
 +++
 
-### Sequencers
+### Genome Sequencing
 
-small reads, must be mapped back to reference genome (string matching problem)
+- Can only reliably determine sequence for small fragments of DNA
 
-![scale-80](assets/images/bioinformatics/shotgun_sequencing.jpg)
+![scale-70](assets/images/bioinformatics/sequence-reads.png)
 
 +++
 
-![](assets/images/cartoons/genomepuzzle.gif)
+### Genome Sequencing
 
+- Must be mapped back to reference genome
+- Not all organisms have a reference genome (de novo assembly)
+
+![scale-70](assets/images/bioinformatics/shotgun_sequencing.jpg)
+
+Note:
+- String matching algorithm
+
++++
+
+### Genome Sequencing
+
+<div class="left small">
+<ul>
+<li> Like a jigsaw puzzle, except:</li>
+ <ul>
+ <li> Billions pieces</li>
+ <li> Missing pieces (coverage bias)</li>
+ <li> Broken pieces (sequencing error)</li>
+ <li> Duplicate pieces (repeats)</li>
+ <li> Pieces from different puzzle (contamination)</li>
+ </ul><br>
+<li> Non-human samples:</li>
+ <ul>
+ <li> Do not have the lid (de novo)</li>
+ <li> No corner/edge pieces (bacteria, circular genome)</li>
+ </ul>
+</ul>
+</div>
+
+<div class="right">
+![](assets/images/cartoons/genomepuzzle.gif)
+</div>
 
 
 ---
