@@ -50,6 +50,17 @@ May 2018, LIACS
 
 +++
 
+### Why Bioinformatics
+
+![scale-70 Biology easily has 500 years of exciting problems to work on" - Donald Knuth](assets/images/cartoons/donald-knuth-quote.jpg)
+
+Note:
+Famous computer scientist Donald Knuth has discussed his concerns that computer science in the future will be “pretty much working on refinements of well-explored things”, whereas “Biology easily has 500 years of exciting problems to work on”.
+
+And this seems like an understatement, as we are discovering more and more complexity
+
++++
+
 ### What is bioinformatics?
 
 *The use of computer science, mathematics, and information theory to model and analyze biological systems, especially systems involving genetic material.*
@@ -78,6 +89,24 @@ May 2018, LIACS
 ![scale-90](assets/images/bioinformatics/research-trinity.png)
 </div>
 +++
+
+
+### What is bioinformatics?
+
+- Very broad definition
+- Often used interchangably with *computational biology*
+- **Computational biology** = the study of biology using computational techniques.  The goal is to learn new biology, knowledge about living sytems. It is about science.
+- **Bioinformatics** = the creation of tools (algorithms, databases) that solve problems. The goal is to build useful tools that work on biological data. It is about engineering.
+- In practice: most people do a bit of both.
+
+Note:
+- Different definitions based on who you ask
+- *Systems biology*, *quantitative biology*
+
+https://diamondagedatascience.com/2017/07/05/bioinformatics-vs-computational-biology/
+
+https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/
+
 ### What is bioinformatics?
 
 Many different areas of research
@@ -97,36 +126,6 @@ Many different areas of research
 - Agriculture
 - Evolutionary Development
 - ..
-
-+++
-
-### What is bioinformatics?
-
-- Very broad definition
-- Often used interchangably with *computational biology*
-- **Computational biology** = the study of biology using computational techniques.  The goal is to learn new biology, knowledge about living sytems. It is about science.
-- **Bioinformatics** = the creation of tools (algorithms, databases) that solve problems. The goal is to build useful tools that work on biological data. It is about engineering.
-- In practice: most people do a bit of both.
-
-Note:
-- Different definitions based on who you ask
-- *Systems biology*, *quantitative biology*
-
-https://diamondagedatascience.com/2017/07/05/bioinformatics-vs-computational-biology/
-
-https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/
-
-
-+++
-
-### Why Bioinformatics
-
-![scale-70 Biology easily has 500 years of exciting problems to work on" - Donald Knuth](assets/images/cartoons/donald-knuth-quote.jpg)
-
-Note:
-Famous computer scientist Donald Knuth has discussed his concerns that computer science in the future will be “pretty much working on refinements of well-explored things”, whereas “Biology easily has 500 years of exciting problems to work on”.
-
-And this seems like an understatement, as we are discovering more and more complexity
 
 ---
 ### ErasmusMC
@@ -398,6 +397,10 @@ Proof of success is dismissed as luck, timing, or as a result of deceiving other
 
 ### From genes to phenotype
 
+- Genes: DNA translated to RNA, RNA to protein,
+- Proteins perform cell functions, control expression of other genes, etc
+- Disease often result of mutations in gene sequence/expression
+
 ![scale-90](assets/images/bioinformatics/whatisbioinf.png)
 
 +++
@@ -486,6 +489,28 @@ Note:
 <div class="right">
 ![](assets/images/cartoons/genomepuzzle.gif)
 </div>
+
++++
+
+### Cancer
+
+- multipe puzzles, similar but different, don't know how many
+- structural variations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
