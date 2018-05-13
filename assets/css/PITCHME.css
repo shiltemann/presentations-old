@@ -6,6 +6,10 @@
     color: white;
 }
 
+.reveal div.transparant {
+    opacity: 0;
+}
+
 .reveal div.small {
 	font-size: 0.7em;
 }

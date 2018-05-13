@@ -437,6 +437,9 @@ Proof of success is dismissed as luck, timing, or as a result of deceiving other
 
 ### Sequence Data Explosion
 
+- cost of sequencing decreasing exponentially
+- cost of computing decreasing
+- number of samples sequenced increasing exponentially
 
 ![scale-70](assets/images/bioinformatics/sequencing_explosion.jpg)
 
@@ -456,13 +459,20 @@ data explosion, moores law on steroids
 
 ### Genome Sequencing
 
-- Must be mapped back to reference genome
+- Fragment must be mapped back to reference genome
 - Not all organisms have a reference genome (de novo assembly)
 
 ![scale-70](assets/images/bioinformatics/shotgun_sequencing.jpg)
 
 Note:
 - String matching algorithm
+  - allow for mutations
+  - imperfections
+  - often framed as graph problem
+  - or machine learning/ natural computing algorithms
+
+- Faster algorithms continually wanted to keep up with data explosion
+
 
 +++
 
@@ -496,20 +506,8 @@ Note:
 
 - multipe puzzles, similar but different, don't know how many
 - structural variations
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- fusion genes
+- chromothripsis
 
 
 
@@ -521,11 +519,64 @@ Note:
 
 ### Pipelines and Automation
 
-![scale-70](assets/images/cartoons/redbutton.gif)
+- Don't reinvent the wheel
+- Combine existing tools into pipelines
+- Make it easy for researchers/biologistis/clinicians!
+
+![scale-60](assets/images/cartoons/redbutton.gif)
+
++++
+
+### Bioinformatics tools
+
+<div class="left">
+<ul>
+<li> Linux </li>
+<li> Command Line </li>
+<li> Open source </li>
+ <div class="transparant">
+ <br>
+ <li> Not always top quality </li>
+ <li> ..or maintained well </li>
+ <li> Can be hard to install </li>
+ <li> ..and poorly documented <li>
+ </div>
+</ul>
+</div>
+
+<div class="right">
+![](assets/images/microbiota/mothur_commandline.png)
+</div>
+
++++
+
+### Bioinformatics tools
+
+<div class="left">
+<ul>
+<li> Linux </li>
+<li> Command Line </li>
+<li> Open source </li>
+<br>
+<li> Not always top quality </li>
+<li> ..or maintained well </li>
+<li> Can be hard to install </li>
+<li> ..and poorly documented </li>
+</ul>
+</div>
+
+<div class="right">
+![](assets/images/microbiota/mothur_commandline.png)
+</div>
 
 +++
 
 ### Galaxy
+
+- Provide web interface for command line tools
+- Tool shed: app store
+- Graphical workflow builder
+
 
 ---
 ### Cancer
