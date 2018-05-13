@@ -45,7 +45,7 @@ and finally show some of the results from our pilot study with them to bring 16S
 <ul>
   <li> Antonie van Leeuwenhoek is commonly known as the *Father of Microbiology* </li>
 
-![scale-30](2018-GalaxyEU/images/leeuwenhoek.jpg)
+![scale-30](assets/images/microbiota/leeuwenhoek.jpg)
 
   <li> In 1676, he discovered **animalcules** when he turned his microscope to a drop of rain water </li>
 </ul>
@@ -54,8 +54,8 @@ and finally show some of the results from our pilot study with them to bring 16S
 
 <div class="right">
 
-<!-- ![scale-70](2018-GalaxyEU/images/animalcules.gif) -->
-![](2018-GalaxyEU/images/leeuwenhoek-microscope-animalcules.jpg)
+<!-- ![scale-70](assets/images/microbiota/animalcules.gif) -->
+![](assets/images/microbiota/leeuwenhoek-microscope-animalcules.jpg)
 
 </div>
 
@@ -77,7 +77,7 @@ what looked like tiny animals, which he called **animalcules**
 </div>
 
 <div>
-![scale-50](2018-GalaxyEU/images/pasteur-experiment.jpeg)
+![scale-50](assets/images/microbiota/pasteur-experiment.jpeg)
 </div>
 
 Note:
@@ -94,7 +94,7 @@ Note:
 </div>
 
 <div>
-![scale-60](2018-GalaxyEU/images/koch-postulates.jpeg)
+![scale-60](assets/images/microbiota/koch-postulates.jpeg)
 </div>
 
 ---
@@ -118,7 +118,7 @@ Note:
 </div>
 <div class="right">
 
-![](2018-GalaxyEU/images/human_microbiome.png)
+![](assets/images/microbiota/human_microbiome.png)
 
 </div>
 </div>
@@ -168,8 +168,8 @@ Note:
 </div>
 
 <div class="right tiny">
-![unbalanced scale-50](2018-GalaxyEU/images/dysbiosis-balance.png)
-![diseases](2018-GalaxyEU/images/microbiota-disease.jpg)
+![unbalanced scale-50](assets/images/microbiota/dysbiosis-balance.png)
+![diseases](assets/images/microbiota/microbiota-disease.jpg)
 
 </div>
 </div>
@@ -215,15 +215,15 @@ Can be caused by improper use of antibiotics
 
 <div class="block">
 <div class="three-left small">
-![healthy forest](2018-GalaxyEU/images/forest-healthy.jpg)
+![healthy forest](assets/images/microbiota/forest-healthy.jpg)
 Healthy microbiome
 </div>
 <div class="three-middle small">
-![after antibiotics](2018-GalaxyEU/images/forest-burnt.jpg)
+![after antibiotics](assets/images/microbiota/forest-burnt.jpg)
 After antibiotics
 </div>
 <div class="three-right small">
-![monoculture](2018-GalaxyEU/images/forest-monoculture.jpg)
+![monoculture](assets/images/microbiota/forest-monoculture.jpg)
 Monoculture
 </div>
 </div>
@@ -267,8 +267,8 @@ But this can lead to a situation where a single species can
 
 <div class="right center">
 
-![](2018-GalaxyEU/images/slh-logo2.png)
-![](2018-GalaxyEU/images/slh-envelope.png)
+![](assets/images/microbiota/slh-logo2.png)
+![](assets/images/microbiota/slh-envelope.png)
 
 </div>
 
@@ -298,7 +298,7 @@ But this can lead to a situation where a single species can
 
 </div>
 <div class="right">
-![](2018-GalaxyEU/images/slh-culture.jpg)
+![](assets/images/microbiota/slh-culture.jpg)
 </div>
 
 Note:
@@ -341,7 +341,7 @@ Note:
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/miseq.png)
+![](assets/images/microbiota/miseq.png)
 
 </div>
 
@@ -371,7 +371,7 @@ Note:
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/shotgun-puzzles.png)
+![](assets/images/microbiota/shotgun-puzzles.png)
 </div>
 
 ---
@@ -392,12 +392,12 @@ Note:
    <li>Environmental fungi, plants</li>
  </ul>
 </ul>
-![scale-50](2018-GalaxyEU/images/16S-gene-ecoli.png)
+![scale-50](assets/images/microbiota/16S-gene-ecoli.png)
 </div>
 
 
 <div class="right">
-![](2018-GalaxyEU/images/amplicon-puzzles2.png)
+![](assets/images/microbiota/amplicon-puzzles2.png)
 </div>
 
 Note:
@@ -425,11 +425,11 @@ Note:
  </ul>
 </ul>
 <br>
-![](2018-GalaxyEU/images/16S_variableregions.jpg)
+![](assets/images/microbiota/16S_variableregions.jpg)
 </div>
 
 <div class="right">
-![scale-70](2018-GalaxyEU/images/16S-structure.jpg)
+![scale-70](assets/images/microbiota/16S-structure.jpg)
 </div>
 
 
@@ -460,7 +460,7 @@ Note:
 </div>
 
 <div class="right tiny">
-![](2018-GalaxyEU/images/bias-vregions.png)
+![](assets/images/microbiota/bias-vregions.png)
 doi:10.1038/nature11209
 </div>
 
@@ -478,20 +478,20 @@ TODO: move bias image til after explanation of OTUs?
 ### Streeklab Haarlem
 
 
-![scale-70](2018-GalaxyEU/images/16S_end-to-end.png)
-![scale-50](2018-GalaxyEU/images/so_much_data.png)
+![scale-70](assets/images/microbiota/16S_end-to-end.png)
+![scale-50](assets/images/microbiota/so_much_data.png)
 
 ---
 
 ### Galaxy!
 
-![](2018-GalaxyEU/images/workflow.png)
+![](assets/images/microbiota/workflow.png)
 
 ---
 
 ### Pipeline
 
-![](2018-GalaxyEU/images/analysis_pipeline.png)
+![](assets/images/microbiota/analysis_pipeline.png)
 
 ---
 
@@ -499,9 +499,9 @@ TODO: move bias image til after explanation of OTUs?
 
 
 <div class="right30">
-![scale-40](2018-GalaxyEU/images/mothur-logo.png)
+![scale-40](assets/images/microbiota/mothur-logo.png)
 
-![scale-40](2018-GalaxyEU/images/qiime-logo.png)
+![scale-40](assets/images/microbiota/qiime-logo.png)
 </div>
 
 <div class="left70 small">
@@ -527,7 +527,7 @@ TODO: move bias image til after explanation of OTUs?
 
 <div class="block">
 <div class="left small">
-![scale-40](2018-GalaxyEU/images/mothur-logo.png)
+![scale-40](assets/images/microbiota/mothur-logo.png)
 
 <ul>
 <li> C++ </li>
@@ -539,7 +539,7 @@ TODO: move bias image til after explanation of OTUs?
 </div>
 
 <div class="right small">
-![scale-40](2018-GalaxyEU/images/qiime-logo.png)
+![scale-40](assets/images/microbiota/qiime-logo.png)
 
 <ul>
 <li>Python</li>
@@ -564,7 +564,7 @@ Note:
 
 ### Pre-processing
 
-![scale-70](2018-GalaxyEU/images/preprocessing.png)
+![scale-70](assets/images/microbiota/preprocessing.png)
 
 - many ways to filter and trim your data
 - tradeoff between quality and amount of information retained
@@ -595,16 +595,16 @@ Note:
 </div>
 
 <div class="right">
-![scale-40](2018-GalaxyEU/images/chimera-animal.jpg)
+![scale-40](assets/images/microbiota/chimera-animal.jpg)
 <br>
-![scale-80](2018-GalaxyEU/images/chimeras.png)
+![scale-80](assets/images/microbiota/chimeras.png)
 </div>
 
 ---
 
 ### Traditional PCR
 
-![](2018-GalaxyEU/images/16S_end-to-end_nomicelle.png)
+![](assets/images/microbiota/16S_end-to-end_nomicelle.png)
 
 <div class="small">
 <ul>
@@ -617,7 +617,7 @@ Note:
 
 ### Micelle PCR
 
-![](2018-GalaxyEU/images/16S_end-to-end_micelle.png)
+![](assets/images/microbiota/16S_end-to-end_micelle.png)
 
 <div class="left70 small">
 <ul>
@@ -630,7 +630,7 @@ Note:
 </div>
 
 <div class="right30">
-![scale-70](2018-GalaxyEU/images/micelle.png)
+![scale-70](assets/images/microbiota/micelle.png)
 </div>
 
 
@@ -641,10 +641,10 @@ Note:
 **OTU**: Operational Taxonomic Unit
 
 <div class="left">
-![](2018-GalaxyEU/images/otu-clusters.png)
+![](assets/images/microbiota/otu-clusters.png)
 </div>
 <div class="right">
-![](2018-GalaxyEU/images/otu.png)
+![](assets/images/microbiota/otu.png)
 </div>
 
 Note:
@@ -668,8 +668,8 @@ Note:
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/otu-clusters.png)
-![](2018-GalaxyEU/images/otu-clustering-reference-based-placeholder.png)
+![](assets/images/microbiota/otu-clusters.png)
+![](assets/images/microbiota/otu-clustering-reference-based-placeholder.png)
 </div>
 
 Note:
@@ -693,8 +693,8 @@ algorithm (hierarchical clustering, seed-based, model-based)
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/otu-clusters.png)
-![](2018-GalaxyEU/images/otu-clustering-reference-based.png)
+![](assets/images/microbiota/otu-clusters.png)
+![](assets/images/microbiota/otu-clustering-reference-based.png)
 </div>
 
 Note:
@@ -720,8 +720,8 @@ algorithm (hierarchical clustering, seed-based, model-based)
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/otu-clusters.png)
-![](2018-GalaxyEU/images/otu-clustering-reference-based.png)
+![](assets/images/microbiota/otu-clusters.png)
+![](assets/images/microbiota/otu-clustering-reference-based.png)
 </div>
 
 Note:
@@ -761,8 +761,8 @@ algorithm (hierarchical clustering, seed-based, model-based)
 </div>
 
 <div class="right">
-![](2018-GalaxyEU/images/otu-clusters.png)
-![](2018-GalaxyEU/images/otu-clustering-reference-based.png)
+![](assets/images/microbiota/otu-clusters.png)
+![](assets/images/microbiota/otu-clustering-reference-based.png)
 </div>
 
 Note:
@@ -797,8 +797,8 @@ algorithm (hierarchical clustering, seed-based, model-based)
 </div>
 
 <div class="right">
-![scale-70](2018-GalaxyEU/images/taxonomic-classification.jpeg)
-![](2018-GalaxyEU/images/silva-greengenes.png)
+![scale-70](assets/images/microbiota/taxonomic-classification.jpeg)
+![](assets/images/microbiota/silva-greengenes.png)
 </div>
 </div>
 
@@ -814,7 +814,7 @@ Note:
 
 ### Assigning taxonomy
 
-![](2018-GalaxyEU/images/taxonomy-methods.jpeg)
+![](assets/images/microbiota/taxonomy-methods.jpeg)
 
 <div class="tiny">
 doi: 10.1093/nar/gkn491
@@ -836,7 +836,7 @@ Compositions at the phylum level for each of the three datasets: (a) Guerrero Ne
 
 ### OTU table
 
-![](2018-GalaxyEU/images/otutable.png)
+![](assets/images/microbiota/otutable.png)
 
 Note:
 domain, kingdom, phylum, class, order, family, genus, species
@@ -861,7 +861,7 @@ is considered.
 
 Diversity *within* a sample
 
-![scale-90](2018-GalaxyEU/images/alpha-diversity.png)
+![scale-90](assets/images/microbiota/alpha-diversity.png)
 
 
 ---
@@ -885,7 +885,7 @@ Diversity *within* a sample
 </div>
 
 <div class="right30">
-![](2018-GalaxyEU/images/phylogenetic-distance.png)
+![](assets/images/microbiota/phylogenetic-distance.png)
 </div>
 
 Note:
@@ -916,7 +916,7 @@ https://www.mothur.org/wiki/Calculators
 
 Have I captured the full diversity of my sample?
 
-![](2018-GalaxyEU/images/rarefaction.gif)
+![](assets/images/microbiota/rarefaction.gif)
 
 Calculate diversity for randomly selected subset of sequences in each sample
 
@@ -941,7 +941,7 @@ Calculate diversity for randomly selected subset of sequences in each sample
 
 <div class="right">
 
-![](2018-GalaxyEU/images/negative-control.jpg)
+![](assets/images/microbiota/negative-control.jpg)
 </div>
 
 Note:
@@ -959,7 +959,7 @@ Synthetic microbial community (SMC) samples tested comprised equimolar 16S rRNA 
 
 ### Krona
 
-![scale-50](2018-GalaxyEU/images/krona.png)
+![scale-50](assets/images/microbiota/krona.png)
 
 <div class="tiny">
 doi: 10.1186/1471-2105-12-385
@@ -972,7 +972,7 @@ doi: 10.1186/1471-2105-12-385
 
 ### Phinch
 
-![scale-70](2018-GalaxyEU/images/phinch_overviewpage.png)
+![scale-70](assets/images/microbiota/phinch_overviewpage.png)
 
 <div class="tiny">
 doi: 10.1101/009944
@@ -986,19 +986,19 @@ Note:
 
 ### iReport
 
-![](2018-GalaxyEU/images/ireport-mycrobiota.png)
+![](assets/images/microbiota/ireport-mycrobiota.png)
 
 ---
 
 ### Results: Post-operative wounds
 
 <div class="left">
-![](2018-GalaxyEU/images/cultures.png)
+![](assets/images/microbiota/cultures.png)
 </div>
 
 
 <div class="right">
-![](2018-GalaxyEU/images/miseq2.png)
+![](assets/images/microbiota/miseq2.png)
 </div>
 
 <div class="tiny">
@@ -1051,7 +1051,7 @@ CFU: Colony Forming Unit
 </div>
 
 <div class="right30">
-![](2018-GalaxyEU/images/arthritis.png)
+![](assets/images/microbiota/arthritis.png)
 </div>
 
 
@@ -1077,7 +1077,7 @@ CFU: Colony Forming Unit
 </div>
 
 <div class="right30">
-![](2018-GalaxyEU/images/arthritis.png)
+![](assets/images/microbiota/arthritis.png)
 </div>
 
 
@@ -1102,7 +1102,7 @@ CFU: Colony Forming Unit
 </div>
 
 <div class="right30">
-![](2018-GalaxyEU/images/arthritis.png)
+![](assets/images/microbiota/arthritis.png)
 </div>
 
 +++
@@ -1126,7 +1126,7 @@ CFU: Colony Forming Unit
 </div>
 
 <div class="right30">
-![](2018-GalaxyEU/images/arthritis.png)
+![](assets/images/microbiota/arthritis.png)
 </div>
 
 +++
@@ -1147,7 +1147,7 @@ CFU: Colony Forming Unit
 </div>
 
 <div class="right30">
-![](2018-GalaxyEU/images/arthritis.png)
+![](assets/images/microbiota/arthritis.png)
 </div>
 
 
@@ -1170,7 +1170,7 @@ CFU: Colony Forming Unit
 </ul>
 </div>
 <div class="right30">
-![](2018-GalaxyEU/images/hipimplant.jpg)
+![](assets/images/microbiota/hipimplant.jpg)
 </div>
 
 ---
@@ -1190,7 +1190,7 @@ CFU: Colony Forming Unit
 ### Training Materials
 
 
-![](2018-GalaxyEU/images/training-material.png)
+![](assets/images/microbiota/training-material.png)
 
 <div class="tiny">
 https://training.galaxyproject.org
@@ -1233,7 +1233,7 @@ https://training.galaxyproject.org
 <div class="right">
 ![scale-50](assets/images/logo-emc.png)
 <br>
-![scale-30](2018-GalaxyEU/images/slh-logo.jpg)
+![scale-30](assets/images/microbiota/slh-logo.jpg)
 </div>
 
 ---
