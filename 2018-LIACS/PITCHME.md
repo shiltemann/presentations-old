@@ -808,7 +808,7 @@ When you administer antibiototics it is as if you burn this forest to the ground
 But this can lead to a situation where a single species can
 
 
----
++++
 
 
 ### Streeklab Haarlem
@@ -889,7 +889,7 @@ Note:
 
 
 
----
++++
 
 ### Sequencing Approaches
 
@@ -898,7 +898,7 @@ Note:
 
 ![scale-70](assets/images/microbiota/miseq.png)
 
----
++++
 
 ### Shotgun Sequencing
 
@@ -950,7 +950,7 @@ Note:
 - where shotgun was looking at whole puzzle, this is more like
   looking at only topleft corner of each puzzle
 
----
++++
 
 ### 16S rRNA gene
 
@@ -1049,7 +1049,7 @@ TODO: move bias image til after explanation of OTUs?
 - many ways to filter and trim your data
 - tradeoff between quality and amount of information retained
 
----
++++
 
 ### Chimera removal
 
@@ -1100,7 +1100,7 @@ Note:
 - for amplicon data, this is not done so much in shotgun
 -
 
----
++++
 
 ### OTU Clustering
 
