@@ -19,6 +19,12 @@ May 2018, LIACS
 - Master Bioinformatics
 - PhD Bioinformatics at Erasmus Medical Center
 
+Note:
+- Always liked puzzles
+- Drew me to science
+- Did programmeermethoded in physics/astronomy and fell in love
+- Bioinformatics is greatest puzzle of all
+
 +++
 
 ### PhD Thesis
@@ -705,6 +711,15 @@ Note:
 
 +++
 
+### Data Standards
+
+- Field evolving so fast, there often aren't established file formats
+- Challenge for building pipelines
+
+![](assets/images/cartoons/standards.png)
+
++++
+
 ### Bioinformatics tools
 
 <div class="left">
@@ -750,7 +765,8 @@ Note:
 Note:
 - command line is very powerful, but not very user friendly
 - especially not for non-programmers
-- do not want to run everybody's analysis -> automate it!
+- do not want to run everybody's analysis for them -> automate it!
+
 
 +++
 
@@ -1813,11 +1829,16 @@ CFU: Colony Forming Unit
 </div>
 ---
 
-### Another topic
+### Take-home messages
 
-With an image
+- Bioinformatics is a very diverse field
+- Continually changing field: keep learning
+- Do not need to know biology, will pick it up along the way
+- Job security! ..big shortage of good bioinformaticians
 
-![an image](https://imgs.xkcd.com/comics/dna.png)
+- Want to do an internship? Contact us!
+
+@fa[code-fork]
 
 ---
 
