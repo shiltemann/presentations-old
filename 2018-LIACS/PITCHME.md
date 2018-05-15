@@ -50,17 +50,6 @@ May 2018, LIACS
 
 +++
 
-### Why Bioinformatics
-
-![scale-70 Biology easily has 500 years of exciting problems to work on" - Donald Knuth](assets/images/cartoons/donald-knuth-quote.jpg)
-
-Note:
-Famous computer scientist Donald Knuth has discussed his concerns that computer science in the future will be “pretty much working on refinements of well-explored things”, whereas “Biology easily has 500 years of exciting problems to work on”.
-
-And this seems like an understatement, as we are discovering more and more complexity
-
-+++
-
 ### What is bioinformatics?
 
 *The use of computer science, mathematics, and information theory to model and analyze biological systems, especially systems involving genetic material.*
@@ -75,31 +64,46 @@ And this seems like an understatement, as we are discovering more and more compl
 
 +++
 
+### Why Bioinformatics
+
+*“There’s millions and millions of unsolved problems. Biology is so digital, and incredibly complicated, but incredibly useful. [..] Biology easily has 500 years of exciting problems to work on, it’s at that level." - Donald Knuth*
+
+
+![scale-60](assets/images/cartoons/dna-code.png)
+
+
+
+Note:
+Famous computer scientist Donald Knuth has discussed his concerns that computer science in the future will be “pretty much working on refinements of well-explored things”, whereas “Biology easily has 500 years of exciting problems to work on”.
+
+And this seems like an understatement, as we are discovering more and more complexity
+
+Full Quote: “There’s millions and millions of unsolved problems [in Biology]. Biology is so digital, and incredibly complicated, but incredibly useful…It is hard for me to say confidently that, after fifty more years of explosive growth of computer science, there will still be a lot of fascinating unsolved problems at peoples’ fingertips, that it won’t be pretty much working on refinements of well-explored things. Maybe all of the simple stuff and the really great stuff has been discovered. It may not be true, but I can’t predict an unending growth. I can’t be as confident about computer science as I can about biology. Biology easily has 500 years of exciting problems to work on, it’s at that level."
+
+
++++
+
 ### What is bioinformatics
 
 <div class="left small">
 <ul>
-<li> **Data analysis.** Going from raw data, to clean data, to statistical and visual interpretations of the results </li><br>
+<li> **Modeling.** simulations, and writing equations to represent biological systems. Gain understanding of the biology.</li><br>
+<li> **Data analysis.** Going from raw data, to clean data, to statistical and visual interpretations of the results. </li><br>
 <li> **Software development.** Developing software to do bioinformatics analysis, big enough software products to publish as independent methods papers and to be used by other scientists.</li><br>
-<li> **Modeling.** simulations, and writing equations to represent biological systems.</li>
 </ul>
 </div>
 
 <div class="right">
 ![scale-90](assets/images/bioinformatics/research-trinity.png)
 </div>
-+++
 
-
-### What is bioinformatics?
+Note:
 
 - Very broad definition
 - Often used interchangably with *computational biology*
 - **Computational biology** = the study of biology using computational techniques.  The goal is to learn new biology, knowledge about living sytems. It is about science.
 - **Bioinformatics** = the creation of tools (algorithms, databases) that solve problems. The goal is to build useful tools that work on biological data. It is about engineering.
 - In practice: most people do a bit of both.
-
-Note:
 - Different definitions based on who you ask
 - *Systems biology*, *quantitative biology*
 
@@ -114,6 +118,7 @@ Many different areas of research
 - Ecology
 - Agriculture
 - Evolutionary Development
+- Image processing (e.g. MRI)
 - ..
 
 +++
@@ -125,6 +130,7 @@ Many different areas of research
 - Ecology
 - Agriculture
 - Evolutionary Development
+- Image processing (e.g. MRI)
 - ..
 
 ---
@@ -201,6 +207,13 @@ teach workshops
 develop pipelines
 data analysis
 
++++
+
+### Health Care
+
+- Working with human data: data security important
+
+
 ---
 ### Academia vs Industry
 
@@ -267,11 +280,29 @@ Note:
 <br>
 
 <div class="bottom">
+![scale-60](assets/images/academia/bioinformaticiancanwork.gif)
+</div>
+
+Note:
+- Make sure to guard your work-life balance
+
++++
+
+### Flexibility
+
+- But: this flexibililty breeds a lot of workaholics
+- Take care to keep a healthy work-life balance!
+
+<br>
+
+<div class="bottom">
 ![scale-60](assets/images/academia/academicsaturdays.gif)
 </div>
 
 Note:
 - Make sure to guard your work-life balance
+
+
 
 +++
 
@@ -331,7 +362,7 @@ Note:
 **Industry**
 <br>
 <ul>
-<li> Products to earn money for the company</li>
+<li> Earn money for the company</li>
 <li> Software, drugs, patents, services </li>
 </ul>
 <br><br>
@@ -389,6 +420,21 @@ Proof of success is dismissed as luck, timing, or as a result of deceiving other
 
 +++
 
+### DNA
+
+- DNA responsible for all the hereditary informatin in an organism.
+- Natural variation in genetic code between individuals.
+- Two copies of each chromosome and gene (maternal and paternal)
+- Some mutations can disrupt cell functions and cause disease.
+
+<div class="left">
+![scale-80](assets/images/bioinformatics/genome-project.png)
+</div>
+<div class="right">
+![scale-50](assets/images/bioinformatics/music-of-life-dna.jpg)
+</div>
++++
+
 ### Central dogma
 
 ![scale-50](assets/images/bioinformatics/dna.png)
@@ -397,7 +443,7 @@ Proof of success is dismissed as luck, timing, or as a result of deceiving other
 
 ### From genes to phenotype
 
-- Genes: DNA translated to RNA, RNA to protein,
+- Genes: DNA translated to RNA, RNA to protein
 - Proteins perform cell functions, control expression of other genes, etc
 - Disease often result of mutations in gene sequence/expression
 
@@ -437,9 +483,9 @@ Proof of success is dismissed as luck, timing, or as a result of deceiving other
 
 ### Sequence Data Explosion
 
-- cost of sequencing decreasing exponentially
-- cost of computing decreasing
-- number of samples sequenced increasing exponentially
+- Cost of sequencing decreasing exponentially
+- Cost of computing decreasing
+- Number of samples sequenced increasing exponentially
 
 ![scale-70](assets/images/bioinformatics/sequencing_explosion.jpg)
 
@@ -500,15 +546,147 @@ Note:
 ![](assets/images/cartoons/genomepuzzle.gif)
 </div>
 
+Note:
+
+### Genome Sequencing
+
+- Base calling (usually done by software integrated in sequencing machines)
+- Mapping and variant calling
+ - How is this individual different from the reference genome?
+- Annotation, data integration and visualisation
+ - Can we predict effect of mutation?
+ - Compare to other patients
+- Aggregation of heterogeneous datasets into a coherent reference source
+
+Note:
+Four main analysis tiers
+- want to know where sample is different from reference
+- want to compare this to other samples/knowledge databases
+
++++
+
+### Mapping and Variant Calling
+
+![scale-60](assets/images/bioinformatics/mappedreads.png)
+
+SNV = Single Nucleotide Variation (1 basepair mutation)
+
+
+Note:
+- we are interested to see where a person's DNA is different
+- 2 copies of each gene so would expect either 0%, 50% or 100% mutation
+- 3% is likely just sequencing error
+
++++
+
+### Genome Sequencing
+
+![scale-60](assets/images/bioinformatics/mappedreads2.png)
+
+- **Possibilities for observed difference:**
+ - True mutation
+ - Error generated in library prep (in the lab)
+ - Base calling error
+ - Misalignment (mapping error)
+ - Error in reference genome
+
+Note:
+- Of course previous slide was the ideal case, and in reality not always so straightforward
+
++++
+
+### Genome Sequencing
+
+![](assets/images/cartoons/statistics.gif)
+
++++
+
+### Genomic Variations
+
+<div class="left">
+<ul>
+<li>Different types of variants</li>
+ <ul>
+ <li> SNVs</li>
+ <li> Insertions</li>
+ <li> Deletions</li>
+ <li> Inversions</li>
+ <li> Substitutions</li>
+ <li> Transocations</li>
+ </ul><br>
+<li> Both within and between chromosomes </li>
+</div>
+
+<div class="right">
+![](assets/images/cancer/svs.jpg)
+</div>
+
 +++
 
 ### Cancer
 
+<div class="left">
+<br><br><br><br>
+<ul>
+<li> Cancer is a genetic disease</li><br>
+<li> Germline (hereditary) 5%-10%</li><br>
+<li> Somatic (non-hereditary)</li>
+   <ul>
+  <li> Diet/tobacco/alcohol</li>
+  <li> Radiation/toxins</li>
+  <li> Bacteria/viruses</li>
+  </ul>
+</ul>
+</div>
+
+<div class="right">
+![scale-70](assets/images/cancer/cells.jpg)
+![scale-70](assets/images/cancer/causes.jpg)
+</div>
+
++++
+
+### Cancer
+
+<div class="left small">
+<ul>
+<li> Every time a cell divides, DNA is copied (imperfectly)</li><br>
+<li> If mutations occur in important genes, more mutations can accumulate</li>
+ <ul>
+ <li> Disrupt DNA repair genes</li>
+ <li> Activate Cell proliferation genes</li>
+ <li> Evade programmed cell death</li>
+ </ul><br>
+<li> Late stage cancers can have accrued hundreds of thousands of mutations</li>
+</ul>
+</div>
+<div class="right">
+![](assets/images/cancer/hallmarks.png)
+</div>
+
+Note:
 - multipe puzzles, similar but different, don't know how many
 - structural variations
 - fusion genes
 - chromothripsis
 
++++
+
+### Cancer: Fusion Genes
+
+
++++
+
+### Cancer: Chromothripsis
+
+
++++
+
+### Cancer: Our research
+
+- Biomarker discovery
+- Improve diagnosis/prognosis
+- Predict drug response
 
 
 ---
@@ -626,6 +804,7 @@ Note:
 <!-- ![scale-70](assets/images/microbiota/animalcules.gif) -->
 ![](assets/images/microbiota/leeuwenhoek-microscope-animalcules.jpg)
 
+---
 </div>
 
 Note:
@@ -664,6 +843,7 @@ Note:
 
 <div>
 ![scale-60](assets/images/microbiota/koch-postulates.jpeg)
+---
 </div>
 
 +++
@@ -1469,7 +1649,7 @@ Note:
 
 CFU: Colony Forming Unit
 
----
++++
 
 ### Results: Septic Arthritis
 
@@ -1501,7 +1681,7 @@ CFU: Colony Forming Unit
 </div>
 
 
----
++++
 
 ### Results: Septic Arthritis
 
@@ -1598,7 +1778,7 @@ CFU: Colony Forming Unit
 
 
 
----
++++
 
 ### Results: Hip Transplant
 
@@ -1619,7 +1799,7 @@ CFU: Colony Forming Unit
 ![](assets/images/microbiota/hipimplant.jpg)
 </div>
 
----
++++
 
 ### Conclusion
 
