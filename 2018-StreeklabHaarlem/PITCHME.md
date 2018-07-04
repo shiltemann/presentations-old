@@ -34,7 +34,6 @@ Juli 2018, Streeklab Haarlem
 
 - Wat is Galaxy?
 - MYcrobiota pipeline
-- JAK-2 pipeline
 - HLA-DQ pipeline
 
 ---
@@ -1164,7 +1163,7 @@ johns presentation: https://docs.google.com/presentation/d/1MxFfMKINUMKat-bgb9NF
    - in eigen beheer, minder afhankelijk van EMC
    - backup server bij EMC om naar uit te wijken bij downtime
 
----
++++
 
 ### Servers
 
@@ -1177,10 +1176,18 @@ johns presentation: https://docs.google.com/presentation/d/1MxFfMKINUMKat-bgb9NF
 
 ### Training
 
-- Ieder jaar een 2/3 daagse Galaxy training in EMC
-- October: Elixir Galaxy cursus in het VU
-- Kunnen een Galaxy workshop organiseren op Streeklab Haarlem?
+<div class="left small">
+<ul>
+<li>Ieder jaar een 2/3 daagse Galaxy training in EMC</li>
+<ul><li>Volgende Editie in November</li></ul>
+<li>17-19 October: Elixir Galaxy cursus in het VU</li>
+<li>Galaxy workshop organiseren op Streeklab Haarlem?</li>
+</ul></li>
+</div>
 
+<div class="right">
+![](assets/images/galaxy/events.png)
+</div>
 ---
 
 ### Acknowledgements
