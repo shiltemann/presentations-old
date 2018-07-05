@@ -233,7 +233,6 @@ https://usegalaxy.eu
 ### Streeklab Haarlem Pipelines
 
 1. Microbioto Analyse
-2. JAK2
 3. HLA-DQ
 
 ---?image=2018-GalaxyEU/images/background.jpg
@@ -660,7 +659,7 @@ Note:
 - often done after OTU clustering, but not necessarily
 - GreenGenes not updated since 2013
 
----
++++
 
 ### Assigning taxonomy
 
