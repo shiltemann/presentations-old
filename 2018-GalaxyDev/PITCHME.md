@@ -51,7 +51,7 @@ The Galaxy App store
 <div class="block">
 <div class="left">
 
-Continuous integration
+Travis Continuous Integration
 <br>
 <ul>
 <li>Linting xml wrappers</li>
