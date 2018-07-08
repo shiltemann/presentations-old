@@ -84,7 +84,21 @@ IUC: https://github.com/galaxyproject/tools-iuc
 EMC: https://github.com/erasmusmc-bioinformatics/galaxytools-emc
 </div>
 
+---
 
+![](assets/images/galaxy/planemo_logo.png)
+
+Galaxy tool development framework
+- Lint your tool xml wrapper
+- Run functional tests
+- Planemo serve (deploy tools locally)
+- Upload to Tool Shed
+- ...
+
+<br>
+<div class="bottom">
+Documentation: https://planemo.readthedocs.io
+</div>
 ---
 
 ### Training
