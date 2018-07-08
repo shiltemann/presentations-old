@@ -88,6 +88,10 @@
 	float: bottom;
 }
 
+.reveal div.top {
+    float: top;
+}
+
 .reveal div.alignleft{
 	text-align: left;
 }
