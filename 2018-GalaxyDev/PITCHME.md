@@ -27,7 +27,7 @@ Note:
 
 ### Galaxy Tool Shed
 
-The Galaxy app-store
+The Galaxy App store
 
 ![](assets/images/galaxy/toolshed_screenshot.png)
 
