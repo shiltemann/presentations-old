@@ -43,6 +43,18 @@ The Galaxy App store
 ![scale-50](assets/images/galaxy/toolshed_install.png)
 </div>
 
+---
+
+### IUC
+
+Intergalactic Utilities Commission
+
+![scale-60](assets/images/galaxy/iuc.png)
+
+<div class="small">
+Tool repo: https://github.com/galaxyproject/tools-iuc <br>
+Best practices: http://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html
+</div>
 
 ---
 
@@ -71,6 +83,7 @@ IUC: https://github.com/galaxyproject/tools-iuc
 <br>
 EMC: https://github.com/erasmusmc-bioinformatics/galaxytools-emc
 </div>
+
 
 ---
 
@@ -104,5 +117,21 @@ https://training.galaxyproject.org
  </ul>
 </ul>
 </div>
+
+---
+
+### Useful links
+
+- [Training Materials](https://training.galaxyproject.org)
+- [Tool Schema Definition](https://docs.galaxyproject.org/en/latest/dev/schema.html)
+- [Planemo Documentation](https://planemo.readthedocs.io/en/latest/)
+- [IUC Best Practices](http://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html)
+- Tool repoitories: [IUC](https://github.com/galaxyproject/tools-iuc) and [EMC](https://github.com/ErasmusMC-Bioinformatics/galaxytools-emc)
+- [Tool Shed](https://toolshed.g2.bx.psu.edu/) and [Test Tool Shed](https://testtoolshed.g2.bx.psu.edu/)
+- [Bioconda recipes](https://github.com/bioconda/bioconda-recipes)
+- [Saskia's Galaxy Tool Cheat Sheet](https://github.com/shiltemann/cheatsheets/blob/master/galaxy-tools.md)
+
+<br><br>
+<div class="bottom small">These slides: https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyDev</div>
 
 
