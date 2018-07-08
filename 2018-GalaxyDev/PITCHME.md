@@ -40,7 +40,7 @@ The Galaxy App store
 ![scale-60](assets/images/galaxy/galaxy_admin_toolsheds.png)
 </div>
 <div>
-![scale-60](assets/images/galaxy/toolshed_install.png)
+![scale-50](assets/images/galaxy/toolshed_install.png)
 </div>
 
 
