@@ -4,6 +4,7 @@
 Galaxy: https://usegalaxy.eu
 
 Manual: https://training.galaxyproject.org
+
 Tutorial: From peaks to genes (topic "Introduction")
 
 Join workshop: https://usegalaxy.eu/join-training/mgc2018
