@@ -19,9 +19,9 @@
 
 1. Navigate to: https://training.galaxyproject.org
 
-2. Click on topic: **Introduction to Galaxy Analyses**
+2. Choose topic: **Introduction to Galaxy Analyses**
 
-3. Click on tutorial: **Galaxy 101**
+3. Choose tutorial: **Galaxy 101**
 
 4. Have fun!
 
