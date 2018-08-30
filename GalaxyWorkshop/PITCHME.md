@@ -1,13 +1,5 @@
 # Let's get started!
 
-- Galaxy: https://usegalaxy.eu
-
-- Manual: https://training.galaxyproject.org
-
-- Tutorial: **From peaks to genes** (topic "Introduction")
-
-- Join workshop: https://usegalaxy.eu/join-training/mgc2018
-
 ---
 
 # Galaxy
@@ -18,7 +10,7 @@
 
 3. Verify your registration (e-mail confirmation)
 
-3. Join the workshop: https://usegalaxy.eu/join-training/mgc2018
+3. Join the workshop: https://usegalaxy.eu/join-training/emc2018
 
 
 ---
@@ -29,7 +21,7 @@
 
 2. Click on topic **Introduction to Galaxy Analyses**
 
-3. Click on tutorial **From Peaks to Genes**
+3. Click on tutorial **Galaxy 101**
 
 4. Have fun!
 
