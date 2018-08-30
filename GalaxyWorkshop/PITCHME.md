@@ -1,5 +1,9 @@
 # Let's get started!
 
+Note:
+
+These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
+
 ---
 
 # Galaxy
