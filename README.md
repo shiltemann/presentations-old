@@ -45,6 +45,17 @@ $ cd docker
 $ docker-compose up
 ```
 
+Use inotify to push changes to local gitpitch on every modification of slide.
+
+From the slides folder do:
+
+```
+while inotifywait -r --exclude ".*.swp" -e modify . ; do git reset HEAD~ && git add PITCHME.md PITCHME.yaml ../assets/images/*  && git commit -m "add content" && git push -f gitpitch; done
+```
+
+- Be sure not to save again until the update and push has completed
+- This will overwrite your last commit to keep history clean, use with care
+
 
 ### Set background image for a slide
 
