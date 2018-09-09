@@ -14,7 +14,7 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 3. Verify your registration (e-mail confirmation)
 
-3. Join the workshop: https://usegalaxy.eu/join-training/emc2018
+3. Join the workshop: https://usegalaxy.eu/join-training/eccb2018
 
 
 ---
@@ -25,7 +25,7 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 2. Choose topic: **Introduction to Galaxy Analyses**
 
-3. Choose tutorial: **Galaxy 101**
+3. Choose tutorial: **From Peaks to Genes**
 
 4. Have fun!
 
