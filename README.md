@@ -10,11 +10,13 @@ or via the main slide set, which contains links to all other presentations: [htt
 
 ## Links to Presentations
 
-[Microbiota Analysis using Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyEU) @ Galaxy User Conference, Freiburg, March 15-16 2018
-[My life as a bioinformatician](https://gitpitch.com/shiltemann/presentations/slides?p=2018-LIACS) @ LIAXX Informatics Ladies Day, LIACS Leiden, May 18 2018
-[Data Analysis in Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-StreeklabHaarlem) @ Streeklab Haarlem, July 5 2018
-[Galaxy Tool Devlopment](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyDev) @ EMC Rotterdam, 9 July 2018
-[Galaxy Training Network](https://gitpitch.com/shiltemann/presentations/slides?p=2018-ECCB) @ ECCB, Athens Greece, 10 September 2018
+| Title                                                                                                   | Where                                | When             |
++---------------------------------------------------------------------------------------------------------+--------------------------------------+------------------+
+|[Microbiota Analysis using Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyEU) | Galaxy User Conference, Freiburg     | March 15-16 2018 |
+|[My life as a bioinformatician](https://gitpitch.com/shiltemann/presentations/slides?p=2018-LIACS) | LIAXX Informatics Ladies Day, LIACS Leiden | May 18 2018      |
+|[Data Analysis in Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-StreeklabHaarlem)  | Streeklab Haarlem                    | July 5 2018      |
+|[Galaxy Tool Devlopment](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyDev)          | EMC Rotterdam                        | 9 July 2018      |
+|[Galaxy Training Network](https://gitpitch.com/shiltemann/presentations/slides?p=2018-ECCB)              | ECCB, Athens Greece                  | 10 September 2018|
 
 ## Presenting slides
 
