@@ -11,6 +11,10 @@ or via the main slide set, which contains links to all other presentations: [htt
 ## Links to Presentations
 
 [Microbiota Analysis using Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyEU) @ Galaxy User Conference, Freiburg, March 15-16 2018
+[My life as a bioinformatician](https://gitpitch.com/shiltemann/presentations/slides?p=2018-LIACS) @ LIAXX Informatics Ladies Day, LIACS Leiden, May 18 2018
+[Data Analysis in Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-StreeklabHaarlem) @ Streeklab Haarlem, July 5 2018
+[Galaxy Tool Devlopment](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyDev) @ EMC Rotterdam, 9 July 2018
+[Galaxy Training Network](https://gitpitch.com/shiltemann/presentations/slides?p=2018-ECCB) @ ECCB, Athens Greece, 10 September 2018
 
 ## Presenting slides
 
@@ -40,6 +44,17 @@ Using docker (gitpitch + gitlab), full instructions [here](docker/)
 $ cd docker
 $ docker-compose up
 ```
+
+Use inotify to push changes to local gitpitch on every modification of slide.
+
+From the slides folder do:
+
+```
+while inotifywait -r --exclude ".*.swp" -e modify . ; do git reset HEAD~ && git add PITCHME.md PITCHME.yaml ../assets/images/*  && git commit -m "add content" && git push -f gitpitch; done
+```
+
+- Be sure not to save again until the update and push has completed
+- This will overwrite your last commit to keep history clean, use with care
 
 
 ### Set background image for a slide
