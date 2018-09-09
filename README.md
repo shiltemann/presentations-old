@@ -11,7 +11,7 @@ or via the main slide set, which contains links to all other presentations: [htt
 ## Links to Presentations
 
 | Title                                                                                                   | Where                                | When             |
-+---------------------------------------------------------------------------------------------------------+--------------------------------------+------------------+
+|---------------------------------------------------------------------------------------------------------|--------------------------------------|------------------|
 |[Microbiota Analysis using Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyEU) | Galaxy User Conference, Freiburg     | March 15-16 2018 |
 |[My life as a bioinformatician](https://gitpitch.com/shiltemann/presentations/slides?p=2018-LIACS) | LIAXX Informatics Ladies Day, LIACS Leiden | May 18 2018      |
 |[Data Analysis in Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-StreeklabHaarlem)  | Streeklab Haarlem                    | July 5 2018      |
