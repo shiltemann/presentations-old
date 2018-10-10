@@ -171,7 +171,7 @@ Starting a workflow
 
 ### Share your work
 
-<div class="left">
+<div class="small left">
 <ul>
 <li> Datasets, Histories, Workflows, Visualisations</li>
   <ul>
@@ -578,35 +578,15 @@ CFU: Colony Forming Unit
 
 ---
 
-### Results: Hip Transplant
+### Conclusions
 
-<div class="left70 small">
+<div class="small">
 <ul>
-<li>Infected hip implant</li>
-<li> 5 samples from different locations</li>
-<li> No culture data available</li>
-<br>
-<li> Result: Staphylococcus </li>
-  <ul>
-  <li> 1.3K, 53K, 10K, 742K, 1072K gene copies</li>
-  <li> most likely contaminations during operation</li>
-  </ul>
+ <li>Pipeline offers precise quantitative microbiota analyses</li>
+ <li>Can offer insight where culture was negative</li>
+ <li>Suitable for samples of low biomassa</li>
+ <li>Clinicians can use pipeline without bioinformaticians help </li>
 </ul>
-</div>
-<div class="right30">
-![](assets/images/microbiota/hipimplant.jpg)
-</div>
-
-
----
-
-### Training Materials
-
-
-![](assets/images/microbiota/training-material.png)
-
-<div class="tiny">
-https://training.galaxyproject.org
 </div>
 
 ---
@@ -615,7 +595,6 @@ https://training.galaxyproject.org
 
 <div class="small">
 <ul>
- <li> Clinicians can use Galaxy without bioinformatics expertise </li>
  <li> Streeklab Haarlem does not have the expertise to run this in-house </li>
  <li> We don't have resources to support/maintain this </li>
  <li> Typically run the workflow ~once a week </li>
