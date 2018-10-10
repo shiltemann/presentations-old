@@ -157,15 +157,15 @@ Starting a workflow
 
 ### Visualisations
 
-<div class="left">
+<div class="small left">
 <ul>
-  <li> Built-in visualisation plug-ins and genome browser
-  <li> Connections to online visualisation providers
-  <li> Tools that produce visualisations
+  <li> Built-in visualisation plug-ins and genome browser </li>
+  <li> Connections to online visualisation providers </li>
+  <li> Tools that produce visualisations </li>
 </ul>
 </div>
 <div class="right">
-![scale-40](assets/images/galaxy/visualisations.png)
+![](assets/images/galaxy/visualisations.png)
 </div>
 ---
 
