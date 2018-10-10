@@ -1,7 +1,7 @@
 ---?image=2018-GalaxyEU/images/background.jpg
 
 <div class="white">
-<h2 class="white"> Microbiota Analysis using Galaxy </h2>
+<h2 class="white"> Diagnostics with Galaxy: Microbiota Analysis </h2>
 
 Saskia Hiltemann
 
@@ -39,7 +39,7 @@ Saskia Hiltemann
 
 - Introduction to Galaxy
 - Introduction to Microbiota analyses
-- Project: Diagnostics pipeline for Streeklab Haarlem
+- Diagnostics pipeline for Streeklab Haarlem
 - Run it in the SURF cloud?
 
 Note:
@@ -124,10 +124,10 @@ A `mothur` command in Galaxy:
   </ul><br>
 <li> Colours indicate status </li>
   <ul>
-  <li> <a style="background-color: gray; color: white;">Grijs:</a> queued </li>
-  <li> <a style="background-color: yellow; color: black;">Geel:</a> running </li>
-  <li> <a style="background-color: green; color: white;">Groen:</a> completed successfully </li>
-  <li> <a style="background-color: red; color: white;">Rood:</a> error occurred </li>
+  <li> <a style="background-color: gray; color: white;">Grey:</a> queued </li>
+  <li> <a style="background-color: yellow; color: black;">Yellow:</a> running </li>
+  <li> <a style="background-color: green; color: white;">Green:</a> completed successfully </li>
+  <li> <a style="background-color: red; color: white;">Red:</a> error occurred </li>
   </ul><br>
 <li> Download, run info, restart, visualisations </li>
 </ul>
@@ -157,12 +157,16 @@ Starting a workflow
 
 ### Visualisations
 
-- Built-in visualisation plug-ins and genome browser
-- Connections to online visualisation providers
-- Tools die visualisaties produceren (bijv. Krona)
-
-![scale-40](assets/images/microbiota/krona.png)
-
+<div class="left">
+<ul>
+  <li> Built-in visualisation plug-ins and genome browser
+  <li> Connections to online visualisation providers
+  <li> Tools that produce visualisations
+</ul>
+</div>
+<div class="right">
+![scale-40](assets/images/galaxy/visualisations.png)
+</div>
 ---
 
 ### Share your work
@@ -193,7 +197,7 @@ https://training.galaxyproject.org
 
 ---
 
-### Microbiota Analysis
+### Microbiota Analyses
 
 ---
 
@@ -385,35 +389,6 @@ Note:
 
 ---
 
-### NGS Approaches
-
-- Shotgun sequencing
-- Amplicon sequencing
-
----
-
-### Shotgun Sequencing
-
-<div class="left small">
-<ul>
-<li> Sequence everything </li><br>
-<li> Expensive ($1000+ per sample) </li><br>
-<li> More information
- <ul>
-  <li> Functional prediction</li>
-  <li> Antibiotic resistance </li>
-  <li> Unknown organisms </li>
-</ul><br>
-<li> Higher complexity </li>
-</ul>
-</div>
-
-<div class="right">
-![](assets/images/microbiota/shotgun-puzzles.png)
-</div>
-
----
-
 ### Amplicon Sequencing
 
 <div class="left small">
@@ -475,41 +450,6 @@ Note:
 - 16S gene is around 1500 nucleotides long
 - Strong secondary structure, folds into 3D structure
 - S stands for Svedberg (unit of time, time it takes to sediment in centrifuge)
-
----
-
-### Amplicon Sequencing
-
-<div class="left small">
-<br>
-<ul>
-<li>Pros:</li>
- <ul>
-  <li>Cheap: ($50-$100 per sample)</li>
-  <li>Well-established</li>
-  <li>Lot of reference databases</li>
- </ul> <br>
-<li>Cons: </li>
-  <ul>
-  <li>Choice of V-region can bias results</li>
-  <li>Difficult to resolve species/strains</li>
-  </ul>
-</ul>
-</div>
-
-<div class="right tiny">
-![](assets/images/microbiota/bias-vregions.png)
-doi:10.1038/nature11209
-</div>
-
-Note:
-Image: number of OTUs identified by genus for V13 region (y-axis)
-and V35 region (x-axis)
-
-For example for Coprococcus, 65 OTUs identified when using V35 region,
-3 OTUs with V13 region.
-
-TODO: move bias image til after explanation of OTUs?
 
 ---
 
@@ -638,56 +578,6 @@ CFU: Colony Forming Unit
 
 ---
 
-### Results: Septic Arthritis
-
-
-<div class="left70 small">
-<ul>
-<li>Suspected Septic Arthritis patient</li>
-<li>History of dental extraction</li>
-<li>Culture negative</li>
-<br>
-
-<li>MYcrobiota: Prevotella denticola</li>
- <ul>
-  <li>70K copies</li>
-  <li>typical inhabitant of the oral flora</li>
-  <li>Hard to culture under standard conditions</li>
- </ul>
-</ul>
-</div>
-
-<div class="right30">
-![](assets/images/microbiota/arthritis.png)
-</div>
-
-
-+++
-
-### Results: Septic Arthritis 2
-
-<div class="left70 small">
-<ul>
-<li>Arthritis patient</li>
-<li>History: operation of the intestine</li>
-<li>Culture negative</li>
-<br>
-
-<li>MYcrobiota: Rhuminococcus species</li>
-  <ul>
-  <li>192K copies</li>
-  <li>Inhabitant of the intestine</li>
-  <li>Hard to culture under standard conditions</li>
-  </ul>
-</ul>
-</div>
-
-<div class="right30">
-![](assets/images/microbiota/arthritis.png)
-</div>
-
----
-
 ### Results: Hip Transplant
 
 <div class="left70 small">
@@ -721,11 +611,12 @@ https://training.galaxyproject.org
 
 ---
 
-### Run it in the SURF Cloud?
+### Run it in the SURF HPC Cloud?
 
 <div class="small">
 <ul>
  <li> Clinicians can use Galaxy without bioinformatics expertise </li>
+ <li> Streeklab Haarlem does not have the expertise to run this in-house </li>
  <li> We don't have resources to support/maintain this </li>
  <li> Typically run the workflow ~once a week </li>
   <ul>
