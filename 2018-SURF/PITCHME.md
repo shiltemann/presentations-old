@@ -9,13 +9,42 @@ Saskia Hiltemann
 
 ---
 
+### About Me
+
+<div class="left small">
+<br><br><br>
+<ul>
+<li> Erasmus MC</li> <br>
+<li> Bioinformatics group (department of pathologie)</li><br>
+<li> Build analysis pipelines</li>
+ <ul>
+ <li> User friendly</li>
+ <li> Researchers/clinician should be able to run analyses themselves</li>
+ </ul><br>
+<li> Prostate Cancer, Metagenomics, RNA-Seq, Immunology </li>
+</ul>
+</div>
+
+<div class="right">
+
+![scale-60](assets/images/erasmusmc/logo-emc.png)
+![scale-60](assets/images/erasmusmc/erasmusmc.jpg)
+
+</div>
+
+
+---
+
 ### Overview
 
 - Introduction to Galaxy
 - Introduction to Microbiota analyses
 - Project: Diagnostics pipeline for Streeklab Haarlem
+- Run it in the SURF cloud?
 
 Note:
+
+Not using SURF's infra yet, but this project seems ideally suited
 
 ---
 
@@ -23,9 +52,144 @@ Note:
 
 ---
 
-### Graphical interface for command-line tools
+### Bioinformatics: the hard way
 
-<
+A `mothur` (metagenomics) analysis on the linux command-line:
+
+![scale-70](assets/images/microbiota/mothur_commandline.png)
+
+
+Note:
+
+- especially for non-programmers
+- want to enable researchers and clinicians to run their own analyses
+
+---
+
+![](assets/images/galaxy/galaxy_logo.png)
+
+<div class="left small">
+<ul>
+<li> Graphical interface for linux tools</li><br>
+<li> Web-based (no installatie required)</li><br>
+<li> Large user community</li>
+  <ul>
+  <li> over 6000 tools</li>
+  <li> over 5500 publications</li>
+  <li> over 100 public servers</li>
+  </ul><br>
+<li> Emphasis on reproducibility </li><br>
+<li> Free & Open-Source</li>
+</ul>
+</div>
+
+<div class="right">
+![](assets/images/galaxy/galaxy_interface.png)
+https://galaxyproject.org
+</div>
+
+---
+
+### The Galaxy Interface
+
+
+![](assets/images/galaxy/galaxy_instance_detailed_screenshot.png)
+
+---
+
+### Bioinformaticsc: The Galaxy way
+
+A `mothur` command in Galaxy:
+
+<div class="left">
+![](assets/images/microbiota/mothur_commandline.png)
+
+</div>
+<div class="right">
+![](assets/images/galaxy/mothur_tool_interface.png)
+</div>
+
+---
+
+### Analysis History
+
+<div class="left small">
+<ul>
+<li> Examine datasets, add metadata </li><br>
+<li> Galaxy houdt analyse historie exact bij</li>
+  <ul>
+  <li> Tools & versions</li>
+  <li> Parameter settings</li>
+  <li> Input and reference datasets</li>
+  </ul><br>
+<li> Colours indicate status </li>
+  <ul>
+  <li> <a style="background-color: gray; color: white;">Grijs:</a> queued </li>
+  <li> <a style="background-color: yellow; color: black;">Geel:</a> running </li>
+  <li> <a style="background-color: green; color: white;">Groen:</a> completed successfully </li>
+  <li> <a style="background-color: red; color: white;">Rood:</a> error occurred </li>
+  </ul><br>
+<li> Download, run info, restart, visualisations </li>
+</ul>
+</div>
+<div class="right">
+![scale-30](assets/images/galaxy/history.png)
+</div>
+
+---
+
+### Workflows
+
+Tools are easily combined into analysis pipelines using the graphical *workflow editor*
+
+
+![scale-80](assets/images/galaxy/workflow_editor.png)
+
+---
+
+### Workflows
+
+Starting a workflow
+
+![scale-70](2018-StreeklabHaarlem/images/hladq_workflow_run.png)
+
+---
+
+### Visualisations
+
+- Built-in visualisation plug-ins and genome browser
+- Connections to online visualisation providers
+- Tools die visualisaties produceren (bijv. Krona)
+
+![scale-40](assets/images/microbiota/krona.png)
+
+---
+
+### Share your work
+
+<div class="left">
+<ul>
+<li> Datasets, Histories, Workflows, Visualisations</li>
+  <ul>
+  <li>Specific users </li>
+  <li>Anybody with the link</li>
+  <li>Publicly visible </li>
+  </ul>
+</ul>
+</div>
+<div class="right">
+![](assets/images/galaxy/shared_data.png)
+</div>
+---
+
+### Galaxy Training
+
+Central repository of Galaxy Training materials
+
+![scale-50](assets/images/galaxy/training_materials_website.png)
+
+https://training.galaxyproject.org
+
 
 ---
 
@@ -221,33 +385,6 @@ Note:
 
 ---
 
-### MYcrobiota: Experimental Design
-
-<div class="left small">
-
-<ul>
- <li> Illumina MiSeq </li>
- <li> 16S rRNA Amplicon Sequencing</li>
- <li> Micelle PCR </li>
- <br>
- <li> 3 technical replicates per sample </li>
- <li> 1 Negative control sample </li>
-   <ul><li>correct background contamination</li></ul>
- <li> 1 Internal control sample </li>
-  <ul>
-   <li>known species at a known quantity</li>
-   <li>estimate number of copies</li>
- </ul>
-</ul>
-</div>
-
-<div class="right">
-![](assets/images/microbiota/miseq.png)
-
-</div>
-
----
-
 ### NGS Approaches
 
 - Shotgun sequencing
@@ -396,465 +533,8 @@ TODO: move bias image til after explanation of OTUs?
 
 ---
 
-### Tools in Galaxy
 
-
-<div class="right30">
-![scale-40](assets/images/microbiota/mothur-logo.png)
-
-![scale-40](assets/images/microbiota/qiime-logo.png)
-</div>
-
-<div class="left70 small">
-<ul>
-<li> \> 250 tools in metagenomics category in Tool Shed </li><br>
-<li> 2 large tool suites</li>
- <ul><li>Mothur</li><li>Qiime</li></ul><br>
-<li> Visualisation tools </li>
- <ul>
-  <li>Krona</li>
-  <li>Phinch</li>
- </ul><br>
-<li> PICRUSt </li>
- <ul><li>functional content prediction based on phylogeny</li></ul><br>
-<li> .. </li>
-</ul>
-</div>
-
-+++
-
-### Mothur vs Qiime
-
-
-<div class="block">
-<div class="left small">
-![scale-40](assets/images/microbiota/mothur-logo.png)
-
-<ul>
-<li> C++ </li>
-<li> Reimplements methods</li>
-<li> Visualisations mostly not included</li>
-<li> Open Source </li>
-</ul>
-
-</div>
-
-<div class="right small">
-![scale-40](assets/images/microbiota/qiime-logo.png)
-
-<ul>
-<li>Python</li>
-<li>Wraps existing methods </li>
-<li>Better visualisations </li>
-<li>Open Source, but wraps some closed-source components </li>
-</ul>
-</div>
-</div>
-
-http://blog.mothur.org/2016/01/12/mothur-and-qiime/
-
-Note:
-
-- both work well and are very similar
-- comes down to personal preference
-- mothur faster cuz C/C++
-- qiime better visualisations, but works with biom so can use it on mothur data as well
-- qiime proprietary components (e.g. USEARCH)
-
----
-
-### Pre-processing
-
-![scale-70](assets/images/microbiota/preprocessing.png)
-
-- many ways to filter and trim your data
-- tradeoff between quality and amount of information retained
-
----
-
-### Chimera removal
-
-
-<div class="left small">
-<br><br>
-<ul>
-<li>Greek mythology </li>
- <ul>
-  <li>Hybrid animals</li>
- </ul><br>
- <li>Sequencing data </li>
- <ul>
-  <li> Hybrid sequences </li>
-  <li> Created during PCR</li>
- </ul><br>
- <li> Correction Methods </li>
- <ul>
-  <li>In Silico</li>
-  <li>Micelle PCR</li>
- </ul>
-</ul>
-</div>
-
-<div class="right">
-![scale-40](assets/images/microbiota/chimera-animal.jpg)
-<br>
-![scale-80](assets/images/microbiota/chimeras.png)
-</div>
-
----
-
-### Traditional PCR
-
-![](assets/images/microbiota/16S_end-to-end_nomicelle.png)
-
-<div class="small">
-<ul>
-<li>PCR performed in single compartment</li>
-<li>bias due to differences in efficiency of 16S gene amplifications</li>
-<li>Susceptible to chimera formation</li>
-</ul>
-</div>
----
-
-### Micelle PCR
-
-![](assets/images/microbiota/16S_end-to-end_micelle.png)
-
-<div class="left70 small">
-<ul>
-<li>Every DNA molecule amplified individually</li>
- <ul><li> ~10^10 compartments</li></ul>
-<li>Addition of **internal control** for quantification</li>
-  <ul><li>known species at known quantities</li></ul>
-<li>Improves microbiota analyses (doi: 10.1038/srep14181)</li>
-</ul>
-</div>
-
-<div class="right30">
-![scale-70](assets/images/microbiota/micelle.png)
-</div>
-
-
----
-
-### OTU Clustering
-
-**OTU**: Operational Taxonomic Unit
-
-<div class="left">
-![](assets/images/microbiota/otu-clusters.png)
-</div>
-<div class="right">
-![](assets/images/microbiota/otu.png)
-</div>
-
-Note:
-- clusters of closely related sequences
-- proxy for species/genus (97%=species, but perhaps too close to sequencing error territory to be reliable)
-- control for sequencing/PCR errors
-- for amplicon data, this is not done so much in shotgun
--
-
----
-
-### OTU Clustering
-
-<div class="left small">
-<ul>
- <li>Clustering Approaches:</li>
- <ul>
-  <li>De novo</li>
- </ul>
-</ul>
-</div>
-
-<div class="right">
-![](assets/images/microbiota/otu-clusters.png)
-![](assets/images/microbiota/otu-clustering-reference-based-placeholder.png)
-</div>
-
-Note:
-OTU definition (taxonomy, sequence similarity, phylogeny)
-clustering strategy (de novo, open reference, closed reference)
-distance metrics (pairwise alignment, multiple alignment, alignment-free)
-algorithm (hierarchical clustering, seed-based, model-based)
-
----
-
-### OTU Clustering
-
-<div class="left small">
-<ul>
- <li>Clustering Approaches:</li>
- <ul>
-  <li>De novo</li>
-  <li>Closed reference</li>
- </ul>
-</ul>
-</div>
-
-<div class="right">
-![](assets/images/microbiota/otu-clusters.png)
-![](assets/images/microbiota/otu-clustering-reference-based.png)
-</div>
-
-Note:
-OTU definition (taxonomy, sequence similarity, phylogeny)
-clustering strategy (de novo, open reference, closed reference)
-distance metrics (pairwise alignment, multiple alignment, alignment-free)
-algorithm (hierarchical clustering, seed-based, model-based)
-
-
----
-
-### OTU Clustering
-
-<div class="left small">
-<ul>
- <li>Clustering Approaches:</li>
- <ul>
-  <li>De novo</li>
-  <li>Closed reference</li>
-  <li>Open Reference</li>
- </ul>
-</ul>
-</div>
-
-<div class="right">
-![](assets/images/microbiota/otu-clusters.png)
-![](assets/images/microbiota/otu-clustering-reference-based.png)
-</div>
-
-Note:
-OTU definition (taxonomy, sequence similarity, phylogeny)
-clustering strategy (de novo, open reference, closed reference)
-distance metrics (pairwise alignment, multiple alignment, alignment-free)
-algorithm (hierarchical clustering, seed-based, model-based)
-
----
-
-
-### OTU Clustering
-
-<div class="left small">
-<ul>
- <li>Clustering Approaches:</li>
- <ul>
-  <li>De novo</li>
-  <li>Closed reference</li>
-  <li>Open reference</li>
- </ul>
- <br>
- <li>Distance Metrics</li>
- <ul>
-  <li>Pairwise alignment</li>
-  <li>Multiple alignment</li>
-  <li>Alignment-free</li>
- </ul>
- <br>
- <li>Algorithms</li>
- <ul>
-  <li>Hierarchical clustering</li>
-  <li>Seed-based clustering</li>
-  <li>Model-based clustering</li>
- </ul>
-</ul>
-</div>
-
-<div class="right">
-![](assets/images/microbiota/otu-clusters.png)
-![](assets/images/microbiota/otu-clustering-reference-based.png)
-</div>
-
-Note:
-OTU definition (taxonomy, sequence similarity, phylogeny)
-clustering strategy (de novo, open reference, closed reference)
-distance metrics (pairwise alignment, multiple alignment, alignment-free)
-algorithm (hierarchical clustering, seed-based, model-based)
-
----
-
-### Assigning Taxonomy
-
-<div class="block">
-<div class="left small">
-<ul>
- <li>Methods</li>
- <ul>
-  <li>Sequence alignment</li>
-  <li>K-mer based methods</li>
-  <li>Tree based methods</li>
-  <li>Machine learning</li>
- </ul>
- <br>
- <li>Reference Databases</li>
- <ul>
-  <li>SILVA</li>
-  <li>Green Genes</li>
-  <li>RDP</li>
-  <li>NCBI</li>
- </ul>
-</ul>
-</div>
-
-<div class="right">
-![scale-70](assets/images/microbiota/taxonomic-classification.jpeg)
-![](assets/images/microbiota/silva-greengenes.png)
-</div>
-</div>
-
-<div class="tiny">
-Comparison: [10.1186/s12864-017-3501-4]((https://doi.org/10.1186/s12864-017-3501-4), [10.1093/nar/gkn491](https://doi.org/10.1093/nar/gkn491)
-</div>
-
-Note:
-- often done after OTU clustering, but not necessarily
-- GreenGenes not updated since 2013
-
----
-
-### Assigning taxonomy
-
-![](assets/images/microbiota/taxonomy-methods.jpeg)
-
-<div class="tiny">
-doi: 10.1093/nar/gkn491
-</div>
-
-Note:
-
-- composition at phylym level
-- each box a different dataset
-- each subpanel (row) a different clasisfication method
-- x-axis: region sequenced
-- y-axis: abundance as fraction of total
-- conclusion: choice of classifier has great impact on species identified
-
-figure legend:
-Compositions at the phylum level for each of the three datasets: (a) Guerrero Negro mat, (b) Human gut and (c) Mouse gut, using a range of different methods (separate subpanels within each group). The x-axis of each graph shows region sequenced. The y-axis shows abundance as a fraction of the total number of sequences in the community. The legend shows colors for phyla (consistent across graphs).
-
----
-
-### OTU table
-
-![](assets/images/microbiota/otutable.png)
-
-Note:
-domain, kingdom, phylum, class, order, family, genus, species
-
----
-
-### Diversity metrics
-
-- Alpha Diversity
-- Beta Diversity
-
-Note:
-Alpha diversity: diversity within 1 sample
-Beta diversity: diversity between samples
-
-in our case: every patient considered on its own, so only alpha diversity
-is considered.
-
----
-
-### Alpha Diversity
-
-Diversity *within* a sample
-
-![scale-90](assets/images/microbiota/alpha-diversity.png)
-
-
----
-
-### Alpha Diversity
-
-
-<div class="small left70">
-<ul>
- <li>Simple approach: count number of OTUs</li>
- <br>
- <li>Doesnt take into account relatedness of OTUs</li>
-  <ul><li>Phylogenetic distance metrics</li></ul>
- <br>
- <li>Doesnt take into account relative distribution</li>
- <ul>
-  <li>Sample A: 3 species at 98%,1%,1%</li>
-  <li>Sample B: 3 species at 33%,33%,33%</li>
- </ul>
-</ul>
-</div>
-
-<div class="right30">
-![](assets/images/microbiota/phylogenetic-distance.png)
-</div>
-
-Note:
-- PD: sum of branch lengths
-- in our pipeline we report several diversity metrics
-
-
----
-
-### Diversity
-
-<div class="block small">
-*"As many diversity measures as there are ambitious ecologists"*
-<br><br>
-shannon, chao, pd, ace, simpson, sobs, jack, npshannon, smithwilson, heip
-bergerparker, boney, efron, shen, solow, bootstrap, qstat, coverage, anderberg,
-hamming, jclass, jest, ochiai, canberra, thetayc, invsimpson, ...
-</div>
-
-
-<div class="small">
-https://www.mothur.org/wiki/Calculators
-</div>
-
----
-
-### Rarefaction
-
-Have I captured the full diversity of my sample?
-
-![](assets/images/microbiota/rarefaction.gif)
-
-Calculate diversity for randomly selected subset of sequences in each sample
-
-
----
-
-### Post-processing
-
-<div class="left small">
-<ul>
-<li>3 replicates</li>
- <ul><li>OTU must be present in all of them</li></ul>
- <br>
- <li>Negative Extraction Control Sample</li>
-  <ul><li>subtract background sample</li></ul>
- <br>
- <li>Internal Control Sample</li>
-  <ul><li>relative abundance -> copies</li></ul>
-
-</ul>
-</div>
-
-<div class="right">
-
-![](assets/images/microbiota/negative-control.jpg)
-</div>
-
-Note:
-- tetramix: equimolar mix of 4 species
-- 2500 to 2.5 16S rRNA gene copies per bacterial species
-
-Synthetic microbial community (SMC) samples tested comprised equimolar 16S rRNA gene copies derived from C. perfringens, S. aureus, H. influenzae, and M. catarrhalis and ranging from 2,500 to 2.5 16S rRNA gene copies per bacterial species. Averages of triplicate micPCR/NGS and triplicate traditional PCR/NGS results are shown in 100% stacked bars before and after correction for contaminating bacterial DNA. The correction of contaminating bacterial DNA comprises two steps: 1) eliminating OTUs that could not be reproducibly measured in triplicate experiments, and 2) subtracting 16S rRNA gene copies that were also quantified in triplicate measurements of a negative extraction control (NEC) sample. Values within bars represent the calculated number of 16S rRNA gene copies per bacterial OTU.i
-
-
----
-
-### Visualisations
+### Results reporting
 
 ---
 
@@ -1006,53 +686,6 @@ CFU: Colony Forming Unit
 ![](assets/images/microbiota/arthritis.png)
 </div>
 
-+++
-
-### Results: Septic Arthritis 3
-
-<div class="left70 small">
-<ul>
-<li>Arthritis patient</li>
-<li>Culture Negative</li>
-<br>
-<li>MYcrobiota: Neisseria meningitidis</li>
- <ul>
-  <li>895K copies</li>
-  <li>inhabitant of the throat</li>
-  <li>causative agent of bacterial meningitis</li>
-  <li>probably not culturable due to use of antibiotics</li>
- </ul>
-
-</ul>
-</div>
-
-<div class="right30">
-![](assets/images/microbiota/arthritis.png)
-</div>
-
-+++
-
-### Results: Septic Arthritis 4
-
-<div class="left70 small">
-<ul>
-<li>Arthritis patient</li>
-<li>Culture Negative</li>
-<br>
-<li>Ureaplasma</li>
- <ul>
-  <li>1200 copies</li>
-  <li>not culturable in routine diagnostics</li>
- </ul>
-</ul>
-</div>
-
-<div class="right30">
-![](assets/images/microbiota/arthritis.png)
-</div>
-
-
-
 ---
 
 ### Results: Hip Transplant
@@ -1074,18 +707,7 @@ CFU: Colony Forming Unit
 ![](assets/images/microbiota/hipimplant.jpg)
 </div>
 
----
 
-### Conclusion
-
-<div class="small">
-<ul>
- <li>MYcrobiota offers very precise quantitative microbiota analyses</li>
- <li>Can provide valuable insight in cases where cultures were negative</li>
- <li>Well suited for samples with low biomass</li>
- <li>Clinicians can use it without bioinformatics expertise needed</li>
-</ul>
-</div>
 ---
 
 ### Training Materials
@@ -1097,6 +719,20 @@ CFU: Colony Forming Unit
 https://training.galaxyproject.org
 </div>
 
+---
+
+### Run it in the SURF Cloud?
+
+<div class="small">
+<ul>
+ <li> Clinicians can use Galaxy without bioinformatics expertise </li>
+ <li> We don't have resources to support/maintain this </li>
+ <li> Typically run the workflow ~once a week </li>
+  <ul>
+   <li>Spin up VM, run workflow, download results, shut down VM</li>
+  </ul>
+</ul>
+</div>
 
 ---
 
