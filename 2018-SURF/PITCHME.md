@@ -467,12 +467,6 @@ Note:
 
 ---
 
-### Pipeline
-
-![](assets/images/microbiota/analysis_pipeline.png)
-
----
-
 
 ### Results reporting
 
