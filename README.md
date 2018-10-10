@@ -17,6 +17,8 @@ or via the main slide set, which contains links to all other presentations: [htt
 |[Data Analysis in Galaxy](https://gitpitch.com/shiltemann/presentations/slides?p=2018-StreeklabHaarlem)  | Streeklab Haarlem                    | July 5 2018      |
 |[Galaxy Tool Devlopment](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyDev)          | EMC Rotterdam                        | 9 July 2018      |
 |[Galaxy Training Network](https://gitpitch.com/shiltemann/presentations/slides?p=2018-ECCB)              | ECCB, Athens Greece                  | 10 September 2018|
+|[Galaxy for Diagnostics](https://gitpitch.com/shiltemann/presentations/slides?p=2018-SURF)              | SURF Life Science Seminar            | 12 October 2018  |
+
 
 ## Presenting slides
 
@@ -56,7 +58,7 @@ while inotifywait -r --exclude ".*.swp" -e modify . ; do git reset HEAD~ && git 
 ```
 
 - Be sure not to save again until the update and push has completed
-- This will overwrite your last commit to keep history clean, use with care
+- This will overwrite your last commit to keep history clean, use with care!!
 
 
 ### Set background image for a slide
