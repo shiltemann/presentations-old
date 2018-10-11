@@ -258,5 +258,6 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
  </ul>
 </div>
 <div class="right">
-![](assets/images/workshop/badges.png)
+![scale-50](assets/images/workshop/badges.png)
+![scale-50](assets/images/workshop/feedback.jpg)
 </div>
