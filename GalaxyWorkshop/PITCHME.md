@@ -10,45 +10,75 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 +++
 
-- Please fill out the sign-in sheet (every morning)
-- Coffee will be ..
-- Lunch will be ..
+<div class="left">
+<ul>
+ <li>Please fill out the sign-in sheet (every morning) </li>
+ <li> Coffee will be .. </li>
+ <li> Lunch will be .. </li>
+ <li> Drinks will be .. </li>
+</ul>
+</div>
+
+<div class="right">
+
+![scale-70](assets/images/workshop/signin.png)
+
+![scale-25](assets/images/workshop/hotdrink.jpeg)
+![scale-25](assets/images/workshop/food.jpeg)
+![scale-25](assets/images/workshop/drinks.jpeg)
+
+
+
+</div>
 
 +++
 
 ## Social dinner
 
-- Thursday Evening
-- Time:
-- Location:
-- How to get there:
+<div class="left">
+ <ul>
+  <li> Time: Thursday, 19:00 </li>
+  <li> Restaurant: **1e Klas** </li>
+  <li> Location: Amsterdam Central Station </li>
+  <li> Getting there: </li>
+ </ul>
+</div>
 
+<div class="right">
+
+![](https://restaurant1eklas.nl/wp-content/uploads/2015/07/Amdsterdam-Central-Station-Amsterdam-January-2012-Alexander-T-2000x1333.jpg)
+
+![](https://www.restaurant1eklas.nl/wp-content/uploads/2016/09/1D3B2191-e1473928938346.jpg)
+
+</div>
 ---
 
 ## Sticky Notes
 
-<div class="small left">
-<ul>
-  <li> 1. Status indicators
+<div class="small left70">
+<br><br><br>
+<ol>
+  <li> Status indicators
   <ul>
    <li>Pink: put on screen when you have a question</li>
    <li>Green: used to indicate your progress</li>
   </ul>
   </li>
- <li>2.  End-of-day feedback
+  <br>
+ <li>  End-of-day feedback
   <ul>
-   <li>Write positive feedback on green sticky</li>
-   <li>Write anything we can improve tomorrow on pink sticky </li>
-   <li>Stick on blackboard at end of day </li>
+   <li> Green: what did you like?</li>
+   <li> Pink: what could we improve tomorrow? </li>
+   <li> Leave on blackboard at end of the day </li>
   </ul>
  </li>
-</ul>
+</ol>
 </div>
 
-<div class="right">
-![](assets/images/workshop/stickynotes.jpeg)
+<div class="right30">
+![scale](assets/images/workshop/stickynotes.jpeg)
 
-![](assets/images/workshop/stickynotes_feedback.png)
+![scale](assets/images/workshop/stickynotes_feedback.png)
 </div>
 
 ---
@@ -175,7 +205,7 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 # Day 3
 
----
++++
 
 ### Computer room
 
