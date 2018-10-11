@@ -250,6 +250,13 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 ## Final wrap-up
 
-- Please return your badges
-- Please fill out the feedback form
-- Thank you for joining!
+<div class="left">
+ <ul>
+  <li> Please return your badges </li>
+  <li> Please fill out the feedback form </li>
+  <li> Thank you for joining! </li>
+ </ul>
+</div>
+<div class="right">
+![](assets/images/workshop/badges.png)
+</div>
