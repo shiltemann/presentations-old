@@ -11,8 +11,10 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 +++
 
 <div class="left">
+<br><br>
 <ul>
- <li>Please fill out the sign-in sheet (every morning) </li>
+ <li>Please fill out the sign-in sheet </li>
+ <br>
  <li> Coffee will be .. </li>
  <li> Lunch will be .. </li>
  <li> Drinks will be .. </li>
@@ -22,11 +24,10 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 <div class="right">
 
 ![scale-70](assets/images/workshop/signin.png)
-
-![scale-25](assets/images/workshop/hotdrink.jpeg)
-![scale-25](assets/images/workshop/food.jpeg)
-![scale-25](assets/images/workshop/drinks.jpeg)
-
+<br>
+![scale-20](assets/images/workshop/hotdrink.jpg)
+![scale-20](assets/images/workshop/food.gif)
+![scale-20](assets/images/workshop/drinks.jpeg)
 
 
 </div>
