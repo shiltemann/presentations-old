@@ -37,11 +37,12 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 ## Social dinner
 
 <div class="left">
+ <br>
  <ul>
-  <li> Time: Thursday, 19:00 </li>
-  <li> Restaurant: **1e Klas** </li>
-  <li> Location: Amsterdam Central Station </li>
-  <li> Getting there: </li>
+  <li> **Time:** Thursday, 19:00 </li>
+  <li> **Restaurant:** 1e Klas </li>
+  <li> **Location:** Amsterdam CS </li>
+  <li> **Getting there:** </li>
  </ul>
 </div>
 
@@ -251,13 +252,16 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 ## Final wrap-up
 
 <div class="left">
+ <br>
  <ul>
   <li> Please return your badges </li>
+  <br>
   <li> Please fill out the feedback form </li>
+  <br>
   <li> Thank you for joining! </li>
  </ul>
 </div>
 <div class="right">
-![scale-50](assets/images/workshop/badges.png)
-![scale-50](assets/images/workshop/feedback.jpg)
+![scale-40](assets/images/workshop/badges.png)
+![scale-70](assets/images/workshop/feedback.jpg)
 </div>
