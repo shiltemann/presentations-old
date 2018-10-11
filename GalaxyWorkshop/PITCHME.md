@@ -6,7 +6,7 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 ---
 
-### Organizational remarks
+## Organizational remarks
 
 +++
 
@@ -16,7 +16,7 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 +++
 
-### Social dinner
+## Social dinner
 
 - Thursday Evening
 - Time:
@@ -25,20 +25,31 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 ---
 
-### Sticky Notes
+## Sticky Notes
 
-- Pink: stick to your screen when you have a question
-- Green: used to indicate your progress
+<div class="small left">
+<ul>
+ <li>Pink: stick to your screen when you have a question</li>
+ <li>Green: used to indicate your progress</li>
 
-- End-of-day feedback
-   - Write positive feedback on green sticky
-   - Write anything we can improve tomorrow on pink sticky
-   - Stick on blackboard at end of day
+ <li> End-of-day feedback
+  <ul>
+   <li>Write positive feedback on green sticky</li>
+   <li>Write anything we can improve tomorrow on pink sticky </li>
+   <li>Stick on blackboard at end of day </li>
+  </ul>
+ </li>
+</ul>
 
+<div class="right">
+![](assets/images/workshop/stickynotes.jpeg)
+
+![](assets/images/workshop/stickynotes_feedback.png)
+</div>
 
 ---
 
-## Day 1 & 2
+# Day 1 & 2
 
 +++
 
