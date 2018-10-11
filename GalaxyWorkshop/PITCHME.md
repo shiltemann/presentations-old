@@ -29,10 +29,13 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 <div class="small left">
 <ul>
- <li>Pink: stick to your screen when you have a question</li>
- <li>Green: used to indicate your progress</li>
-
- <li> End-of-day feedback
+  <li> 1. Status indicators
+  <ul>
+   <li>Pink: put on screen when you have a question</li>
+   <li>Green: used to indicate your progress</li>
+  </ul>
+  </li>
+ <li>2.  End-of-day feedback
   <ul>
    <li>Write positive feedback on green sticky</li>
    <li>Write anything we can improve tomorrow on pink sticky </li>
@@ -40,6 +43,7 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
   </ul>
  </li>
 </ul>
+</div>
 
 <div class="right">
 ![](assets/images/workshop/stickynotes.jpeg)
