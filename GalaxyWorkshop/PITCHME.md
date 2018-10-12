@@ -15,9 +15,10 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 <ul>
  <li>Please fill out the sign-in sheet </li>
  <br>
- <li> Coffee will be .. </li>
- <li> Lunch will be .. </li>
- <li> Drinks will be .. </li>
+ <li> Coffee will be at each session break  </li>
+ <li> Lunch will be at 13:00 </li>
+ <li> Drinks will be at 17:00 </li>
+ <li> A complete schedule is in https://galaxy-2018.bioinformatician.science/program</li>
 </ul>
 </div>
 
@@ -53,6 +54,22 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 ![](https://www.restaurant1eklas.nl/wp-content/uploads/2016/09/1D3B2191-e1473928938346.jpg)
 
 </div>
+
++++
+
+## Introduce yourself
+
+You don't have to follow this: 
+<div class="left">
+  <br>
+  <ul>
+    <li> Who are you? </li>
+    <li> Where are you from? </li>
+    <li> What do you do? </li>
+    <li> Why do you join the workshop? </li>
+  </ul>
+</div>
+
 ---
 
 ## Sticky Notes
@@ -248,6 +265,11 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 
 ---
+## Final wrap-up
+
+Thank all the lecturers, speakers and helpers for their efforts into this training course.
+
++++
 
 ## Final wrap-up
 
@@ -256,7 +278,7 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
  <ul>
   <li> Please return your badges </li>
   <br>
-  <li> Please fill out the feedback form </li>
+  <li> Please fill in the feedback form </li>
   <br>
   <li> Thank you for joining! </li>
  </ul>
