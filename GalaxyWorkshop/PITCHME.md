@@ -228,7 +228,23 @@ You don't have to follow this:
 
 ### Computer room
 
-- Log in to computer with
+- Log in to computer with a ticket you received from the lecturers.
+- Get a Cloud VM IP by signing in ...
+- Download the login key 'galaxy-2018' from https://course.page.link/key via Firefox
+  - The path to key file is `~/Downloads/galaxy-2018` or something else you should know
+  - Change the permission: `chown 700 ~/Downloads/galaxy-2018`
+- Save these lines into a file named 'config' in `~/.ssh/`
+```
+host galaxy
+     HostName IP
+     IdentityFile ~/Downloads/galaxy-2018
+     User ubuntu
+```
+  - Replace IP with the one you just got.
+  - Change the permission chown 600 ~/.ssh/config
+- Set up sftp mount
+  - Open 'Files', click '+ Other Locations'
+  - type `ssh://galaxy/home/ubuntu`
 
 
 +++
@@ -236,6 +252,9 @@ You don't have to follow this:
 
 ### Cloud VMs
 
+- Log in to the cloud VM via this command: `ssh -L 4000:localhost:4000 galaxy`
+- Go to ... `make serve`
+- Open Firefox, type `http://localhost:4000`
 
 +++
 
