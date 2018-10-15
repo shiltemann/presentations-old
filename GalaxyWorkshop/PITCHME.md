@@ -266,8 +266,20 @@ You don't have to follow this:
 ### Computer room
 
 <div class="left">
-- Log in to a Linux computer. Username: `Wshop01` Password:`Friday19!`
-- `Terminal`, `Firefox`, `Files` and `Text Editor` are a list of software we will use
+<ul>
+
+<li> Log in to a Linux computer </li>
+  <pre>
+  Username: Wshop01
+  Password: Friday19!</pre>
+<li> We will be using the following software: </li>
+ <ul>
+  <li>`Terminal`</li>
+  <li>`Firefox`</li>
+  <li>`Files`</li>
+  <li>`Text Editor`</li>
+ </ul>
+</ul>
 </div>
 
 <div class="right">
@@ -316,9 +328,15 @@ host galaxy
 
 ### Cloud VMs
 
-- Log in to the cloud VM via this command: `ssh -L 4000:localhost:4000 galaxy`
-- Go to ... `make serve`
-- Open Firefox, type `http://localhost:4000`
+- Log in to the cloud VM via this command:
+  <pre>ssh -L 4000:localhost:4000 galaxy</pre>
+- Build the training website
+  <pre>
+   cd ~/training-material/
+   make serve
+  </pre>
+- Open Firefox, and go to
+  http://localhost:4000/training-material/
 
 +++
 
