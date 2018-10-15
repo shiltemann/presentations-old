@@ -305,7 +305,7 @@ You don't have to follow this:
 <li>Save these lines below into a file named 'config' in `~/.ssh/` </li>
   <ul>
    <li> Replace IP with the one you just got.</li>
-   <li> Change the permission chown 600 ~/.ssh/config </li>
+   <li> Change the permission `chown 600 ~/.ssh/config` </li>
   </ul>
 <pre>
 host galaxy
@@ -317,7 +317,7 @@ host galaxy
 <li> Set up sftp mount </li>
  <ul>
   <li> Open 'Files', click '+ Other Locations' </li>
-  <li> type `ssh://galaxy/home/ubuntu` </li>
+  <li> type `ssh://galaxy/home/ubuntu` (on the right of **Connect to Server**) and press 'Enter'</li>
  </ul>
 </ul>
 
