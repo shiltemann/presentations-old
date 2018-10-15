@@ -162,7 +162,7 @@ You don't have to follow this:
 
 4. Have fun!
 
-5. Submit feedback form at end of tutorial if you have comments/suggestions
+5. Submit feedback form at end of tutorial
 
 
 +++
@@ -188,7 +188,7 @@ You don't have to follow this:
 
 4. Have fun!
 
-5. Submit feedback form at end of tutorial if you have comments/suggestions
+5. Submit geedback form at end of tutorial
 
 +++
 
@@ -218,7 +218,7 @@ You don't have to follow this:
 
 4. Have fun!
 
-5. Submit feedback form at end of tutorial if you have comments/suggestions
+5. Submit feedback form at end of tutorial
 
 +++
 
@@ -243,7 +243,7 @@ You don't have to follow this:
 
 4. Have fun!
 
-5. Submit feedback form at end of tutorial if you have comments/suggestions
+5. Submit feedback form at end of tutorial
 
 +++
 
@@ -305,7 +305,7 @@ host galaxy
 
 4. Have fun!
 
-5. Submit feedback form at end of tutorial if you have comments/suggestions
+5. Submit feedback form at end of tutorial
 
 +++
 
@@ -321,6 +321,7 @@ host galaxy
 
 
 ---
+
 ## Final wrap-up
 
 Thank all the lecturers, speakers and helpers for their efforts into this training course.
