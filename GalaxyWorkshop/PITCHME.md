@@ -15,9 +15,10 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 <ul>
  <li>Please fill out the sign-in sheet </li>
  <br>
- <li> Coffee will be .. </li>
- <li> Lunch will be .. </li>
- <li> Drinks will be .. </li>
+ <li> Coffee will be at each session break  </li>
+ <li> Lunch will be at 13:00 </li>
+ <li> Drinks will be at 17:00 </li>
+ <li> A complete schedule is in https://galaxy-2018.bioinformatician.science/program</li>
 </ul>
 </div>
 
@@ -53,6 +54,22 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 ![](https://www.restaurant1eklas.nl/wp-content/uploads/2016/09/1D3B2191-e1473928938346.jpg)
 
 </div>
+
++++
+
+## Introduce yourself
+
+You don't have to follow this: 
+<div class="left">
+  <br>
+  <ul>
+    <li> Who are you? </li>
+    <li> Where are you from? </li>
+    <li> What do you do? </li>
+    <li> Why do you join the workshop? </li>
+  </ul>
+</div>
+
 ---
 
 ## Sticky Notes
@@ -211,7 +228,23 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 ### Computer room
 
-- Log in to computer with
+- Log in to computer with a ticket you received from the lecturers.
+- Get a Cloud VM IP by signing in ...
+- Download the login key 'galaxy-2018' from https://course.page.link/key via Firefox
+  - The path to key file is `~/Downloads/galaxy-2018` or something else you should know
+  - Change the permission: `chown 700 ~/Downloads/galaxy-2018`
+- Save these lines into a file named 'config' in `~/.ssh/`
+```
+host galaxy
+     HostName IP
+     IdentityFile ~/Downloads/galaxy-2018
+     User ubuntu
+```
+  - Replace IP with the one you just got.
+  - Change the permission chown 600 ~/.ssh/config
+- Set up sftp mount
+  - Open 'Files', click '+ Other Locations'
+  - type `ssh://galaxy/home/ubuntu`
 
 
 +++
@@ -219,6 +252,9 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 ### Cloud VMs
 
+- Log in to the cloud VM via this command: `ssh -L 4000:localhost:4000 galaxy`
+- Go to ... `make serve`
+- Open Firefox, type `http://localhost:4000`
 
 +++
 
@@ -248,6 +284,11 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 
 ---
+## Final wrap-up
+
+Thank all the lecturers, speakers and helpers for their efforts into this training course.
+
++++
 
 ## Final wrap-up
 
@@ -256,7 +297,7 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
  <ul>
   <li> Please return your badges </li>
   <br>
-  <li> Please fill out the feedback form </li>
+  <li> Please fill in the feedback form </li>
   <br>
   <li> Thank you for joining! </li>
  </ul>
