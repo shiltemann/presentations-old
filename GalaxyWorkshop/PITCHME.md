@@ -74,6 +74,38 @@ You don't have to follow this:
 
 ## Sticky Notes
 
++++
+
+## Sticky Notes
+
+<div class="small left70">
+<br><br><br>
+<ol>
+  <li> Status indicators
+  <ul>
+   <li> Put on screen when you have a question</li>
+   <li> Used to indicate your progress</li>
+  </ul>
+  </li>
+  <br>
+ <li>  End-of-day feedback
+  <ul>
+   <li> What did you like?</li>
+   <li> What could we improve tomorrow? </li>
+   <li> Leave on blackboard at end of the day </li>
+  </ul>
+ </li>
+</ol>
+</div>
+
+<div class="right30">
+![scale](assets/images/workshop/stickynotes.jpeg)
+
+![scale](assets/images/workshop/stickynotes_feedback.png)
+</div>
+
++++
+
 <div class="small left70">
 <br><br><br>
 <ol>
@@ -99,6 +131,7 @@ You don't have to follow this:
 
 ![scale](assets/images/workshop/stickynotes_feedback.png)
 </div>
+
 
 ---
 
