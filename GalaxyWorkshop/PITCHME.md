@@ -344,8 +344,10 @@ host galaxy
 
 ### Edit a file in the Cloud VM
 
+Here just shows an example and you can modify other files if you like.
+
 1. Open 'Files', click 'galaxy' on the left (the navigation panel)
-2. (For example) Open `training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.md` with `Text Editor`
+2. Open `training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.md` with `Text Editor`
 3. Make any change you want and save.
 4. View the change by open the link in Firefox http://localhost:4000/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html
 
