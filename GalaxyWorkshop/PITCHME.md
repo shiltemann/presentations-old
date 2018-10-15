@@ -277,27 +277,38 @@ You don't have to follow this:
 +++
 
 ### Set up Cloud VM
-<div class="left small">
-- Get a Cloud VM IP by signing in https://course.page.link/gcloud
-- Download the login key 'galaxy-2018' from https://course.page.link/key via Firefox
-  - The path to key file is `~/Downloads/galaxy-2018` or wherever
-  - Change the permission: `chown 700 ~/Downloads/galaxy-2018`
-- Save these lines on the right into a file named 'config' in `~/.ssh/`
-  - Replace IP with the one you just got.
-  - Change the permission chown 600 ~/.ssh/config
-- Set up sftp mount
-  - Open 'Files', click '+ Other Locations'
-  - type `ssh://galaxy/home/ubuntu`
-</div>
 
-<div class="right small">
-
+<div class="small">
+<ol>
+<li>Get a Cloud VM IP by signing in https://course.page.link/gcloud </li>
+<br>
+<li>Download the login key 'galaxy-2018' from https://course.page.link/key via Firefox</li>
+  <ul>
+  <li>The path to key file is `~/Downloads/galaxy-2018` or wherever </li>
+  <li>Change the permission: `chown 700 ~/Downloads/galaxy-2018`</li>
+ </ul>
+<br>
+<li>Save these lines below into a file named 'config' in `~/.ssh/` </li>
+  <ul>
+   <li> Replace IP with the one you just got.</li>
+   <li> Change the permission chown 600 ~/.ssh/config </li>
+  </ul>
 <pre>
 host galaxy
      HostName IP
      IdentityFile ~/Downloads/galaxy-2018
      User ubuntu
 </pre>
+<br>
+<li> Set up sftp mount </li>
+ <ul>
+  <li> Open 'Files', click '+ Other Locations' </li>
+  <li> type `ssh://galaxy/home/ubuntu` </li>
+ </ul>
+</ul>
+
+
+
 </div>
 
 +++
