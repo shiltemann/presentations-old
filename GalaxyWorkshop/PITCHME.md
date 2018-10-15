@@ -343,9 +343,9 @@ host galaxy
 +++
 
 ### Edit a file in the Cloud VM
-
+<div class="small">
 Here just shows an example and you can modify other files if you like.
-
+</div>
 1. Open 'Files', click 'galaxy' on the left (the navigation panel)
 2. Open `training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.md` with `Text Editor`
 3. Make any change you want and save.
