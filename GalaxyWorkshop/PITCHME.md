@@ -277,7 +277,7 @@ You don't have to follow this:
 +++
 
 ### Set up Cloud VM
-<div class="left">
+<div class="left small">
 - Get a Cloud VM IP by signing in https://course.page.link/gcloud
 - Download the login key 'galaxy-2018' from https://course.page.link/key via Firefox
   - The path to key file is `~/Downloads/galaxy-2018` or wherever
@@ -290,13 +290,14 @@ You don't have to follow this:
   - type `ssh://galaxy/home/ubuntu`
 </div>
 
-<div class="right">
-```
+<div class="right small">
+
+<pre>
 host galaxy
      HostName IP
      IdentityFile ~/Downloads/galaxy-2018
      User ubuntu
-```
+</pre>
 </div>
 
 +++
