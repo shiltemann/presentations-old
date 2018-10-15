@@ -265,24 +265,39 @@ You don't have to follow this:
 
 ### Computer room
 
-- Log in to computer with a ticket you received from the lecturers.
-- Get a Cloud VM IP by signing in ...
+<div class="left">
+- Log in to a Linux computer. Username: `Wshop01` Password:`Friday19!`
+- `Terminal`, `Firefox`, `Files` and `Text Editor` are a list of software we will use
+</div>
+
+<div class="right">
+![](assets/images/workshop/a-list-of-software.png)
+</div>
+
++++
+
+### Set up Cloud VM
+<div class="left">
+- Get a Cloud VM IP by signing in https://course.page.link/gcloud
 - Download the login key 'galaxy-2018' from https://course.page.link/key via Firefox
-  - The path to key file is `~/Downloads/galaxy-2018` or something else you should know
+  - The path to key file is `~/Downloads/galaxy-2018` or wherever
   - Change the permission: `chown 700 ~/Downloads/galaxy-2018`
-- Save these lines into a file named 'config' in `~/.ssh/`
+- Save these lines on the right into a file named 'config' in `~/.ssh/`
+  - Replace IP with the one you just got.
+  - Change the permission chown 600 ~/.ssh/config
+- Set up sftp mount
+  - Open 'Files', click '+ Other Locations'
+  - type `ssh://galaxy/home/ubuntu`
+</div>
+
+<div class="right">
 ```
 host galaxy
      HostName IP
      IdentityFile ~/Downloads/galaxy-2018
      User ubuntu
 ```
-  - Replace IP with the one you just got.
-  - Change the permission chown 600 ~/.ssh/config
-- Set up sftp mount
-  - Open 'Files', click '+ Other Locations'
-  - type `ssh://galaxy/home/ubuntu`
-
+</div>
 
 +++
 
