@@ -59,7 +59,7 @@ These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
 
 ## Introduce yourself
 
-You don't have to follow this: 
+You don't have to follow this:
 <div class="left">
   <br>
   <ul>
@@ -102,7 +102,7 @@ You don't have to follow this:
 
 ---
 
-# Day 1 & 2
+# Day 1
 
 +++
 
@@ -119,7 +119,7 @@ You don't have to follow this:
 
 +++
 
-### Training manual (Morning Day 1)
+### Training manual (Morning)
 
 1. Navigate to: https://training.galaxyproject.org
 
@@ -145,7 +145,7 @@ You don't have to follow this:
 
 +++
 
-### Training manual (Afternoon Day 1)
+### Training manual (Afternoon)
 
 1. Navigate to: https://training.galaxyproject.org
 
@@ -168,6 +168,10 @@ You don't have to follow this:
 3. Thank you for participating!
 
 4. Leave your sticky notes with feedback to help us improve the course!
+
+---
+
+# Day 2
 
 +++
 
