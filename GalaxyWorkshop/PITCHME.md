@@ -326,7 +326,7 @@ host galaxy
 +++
 
 
-### Cloud VMs
+### Work with Cloud VM
 
 - Log in to the cloud VM via this command:
   <pre>ssh -L 4000:localhost:4000 galaxy</pre>
