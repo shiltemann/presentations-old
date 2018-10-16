@@ -1,8 +1,8 @@
 # Let's get started!
 
-Note:
-
-These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop
+<div class="bottom small">
+(These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop)
+</div>
 
 ---
 
@@ -61,7 +61,8 @@ Still want to join? It is never too late. Just tell our co-organizers.
 
 ## Introduce yourself
 
-You don't have to follow this:
+(You don't have to follow this:)
+
 <div class="left">
   <br>
   <ul>
@@ -105,35 +106,6 @@ You don't have to follow this:
 
 ![scale](assets/images/workshop/stickynotes_feedback.png)
 </div>
-
-+++
-
-<div class="small left70">
-<br><br><br>
-<ol>
-  <li> Status indicators
-  <ul>
-   <li>Pink: put on screen when you have a question</li>
-   <li>Green: used to indicate your progress</li>
-  </ul>
-  </li>
-  <br>
- <li>  End-of-day feedback
-  <ul>
-   <li> Green: what did you like?</li>
-   <li> Pink: what could we improve tomorrow? </li>
-   <li> Leave on blackboard at end of the day </li>
-  </ul>
- </li>
-</ol>
-</div>
-
-<div class="right30">
-![scale](assets/images/workshop/stickynotes.jpeg)
-
-![scale](assets/images/workshop/stickynotes_feedback.png)
-</div>
-
 
 ---
 
@@ -235,7 +207,7 @@ You don't have to follow this:
 
 +++
 
-### Training manual (Afternoon Day 2)
+### Training manual (Afternoon)
 
 1. Navigate to: https://training.galaxyproject.org
 
@@ -343,24 +315,36 @@ host galaxy
 +++
 
 ### Edit a file in the Cloud VM
-<div class="small">
-Here just shows an example and you can modify other files as you wish.
-</div>
 
-1. Open 'Files', click 'galaxy' on the left (the navigation panel)
-2. Open `training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.md` with `Text Editor`
-3. Make any change you want and save.
-4. View the change by the link in Firefox http://localhost:4000/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html
+<div class="small alignleft">
+
+Here is just an example, you can modify other files as you wish.
+
+<br><br>
+
+<ol>
+ <li> Open 'Files', click 'galaxy' on the left (the navigation panel) </li>
+ <li> Open `training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.md` <br> with `Text Editor` </li>
+ <li> Make any change you want and save. </li>
+ <li> View the change by the link in Firefox </li>
+   <ul>
+    <li> http://localhost:4000/training-material/ </li>
+    <li> topic: metagenomics </li>
+    <li> tutorial: 16S rRNA sequencing with mothur </li>
+   </ul>
+</ol>
+
+</div>
 
 +++
 
-### Training manual (Afternoon Day 3)
+### Training manual (Afternoon)
 
 1. Navigate to: https://training.galaxyproject.org
 
-2. Choose topic: **Metagenomics**
+2. Choose topic: **Contributing to the Galaxy Training Material**
 
-3. Choose tutorial: **16S Microbial Analysis with Mothur**
+3. We will be doing multiple tutorials
 
 4. Have fun!
 

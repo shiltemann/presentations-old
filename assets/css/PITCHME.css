@@ -12,6 +12,11 @@
 
 .reveal div.small {
 	font-size: 0.7em;
+
+}
+
+.reveal code {
+     font-size: 0.7em;
 }
 
 .reveal div.tiny {
