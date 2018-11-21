@@ -1,8 +1,8 @@
 ---?image=assets/images/galaxy/astro-galaxy.jpg
 
-## The Galaxy and Beyond
+<h1 class="white">The Galaxy and Beyond </h1>
 
----
+Note:
 
 - Many Galaxies to explore
 - Interactive Tours
@@ -35,7 +35,7 @@ Your (hitchhiker's) guide to the Galaxy
 
 ![scale-50](assets/images/training/cover_art.png)
 
----
++++
 
 ### An increasing demand for learning bioinformatics
 
@@ -113,7 +113,8 @@ Metadata to help trainees and instructors to keep track of the training goads
 
 https://github.com/galaxyproject/training-material
 
----
++++
+
 ### Awesome Community
 
 ![The GTN community scale-80](assets/images/training/community.png)
@@ -192,11 +193,11 @@ https://biostar.usegalaxy.org/
 
 ---
 
-## Chat
+## Chat on Gitter
 
 Talk to developers and users on Gitter
 
-![scale-50](assets/images/training/gitter.png)
+![scale-40](assets/images/training/gitter.png)
 
 - Galaxy Lobby: https://gitter.im/usegalaxy-eu/Lobby
 - Galaxy Training Network: https://gitter.im/Galaxy-Training-Network/Lobby
@@ -209,7 +210,7 @@ Talk to developers and users on Gitter
 
 Stay Informed and Involved
 
-![scale-70](assets/images/galaxy/mailing-lists.png)
+![scale-60](assets/images/galaxy/mailing-lists.png)
 
 https://galaxyproject.org/mailing-lists/
 
