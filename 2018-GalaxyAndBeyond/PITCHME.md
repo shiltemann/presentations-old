@@ -1,3 +1,5 @@
+---?image=assets/images/galaxy/astro-galaxy.jpg
+
 ## The Galaxy and Beyond
 
 ---
@@ -23,8 +25,9 @@
 
 ### Interactive Tours
 
+Your (hitchhiker's) guide to the Galaxy
 
-
+![](https://crs4.github.io/Galaxy4Developers/images/galaxy_tour_demo.gif)
 
 ---
 
@@ -173,7 +176,7 @@ more than 90 contributors
 
 Find upcoming Galaxy workshops and events
 
-![](assets/images/galaxy/event-horizon.png)
+![scale-60](assets/images/galaxy/event-horizon.png)
 
 https://www.galaxyproject.org/events/
 
@@ -183,7 +186,7 @@ https://www.galaxyproject.org/events/
 
 Ask your Galaxy questions to the global community
 
-![](assets/images/galaxy/biostars-screenshot.png)
+![scale-60](assets/images/galaxy/biostars-screenshot.png)
 
 https://biostar.usegalaxy.org/
 
@@ -206,7 +209,7 @@ Talk to developers and users on Gitter
 
 Stay Informed and Involved
 
-![](assets/images/galaxy/mailing-lists.png)
+![scale-70](assets/images/galaxy/mailing-lists.png)
 
 https://galaxyproject.org/mailing-lists/
 
