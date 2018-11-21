@@ -68,8 +68,7 @@
 | 13:00    | **LUNCH**                                           |                   |
 | 14:00    | 16S rRNA-seq with mothur                            | Saskia / Yunlei   |
 | 15:30    | **COFFEE BREAK**                                    |                   |
-| 15:45    | The Galaxy and Beyond                               | Saskia            |
-| 16:45    | Wrap-up                                             | All               |
+| 16:30    | The Galaxy and Beyond                               | Saskia            | 16:45    | Wrap-up                                             | All |
 | 17:00    | **END Day 2**                                       | All         |
 
 
