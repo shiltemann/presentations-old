@@ -183,7 +183,7 @@ more than 90 contributors
 
 Code in Galaxy with RStudio, Jupyter notebooks
 
-![](assets/images/galaxy/gie-jupyter.png)
+![scale-80](assets/images/galaxy/gie-jupyter.png)
 
 ---
 
