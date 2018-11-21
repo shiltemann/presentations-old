@@ -172,6 +172,8 @@
 
 3. Join the workshop: https://usegalaxy.eu/join-training/emc2018
 
+<br>
+
 <div class="bottom small">
 (These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop)
 </div>
