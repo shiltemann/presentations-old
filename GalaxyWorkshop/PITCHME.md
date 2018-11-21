@@ -131,7 +131,7 @@
 ## Sticky Notes
 
 <div class="left70">
-<br><br><br>
+<br><br>
 <ol>
   <li> Status indicators
   <ul>
