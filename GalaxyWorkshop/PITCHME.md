@@ -51,7 +51,7 @@
 | 17:00    | **END Day 1**                                       | All               |
 
 
-<div class="small"> \*times are flexible </div>
+<div class="tiny"> \*times are flexible </div>
 
 ---
 
@@ -68,11 +68,12 @@
 | 13:00    | **LUNCH**                                           |                   |
 | 14:00    | 16S rRNA-seq with mothur                            | Saskia / Yunlei   |
 | 15:30    | **COFFEE BREAK**                                    |                   |
-| 16:30    | The Galaxy and Beyond                               | Saskia            | 16:45    | Wrap-up                                             | All |
+| 16:30    | The Galaxy and Beyond                               | Saskia
+| 16:45    | Wrap-up                                             | All |
 | 17:00    | **END Day 2**                                       | All         |
 
 
-<div class="small"> \*times are flexible </div>
+<div class="tiny"> \*times are flexible </div>
 
 ---
 
