@@ -130,7 +130,7 @@
 
 ## Sticky Notes
 
-<div class="small left70">
+<div class="left70">
 <br><br><br>
 <ol>
   <li> Status indicators
