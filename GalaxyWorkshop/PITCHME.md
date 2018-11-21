@@ -172,6 +172,24 @@
 
 3. Join the workshop: https://usegalaxy.eu/join-training/emc2018
 
+<div class="bottom small">
+(These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop)
+</div>
+
++++
+
+### Training manual (demo)
+
+1. Navigate to: https://training.galaxyproject.org
+
+2. Choose topic: **Introduction to Galaxy Analyses**
+
+3. Choose tutorial: **A Short introduction to Galaxy**
+
+4. Have fun!
+
+5. Submit feedback form at end of tutorial
+
 
 +++
 
