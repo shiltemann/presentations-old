@@ -159,7 +159,7 @@ more than 90 contributors
 
 ---
 
-### Training Infrastructure as a Service (TIaaS) <br>on [usegalaxy.eu](usegalaxy.eu)
+### Training Infrastructure as a Service (TIaaS) <br>on [usegalaxy.eu](https://usegalaxy.eu)
 
 ![TIaaS explanation scale-70](assets/images/training/tiaas.png)
 
