@@ -6,6 +6,44 @@
 
 ---
 
+## Course Overview
+
+<ul>
+ <li>**Aim** provide you with the knowledge to use Galaxy for your daily analysis</li>
+ <li>**Prosepective**</li>
+ <ul>
+  <li>The importance of bioinformatics in Research (Guido Jenster)</li>
+  <li>FAIR data analysis and large informatics projects (Andrew Stubbs)</li>
+  <li>Galaxy and Beyond (advanced topics and wider Galaxy ecosystem)(Saskia Hiltemann)</li>
+ </ul>
+ <li>**Objectives**</li>
+ <ul>
+  <li>DNA, RNA, microbiome all influence our health</li>
+  <ul>
+   <li>Familiarize yourself with the Galaxy interface by performing simple DNA-seq analysis</li>
+   <li>RNA-seq end-to-end analysis (QC, mapping, DEA, visualisation)</li>
+   <li>16S rRNA seq bacterial analysis </li>
+  </ul>
+  <li>Set up a working community within EMc (and outside) for Galaxy questions</li>
+ </ul>
+</ul>
+
+
+---
+
+## Programme: Day 1
+
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+--
+
+
+
 ## Organizational remarks
 
 +++
@@ -15,10 +53,9 @@
 <ul>
  <li>Please fill out the sign-in sheet </li>
  <br>
- <li> Coffee will be at each session break  </li>
+ <li> Star
+ <li> Coffee will 11:00 and 15:30 </li>
  <li> Lunch will be at 13:00 </li>
- <li> Drinks will be at 17:00 </li>
- <li> A complete schedule is in https://galaxy-2018.bioinformatician.science/program</li>
 </ul>
 </div>
 
@@ -33,31 +70,12 @@
 
 </div>
 
-+++
+---
 
-## Social dinner
+## Programme
 
-<div class="left">
- <br>
- <ul>
-  <li> **Time:** Thursday, 19:00 </li>
-  <li> **Restaurant:** 1e Klas </li>
-  <li> **Location:** Amsterdam CS </li>
-  <li> **Getting there:** </li>
- </ul>
-</div>
 
-Still want to join? It is never too late. Just tell our co-organizers.
-
-<div class="right">
-
-![](https://restaurant1eklas.nl/wp-content/uploads/2015/07/Amdsterdam-Central-Station-Amsterdam-January-2012-Alexander-T-2000x1333.jpg)
-
-![](https://www.restaurant1eklas.nl/wp-content/uploads/2016/09/1D3B2191-e1473928938346.jpg)
-
-</div>
-
-+++
+---
 
 ## Introduce yourself
 
@@ -77,7 +95,7 @@ Still want to join? It is never too late. Just tell our co-organizers.
 
 ## Sticky Notes
 
-+++
+---
 
 ## Sticky Notes
 
@@ -86,15 +104,15 @@ Still want to join? It is never too late. Just tell our co-organizers.
 <ol>
   <li> Status indicators
   <ul>
-   <li> Put on screen when you have a question</li>
-   <li> Used to indicate your progress</li>
+   <li> Pink: Put on screen when you have a question</li>
+   <li> Green: Used to indicate your progress</li>
   </ul>
   </li>
   <br>
  <li>  End-of-day feedback
   <ul>
-   <li> What did you like?</li>
-   <li> What could we improve tomorrow? </li>
+   <li> Green: What did you like?</li>
+   <li> Pink: What could we improve tomorrow? </li>
    <li> Leave on blackboard at end of the day </li>
   </ul>
  </li>
