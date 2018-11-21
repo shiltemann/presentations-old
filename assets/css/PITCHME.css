@@ -2,6 +2,10 @@
     font-size: 0.8em;
 }
 
+.reveal .slides li {
+    font-size: 0.7em;
+}
+
 .reveal .slides table {
     font-size: 0.6em;
 }
