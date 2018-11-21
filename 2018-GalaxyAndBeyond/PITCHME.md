@@ -42,11 +42,11 @@ Graph from [Brazas et al. 2017](https://doi.org/10.1093/bib/bbx100)
 Note:
 Most people currently learn bioinformatics
 
----?image=assets/images/training/DSC_0630_opaque.jpg
++++?image=assets/images/training/DSC_0630_opaque.jpg
 
 # Galaxy a great solution!
 
----
++++
 
 ### Computational knowledge: not required!
 
@@ -125,8 +125,6 @@ more than 90 contributors
 ![topics](assets/images/training/topics.png)
 
 
-
-
 ---
 ### Contribution Fests
 
@@ -189,6 +187,18 @@ Ask your Galaxy questions to the global community
 
 https://biostar.usegalaxy.org/
 
+---
+
+## Chat
+
+Talk to developers and users on Gitter
+
+![scale-50](assets/images/training/gitter.png)
+
+- Galaxy Lobby: https://gitter.im/usegalaxy-eu/Lobby
+- Galaxy Training Network: https://gitter.im/Galaxy-Training-Network/Lobby
+- GalaxyEU: https://gitter.im/usegalaxy-eu/Lobby
+- Many more..
 
 ---
 
