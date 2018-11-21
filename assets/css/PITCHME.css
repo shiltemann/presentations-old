@@ -2,6 +2,10 @@
     font-size: 0.8em;
 }
 
+.reveal .slides table {
+    font-size: 0.6em;
+}
+
 .reveal .white {
     color: white;
 }
@@ -132,3 +136,15 @@ img[alt*=scale-10] { width: 10%; }
 	overflow:hidden;
 	display: block
 }
+
+tbody td{
+  padding: 30px;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #e9e9f9;
+}
+
+
+
+
