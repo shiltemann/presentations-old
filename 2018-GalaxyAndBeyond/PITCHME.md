@@ -20,6 +20,9 @@ Note:
 - Some very general-purpose, some highly specific to a field of research
 - List available at: https://galaxyproject.org/use/
 
+---
+
+## Learning Galaxy
 
 ---
 
@@ -89,6 +92,7 @@ Note:
 Designed to be interactive and built around Galaxy
 
 ---
+
 ### Hands-on tutorials built around a "research story"
 
 ![scale-70 border](assets/images/training/researchstoryfull.png)
@@ -107,6 +111,7 @@ Metadata to help trainees and instructors to keep track of the training goads
 - Questions: Regular assessments with question boxes
 
 ---
+
 ### Developed and maintained <br>by the community on GitHub
 
 ![Screenshot of github repo scale-70](assets/images/training/github_screenshot.png)
@@ -150,22 +155,45 @@ more than 90 contributors
 
 ---
 
+## Teaching Galaxy
+
+---
+
 ### Training Infrastructure as a Service (TIaaS) <br>on [usegalaxy.eu](usegalaxy.eu)
 
 ![TIaaS explanation scale-70](assets/images/training/tiaas.png)
 
 ---
 
-## Galaxy for Developers and Sysadmins
+## Developing Galaxy
+
+---
+
+## Creating Tools
 
 - Toolshed: 6000+ tools
-- Anybody can add new tools
+- Anybody can create new tools for Galaxy
 - [Planemo](https://planemo.readthedocs.io/en/latest/) makes tool development easy
 
-- Want to run your own Galaxy instance?
-  - Admin Training twice per year
-  - Ansible playbooks
-  - Dockerized Galaxy
+![scale-70](assets/images/galaxy/toolshed_screenshot.png)
+
+---
+
+## Interactive Environments
+
+Code in Galaxy with RStudio, Jupyter notebooks
+
+![](assets/images/galaxy/gie-jupyter.png)
+
+---
+
+## Run your own Galaxy
+
+- Admin Training twice per year
+- Ansible playbooks
+- Dockerized Galaxy
+
+![](assets/images/galaxy/galaxy-docker.jpeg)
 
 ---
 
