@@ -39,7 +39,7 @@
 | **Time\*** | **Description**                                     | **Presenter**     |
 |---------:|-----------------------------------------------------|-------------------|
 |  9:30    | Welcome and Agenda                                  | Saskia Hiltemann  |
-|  9:45    | Cancer Analysis from Research Scientist to Galaxy   | Guido Jenster     |
+|  9:45    | [Cancer Analysis from Research Scientist to Galaxy](https://bioinf-galaxian.erasmusmc.nl/public/GalaxyTraining/EMC2018/Galaxy%20course%20Nov%202018_Jenster.pptx)   | Guido Jenster     |
 | 10:00    | Introduction to Galaxy                              | Saskia / David van Zessen    |
 | 11:00    | **COFFEE BREAK**                                    |                   |
 | 11:15    | Introduction to Galaxy                              | Saskia / David    |
@@ -64,7 +64,8 @@
 |  9:45    | FAIR data analyses and large informatics projects   | Andrew Stubbs     |
 | 10:00    | Reference-based RNA-Seq                             | Youri / Saskia    |
 | 11:00    | **COFFEE BREAK**                                    |                   |
-| 11:15    | 16S rRNA-seq with mothur                            | Saskia / Yunlei Li |
+| 11:15    | Reference-based RNA-Seq                             | Youri / Saskia    |
+| 12:00    | 16S rRNA-seq with mothur                            | Saskia / Yunlei Li |
 | 13:00    | **LUNCH**                                           |                   |
 | 14:00    | 16S rRNA-seq with mothur                            | Saskia / Yunlei   |
 | 15:30    | **COFFEE BREAK**                                    |                   |
