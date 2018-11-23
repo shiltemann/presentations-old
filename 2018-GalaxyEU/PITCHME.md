@@ -26,7 +26,7 @@ and show you the pipeline we built in Galaxy for their use case
 
 and finally show some of the results from our pilot study with them to bring 16S rRNA sequencing to the clinic
 
----
++++
 
 ### Microbiota
 
