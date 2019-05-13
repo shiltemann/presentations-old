@@ -38,7 +38,7 @@
 |  8:45    | **COFFEE**                                          |                   |
 |  9:00    | Welcome and Agenda                                  | Saskia Hiltemann  |
 |  9:30    | [Introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/slides/introduction.html#1)  | Saskia Hiltemann |
-|  9:45    | [A Short Introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html)                      | Helena Rashce     |
+|  9:45    | [A Short Introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html)                      | Helena Rasche     |
 | 10:15    | **COFFEE BREAK**                                    |                   |
 | 10:30    | [Galaxy 101](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html)                                          | Helena Rasche     |
 | 11:45    | **LUNCH**                                           |                   |
@@ -47,7 +47,7 @@
 | 15:40    | [Mapping](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html)                                             | Helena Rasche     |
 | 16:45    | Wrap-up                                             | All               |
 | 17:00    | **DRINKS**                                          |                   |
-| 18:00    | **END Day 1**                                       |                   |
+| 18:00    | **END Day 1**                                       | All               |
 
 
 <div class="tiny"> \*times are *flexible* </div>
@@ -61,14 +61,14 @@
 |  8:45    | **COFFEE**                                          |                    |
 |  9:00    | Recap/continuation Day 1                            |                    |
 | 10:15    | **COFFEE BREAK**                                    |                    |
-| 10:30    | [Genome Annotation with Maker]()https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-maker/tutorial.html                        | Anthony Bretaudeau |
+| 10:30    | [Genome Annotation with Maker](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-maker/tutorial.html)                        | Anthony Bretaudeau |
 | 11:45    | **LUNCH**                                           |                    |
 | 13:00    | [Genome Annotation with Maker](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-maker/tutorial.html)                        | Anthony Bretaudeau |
 | 15:20    | **COFFEE BREAK**                                    |                    |
 | 15:40    | [Genome Annotation with Maker](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-maker/tutorial.html)                        | Anthony Bretaudeau |
 | 16:45    | Wrap-up                                             | All                |
 | 17:00    | **DRINKS**                                          |                    |
-| 18:00    | **END Day 2**                                       |                    |
+| 18:00    | **END Day 2**                                       | All                |
 
 
 <div class="tiny"> \*times are *flexible* </div>
@@ -90,7 +90,7 @@
 | 16:30    | [Galaxy and Beyond](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyAndBeyond#/)| Saskia Hiltemann |
 | 16:45    | Wrap-up                                             | All               |
 | 17:00    | **DRINKS**                                          |                   |
-| 18:00    | **END Day 3**                                       |                   |
+| 18:00    | **END Day 3**                                       | All               |
 
 
 <div class="tiny"> \*times are *flexible* </div>
@@ -120,7 +120,6 @@
 ![scale-20](assets/images/workshop/food.gif)
 ![scale-20](assets/images/workshop/drinks.jpeg)
 
-
 </div>
 
 
@@ -138,6 +137,7 @@
   <li> Where are you from? </li>
   <li> What do you do? </li>
   <li> Why did you join this workshop? </li>
+  <li> What prior experience do you have with bioinformatics analyses? </li>
  </ul>
 </div>
 
@@ -169,7 +169,7 @@
 </div>
 
 <div class="right30">
-![scale](assets/images/workshop/stickynotes.jpeg)
+![scale](assets/images/workshop/stickynotes.jpeg)<F4>
 
 ![scale](assets/images/workshop/stickynotes_feedback.png)
 </div>
@@ -188,7 +188,7 @@
 
 3. Verify your registration (e-mail confirmation)
 
-3. Join the workshop: https://usegalaxy.eu/join-training/emc2018
+3. Join the workshop: https://usegalaxy.eu/join-training/westerdijk
 
 <br>
 
@@ -219,7 +219,7 @@
 
 2. Choose topic: **Introduction to Galaxy Analyses**
 
-3. Choose tutorial: **From Peaks to Genes**
+3. Choose tutorial: **Galaxy 101**
 
 4. Have fun!
 
@@ -243,13 +243,28 @@
 
 1. Navigate to: https://training.galaxyproject.org
 
-2. Choose topic: **Transcriptomics**
+2. Choose topic: **Sequence Analysis**
 
-3. Choose tutorial: **Reference-based RNA-Seq data analysis**
+3. Choose tutorial: **Quality Control**
 
 4. Have fun!
 
-5. Submit geedback form at end of tutorial
+5. Submit feedback form at end of tutorial
+
++++
+
+### Training manual (Afternoon)
+
+1. Navigate to: https://training.galaxyproject.org
+
+2. Choose topic: **Sequence Analysis**
+
+3. Choose tutorial: **Mapping**
+
+4. Have fun!
+
+5. Submit feedback form at end of tutorial
+
 
 +++
 
@@ -269,32 +284,49 @@
 
 +++
 
-### Training manual (Morning)
+### Training manual
 
 1. Navigate to: https://training.galaxyproject.org
 
-2. Choose topic: **Transcriptomics**
+2. Choose topic: **Genome Annotation**
 
-3. Choose tutorial: **Reference-based RNA-Seq data analysis**
+3. Choose tutorial: **Genome Annotation with Maker**
 
 4. Have fun!
 
-5. Submit geedback form at end of tutorial
+5. Submit feedback form at end of tutorial
 
 
 +++
 
-### Training manual (Afternoon)
+## Wrap-up
+
+1. Questions?
+
+2. Please fill in the feedback form to help us improve the tutorial!
+
+3. Thank you for participating!
+
+4. Leave your sticky notes with feedback to help us improve the course!
+
+---
+
+# Day 3
+
++++
+
+### Training manual
 
 1. Navigate to: https://training.galaxyproject.org
 
 2. Choose topic: **Metagenomics**
 
-3. Choose tutorial: **16S Microbial Analysis with Mothur**
+3. Choose tutorial: **16S rRNA Sequencing with mothur **
 
 4. Have fun!
 
 5. Submit feedback form at end of tutorial
+
 
 +++
 
