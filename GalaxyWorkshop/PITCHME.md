@@ -14,20 +14,17 @@
  <br>
  <li>**Prosepective**</li>
  <ul>
-  <li>The importance of bioinformatics in Research (**Guido Jenster**)</li>
-  <li>FAIR data analysis and large informatics projects (**Andrew Stubbs**)</li>
+  <li>Keynote day 2 (**Michael Seidl**)</li>
+  <li>Keynote day 3 (**Bas Dutilh**)</li>
   <li>Galaxy and Beyond: advanced topics and wider Galaxy ecosystem (**Saskia Hiltemann**)</li>
  </ul>
  <br>
  <li>**Objectives**</li>
  <ul>
-  <li>DNA, RNA, microbiome all influence our health and widely studied at the EMC</li>
-  <ul>
-   <li>Familiarize yourself with the Galaxy interface by performing simple DNA-seq analysis</li>
-   <li>RNA-seq end-to-end analysis (QC, mapping, DEA, visualisation)</li>
-   <li>16S rRNA seq microbiota analysis </li>
-  </ul>
-  <li>Set up a working community within EMC (and outside) for Galaxy questions</li>
+   <li>Familiarize yourself with the Galaxy interface by performing simple analysis</li>
+   <li>Learn about QC and mapping</li>
+   <li>Genome Annotation</li>
+   <li>16S rRNA seq microbiota analysis</li>
  </ul>
 </ul>
 </div>
@@ -36,45 +33,67 @@
 
 ## Programme: Day 1
 
-| **Time\*** | **Description**                                     | **Presenter**     |
+| **Time\*** | **Description**                                   | **Presenter**     |
 |---------:|-----------------------------------------------------|-------------------|
-|  9:30    | Welcome and Agenda                                  | Saskia Hiltemann  |
-|  9:45    | [Cancer Analysis from Research Scientist to Galaxy](https://bioinf-galaxian.erasmusmc.nl/public/GalaxyTraining/EMC2018/Galaxy%20course%20Nov%202018_Jenster.pptx)   | Guido Jenster     |
-| 10:00    | Introduction to Galaxy                              | Saskia / David van Zessen    |
-| 11:00    | **COFFEE BREAK**                                    |                   |
-| 11:15    | Introduction to Galaxy                              | Saskia / David    |
-| 13:00    | **LUNCH**                                           |                   |
-| 14:00    | Reference-based RNA-Seq                             | Youri Hoogstrate / Saskia    |
-| 15:30    | **COFFEE BREAK**                                    |                   |
-| 15:45    | Reference-based RNA-Seq                             | Youri / Saskia    |
+|  8:45    | **COFFEE**                                          |                   |
+|  9:00    | Welcome and Agenda                                  | Saskia Hiltemann  |
+|  9:30    | [Introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/slides/introduction.html#1)  | Saskia Hiltemann |
+|  9:45    | [A Short Introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html)                      | Helena Rashce     |
+| 10:15    | **COFFEE BREAK**                                    |                   |
+| 10:30    | [Galaxy 101](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html)                                          | Helena Rasche     |
+| 11:45    | **LUNCH**                                           |                   |
+| 13:00    | [Quality Control](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html)                                     | Helena Rasche     |
+| 15:20    | **COFFEE BREAK**                                    |                   |
+| 15:40    | [Mapping](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/tutorial.html)                                             | Helena Rasche     |
 | 16:45    | Wrap-up                                             | All               |
-| 17:00    | **END Day 1**                                       | All               |
+| 17:00    | **DRINKS**                                          |                   |
+| 18:00    | **END Day 1**                                       |                   |
 
 
-<div class="tiny"> \*times are flexible </div>
+<div class="tiny"> \*times are *flexible* </div>
 
 ---
 
 ## Programme: Day 2
 
+| **Time\*** | **Description**                                   | **Presenter**      |
+|---------:|-----------------------------------------------------|--------------------|
+|  8:45    | **COFFEE**                                          |                    |
+|  9:00    | Recap/continuation Day 1                            |                    |
+| 10:15    | **COFFEE BREAK**                                    |                    |
+| 10:30    | [Genome Annotation with Maker]()https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-maker/tutorial.html                        | Anthony Bretaudeau |
+| 11:45    | **LUNCH**                                           |                    |
+| 13:00    | [Genome Annotation with Maker](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-maker/tutorial.html)                        | Anthony Bretaudeau |
+| 15:20    | **COFFEE BREAK**                                    |                    |
+| 15:40    | [Genome Annotation with Maker](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-maker/tutorial.html)                        | Anthony Bretaudeau |
+| 16:45    | Wrap-up                                             | All                |
+| 17:00    | **DRINKS**                                          |                    |
+| 18:00    | **END Day 2**                                       |                    |
 
-| **Time\*** | **Description**                                     | **Presenter**     |
+
+<div class="tiny"> \*times are *flexible* </div>
+
+---
+
+## Programme: Day 3
+
+| **Time\*** | **Description**                                   | **Presenter**     |
 |---------:|-----------------------------------------------------|-------------------|
-|  9:30    | Recap Day 1                                         | Saskia Hiltemann  |
-|  9:45    | FAIR data analyses and large informatics projects   | Andrew Stubbs     |
-| 10:00    | Reference-based RNA-Seq                             | Youri / Saskia    |
-| 11:00    | **COFFEE BREAK**                                    |                   |
-| 11:15    | Reference-based RNA-Seq                             | Youri / Saskia    |
-| 12:00    | 16S rRNA-seq with mothur                            | Saskia / Yunlei Li |
-| 13:00    | **LUNCH**                                           |                   |
-| 14:00    | 16S rRNA-seq with mothur                            | Saskia / Yunlei   |
-| 15:30    | **COFFEE BREAK**                                    |                   |
-| 16:30    | [The Galaxy and Beyond](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyAndBeyond)| Saskia
-| 16:45    | Wrap-up                                             | All |
-| 17:00    | **END Day 2**                                       | All         |
+|  8:45    | **COFFEE**                                          |                   |
+|  9:00    | Recap/continuation Day 2                            |                   |
+| 10:15    | **COFFEE BREAK**                                    |                   |
+| 10:30    | [16S rRNA sequencing with Mothur](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html)                     | Saskia Hiltemann  |
+| 11:45    | **LUNCH**                                           |                   |
+| 13:00    | [16S rRNA sequncing with Mothur](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html)                      | Saskia Hiltemann  |
+| 15:20    | **COFFEE BREAK**                                    |                   |
+| 15:40    | [16S rRNA sequencing with Mothur](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/mothur-miseq-sop/tutorial.html)                     | Saskia Hiltemann  |
+| 16:30    | [Galaxy and Beyond](https://gitpitch.com/shiltemann/presentations/slides?p=2018-GalaxyAndBeyond#/)| Saskia Hiltemann |
+| 16:45    | Wrap-up                                             | All               |
+| 17:00    | **DRINKS**                                          |                   |
+| 18:00    | **END Day 3**                                       |                   |
 
 
-<div class="tiny"> \*times are flexible </div>
+<div class="tiny"> \*times are *flexible* </div>
 
 ---
 
@@ -84,14 +103,12 @@
 <div class="left small">
 <br><br>
 <ul>
- <li>Please fill out the sign-in sheet </li>
- <br>
- <li> Start 09:30 </li>
- <li> Coffee will 11:00 and 15:30 </li>
- <li> Lunch will be at 13:00 </li>
+ <li> Start 09:00 </li>
+ <li> Coffee will 10:15 and 15:20 </li>
+ <li> Lunch will be at 11:45 </li>
  <li> End 17:00 (available for question/discussion afterwards) </li>
  <br>
- <li> Please fill in the evaluation form to help us improve this workshop </li>
+ <li> Please fill in the evaluation forms to help us improve this workshop </li>
 </ul>
 </div>
 
