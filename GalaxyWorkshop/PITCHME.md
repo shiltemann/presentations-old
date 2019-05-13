@@ -12,19 +12,19 @@
 <ul>
  <li>**Aim** provide you with the knowledge to use Galaxy for your daily analysis</li>
  <br>
- <li>**Prosepective**</li>
- <ul>
-  <li>Keynote day 2 (**Michael Seidl**)</li>
-  <li>Keynote day 3 (**Bas Dutilh**)</li>
-  <li>Galaxy and Beyond: advanced topics and wider Galaxy ecosystem (**Saskia Hiltemann**)</li>
- </ul>
- <br>
  <li>**Objectives**</li>
  <ul>
    <li>Familiarize yourself with the Galaxy interface by performing simple analysis</li>
    <li>Learn about QC and mapping</li>
    <li>Genome Annotation</li>
    <li>16S rRNA seq microbiota analysis</li>
+ </ul>
+ <br>
+  <li>**Prosepective**</li>
+ <ul>
+  <li>Keynote day 2 (**Michael Seidl**)</li>
+  <li>Keynote day 3 (**Bas Dutilh**)</li>
+  <li>Galaxy and Beyond: advanced topics and wider Galaxy ecosystem (**Saskia Hiltemann**)</li>
  </ul>
 </ul>
 </div>
