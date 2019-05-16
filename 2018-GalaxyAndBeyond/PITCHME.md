@@ -227,7 +227,7 @@ Talk to developers and users on Gitter
 
 ![scale-40](assets/images/training/gitter.png)
 
-- Galaxy Lobby: https://gitter.im/usegalaxy-eu/Lobby
+- Galaxy Lobby: https://gitter.im/galaxyproject/Lobby
 - Galaxy Training Network: https://gitter.im/Galaxy-Training-Network/Lobby
 - GalaxyEU: https://gitter.im/usegalaxy-eu/Lobby
 - Many more..
