@@ -6,4 +6,4 @@ theme-override : assets/css/PITCHME.css
 
 # convex, concave, default, fade, none, slide and zoom (default: slide)
 transition : none
-#published : true
+published : false
