@@ -187,7 +187,7 @@
 2. Log in to Galaxy (top right)
 
 3. No account yet? Register (top right)
-  -. Verify your registration (e-mail confirmation)
+  - Verify your registration (e-mail confirmation)
 
 3. Join the workshop: https://usegalaxy.eu/join-training/gcc-mothur
 
@@ -199,7 +199,7 @@
 
 ---
 
-### Training manual (demo)
+### Training manual
 
 1. Navigate to: https://training.galaxyproject.org
 
