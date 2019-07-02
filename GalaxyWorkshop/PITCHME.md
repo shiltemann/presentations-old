@@ -4,7 +4,7 @@
 (These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop)
 </div>
 
----
++++
 
 ## Course Overview
 
@@ -29,7 +29,7 @@
 </ul>
 </div>
 
----
++++
 
 ## Programme: Day 1
 
@@ -52,7 +52,7 @@
 
 <div class="tiny"> \*times are *flexible* </div>
 
----
++++
 
 ## Programme: Day 2
 
@@ -73,7 +73,7 @@
 
 <div class="tiny"> \*times are *flexible* </div>
 
----
++++
 
 ## Programme: Day 3
 
@@ -95,7 +95,7 @@
 
 <div class="tiny"> \*times are *flexible* </div>
 
----
++++
 
 ## Organizational remarks
 
@@ -124,7 +124,7 @@
 
 
 
----
++++
 
 ## Introduce yourself
 
@@ -174,21 +174,22 @@
 ![scale](assets/images/workshop/stickynotes_feedback.png)
 </div>
 
----
++++
 
 # Day 1
 
-+++
+---
 
-## Galaxy
+## Setup
 
 1. Open Galaxy: https://usegalaxy.eu
 
-2. Register for an account (top right)
+2. Log in to Galaxy (top right)
 
-3. Verify your registration (e-mail confirmation)
+3. No account yet? Register (top right)
+  -. Verify your registration (e-mail confirmation)
 
-3. Join the workshop: https://usegalaxy.eu/join-training/westerdijk
+3. Join the workshop: https://usegalaxy.eu/join-training/gcc-mothur
 
 <br>
 
@@ -196,15 +197,15 @@
 (These slides can be accessed via: https://tinyurl.com/GalaxyWorkshop)
 </div>
 
-+++
+---
 
 ### Training manual (demo)
 
 1. Navigate to: https://training.galaxyproject.org
 
-2. Choose topic: **Introduction to Galaxy Analyses**
+2. Choose topic: **Metagenomics**
 
-3. Choose tutorial: **A Short introduction to Galaxy**
+3. Choose tutorial: **16S Microbial Analysis with mothur (short)**
 
 4. Have fun!
 
@@ -278,7 +279,7 @@
 
 4. Leave your sticky notes with feedback to help us improve the course!
 
----
++++
 
 # Day 2
 
@@ -309,7 +310,7 @@
 
 4. Leave your sticky notes with feedback to help us improve the course!
 
----
++++
 
 # Day 3
 
@@ -340,7 +341,7 @@
 
 4. Leave your sticky notes with feedback to help us improve the course!
 
----
++++
 
 ## Final wrap-up
 
