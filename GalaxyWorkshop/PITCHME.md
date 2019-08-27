@@ -189,7 +189,7 @@
 3. No account yet? Register (top right)
   - Verify your registration (e-mail confirmation)
 
-3. Join the workshop: https://usegalaxy.eu/join-training/gcc-mothur
+3. Join the workshop: https://usegalaxy.eu/join-training/MGC2019
 
 <br>
 
@@ -203,9 +203,9 @@
 
 1. Navigate to: https://training.galaxyproject.org
 
-2. Choose topic: **Metagenomics**
+2. Choose topic: **Introduction**
 
-3. Choose tutorial: **16S Microbial Analysis with mothur (short)**
+3. Choose tutorial: **Galaxy 101**
 
 4. Have fun!
 
