@@ -189,7 +189,7 @@
 3. No account yet? Register (top right)
   - Verify your registration (e-mail confirmation)
 
-3. Join the workshop: https://usegalaxy.eu/join-training/MGC2019
+3. Join the workshop: https://usegalaxy.eu/join-training/NGSdiagnostics
 
 <br>
 
